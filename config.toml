@@ -1,5 +1,5 @@
 #baseURL = "http://localhost:1313"
-baseURL = "https://onesentforth.com"
+baseURL = "https://onesentforth.com/"
 languageCode = "en-us"
 title = "OneSentForth"
 theme = "after-dark"
