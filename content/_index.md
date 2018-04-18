@@ -1,6 +1,6 @@
 <img src="images/header.jpg" class="blur-up lazyautosizes lazyloaded" width="100%">
 
-Hey, my name is Jason West. I create **content and resources** designed to assist believers in **becoming and producing** ***true*** **disciples of Jesus Christ**.
+Hey, my name is Jason West. I create **content and resources** designed to help others **become and produce** ***true*** **disciples of Jesus Christ**.
 OnesentForth is my personal blog, which will serve as my outlet for sharing stuff with you.
 
 To begin with, I'm inviting you to **connect with me** via email or any of the various social platforms.
