@@ -1,0 +1,20 @@
+{{ define "title" -}}
+  {{ .Site.Title }}
+{{- end }}
+{{ define "header" }}
+  {{ partial "menu.html" . }}
+{{ end }}
+{{ define "main" }}
+<header>
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <script src="/js/baffle.min.js"></script>
+  <h1>{{ .Title }}</h1>
+</header>
+
+  {{ partial "kjw-welcome.html" . }}
+  
+{{ end }}
+{{ define "footer" }}
+
+  {{ partial "powered-by.html" . }}
+{{ end }}
