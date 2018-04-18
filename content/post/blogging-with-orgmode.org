@@ -1,9 +1,0 @@
-#+TITLE: Blogging With Org-Mode
-#+DESCRIPTION: Uh... What's Org-Mode
-#+AUTHOR: Jason West
-#+PUBLISHDATE: 2018-03-27
-#+MODIFIED:
-#+CATEGORIES: blogging
-#+TAGS: org-mode EMACS
-
-This is a post about using Org-Mode in EMACS to blog with the static website generator, Hugo.

@@ -6,86 +6,18 @@
     <description>Recent content in Posts on OneSentForth</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Fourth Post</title>
-      <link>http://localhost:1313/post/fourth-post/</link>
-      <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/fourth-post/</guid>
-      <description>New line...
-Here is the content for my wonderful post. I really hope I can use EMACS as a blogging platform...
-I still need to copy some of the shortcodes into YASnippet so I can use them in EMACS posts... I guess I can go ahead and try them in this post.
-  ABORT  HELLO!  HELLO!  HELLO!  HELLO! 
-What is the Problem?!  title Lorem ipsum dolor sit amet   </description>
-    </item>
-    
-    <item>
       <title>First Post</title>
       <link>http://localhost:1313/post/first-post/</link>
-      <pubDate>Fri, 06 Apr 2018 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/post/first-post/</guid>
-      <description>   Ethereum value explosion in 2017. You do the math.    </description>
-    </item>
-    
-    <item>
-      <title>Second Post</title>
-      <link>http://localhost:1313/post/second-post/</link>
-      <pubDate>Fri, 06 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/second-post/</guid>
-      <description>This is a line of text.
-Another line.
-This is yet another line.
-Have you seen this line yet?
-How about this one?
-I know you haven&amp;rsquo;t seen this line.
-USERNAME:  EMAIL:  COUNTRY: China U.S. U.K. Japan   MESSAGE:   Submit   </description>
-    </item>
-    
-    <item>
-      <title>Third Post</title>
-      <link>http://localhost:1313/post/third-post/</link>
-      <pubDate>Fri, 06 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/third-post/</guid>
-      <description>This is ORG-MODE!!!</description>
-    </item>
-    
-    <item>
-      <title>Testing Org-Mode</title>
-      <link>http://localhost:1313/post/testing-orgmode/testing-orgmode/</link>
-      <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/testing-orgmode/testing-orgmode/</guid>
-      <description>New line...
-Here is the content for my wonderful post. I really hope I can use EMACS as a blogging platform...
-I still need to copy some of the shortcodes into YASnippet so I can use them in EMACS posts... I guess I can go ahead and try them in this post.
-  ABORT  HELLO!  HELLO!  HELLO!  HELLO! 
-What is the Problem?!  title Lorem ipsum dolor sit amet   </description>
-    </item>
-    
-    <item>
-      <title>Blogging With Org-Mode</title>
-      <link>http://localhost:1313/post/blogging-with-orgmode/</link>
-      <pubDate>Tue, 27 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/blogging-with-orgmode/</guid>
-      <description>This is a post about using Org-Mode in EMACS to blog with the static website generator, Hugo.</description>
-    </item>
-    
-    <item>
-      <title>YouTube</title>
-      <link>http://localhost:1313/post/youtube/</link>
-      <pubDate>Fri, 16 Mar 2018 09:43:02 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/youtube/</guid>
-      <description>&lt;p&gt;This is my first self-written post using the Atom editor and publishing to a static website using Hugo. &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+      <description>&lt;p&gt;This will not interest most of you. But I wanted to include some technical info about the site.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>

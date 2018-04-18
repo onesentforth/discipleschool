@@ -1,17 +1,23 @@
 +++
 title = "First Post"
-description = "PLEASE WORK! Ugh..!"
+description = "Some boring technical stuff..."
 author = "Jason West"
-date = 2018-04-06
-keywords = [
-  "blogging",
-  "onesentforth"
-]
+date = "2018-04-17"
+lastmod = ""
+keywords = []
+categories = []
+tags = []
 [[resources]]
-  src = "images/cameras.jpg"
   name = "header"
+  src = "img/.jpg"
 +++
 
-{{< figure src="featured_logo.png" caption="Ethereum value explosion in 2017. You do the math." >}}
+This will not interest most of you. But I wanted to include some technical info about the site.
 
-<img src="osf-logo2.svg" height="5%" width="5%">
+<!--more-->
+
+I use the [Atom editor](https://atom.io/) to create the posts and pages.
+
+The site is built using the blazing fast, open-source static site generator [Hugo](https://gohugo.io/).
+
+I moved from Wordpress because it just seemed so cumbersome for my needs. Hopefully, I'll be able to simply focus on writing stuff instead of constantly updating plug-ins.
