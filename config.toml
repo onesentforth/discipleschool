@@ -1,4 +1,5 @@
-baseURL = "http://localhost:1313"
+#baseURL = "http://localhost:1313"
+baseURL = "https://onesentforth.com"
 languageCode = "en-us"
 title = "OneSentForth"
 theme = "after-dark"
@@ -12,6 +13,7 @@ keywords = [
   "disciple",
   "disciples",
   "discipleship",
+  "disciple making"
   "church",
   "apologetics",
   "evangelism",
@@ -22,7 +24,7 @@ keywords = [
 
 [params]
   author = "Jason West"
-  description = "Hey, my name is Jason West. I create content and resources designed to assist believers in becoming and producing true disciples of Jesus Christ. OnesentForth is my personal blog, which will serve as my outlet for sharing stuff with you."
+  description = "Hey, my name is Jason West. I create content and resources designed to help others become and produce true disciples of Jesus Christ. OnesentForth is my personal blog, which will serve as my outlet for sharing stuff with you."
   #images = [
   #  "https://source.unsplash.com/user/onesentforth/likes"
   #]
