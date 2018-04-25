@@ -26,10 +26,10 @@ I'd love for you to **connect with me** via email or any of the various social p
 
 {{% hackcss-alert type="error" %}}
 __*Receive new posts in your inbox:*__
-<form name="mc-form" method="post" action="page/success" netlify>
+<form name="mc-form"  netlify-honeypoy="bot-field" action="page/success" netlify>
   <fieldset class="form-group form-error">
-    <label for="email">Email:</label>
-    <input id="email" type="text" placeholder="enter email address here" class="form-control">
+    <label>Email:</label>
+    <input name="email" type="text" placeholder="enter email address here" class="form-control">
     <button class="btn btn-error" type="submit">Sign up!</button>
   </fieldset>
   <p style="display:none;">
