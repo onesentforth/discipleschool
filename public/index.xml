@@ -2,32 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OneSentForth</title>
-    <link>https://onesentforth.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on OneSentForth</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Mar 2018 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="https://onesentforth.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://onesentforth.com/page/about/</link>
+      <link>http://localhost:1313/page/about/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 -0400</pubDate>
       
-      <guid>https://onesentforth.com/page/about/</guid>
+      <guid>http://localhost:1313/page/about/</guid>
       <description>Explore and Explain  Hi, I&amp;rsquo;m Jason West and I have been studying and teaching the Bible for a couple of decades.
 I have an insatiable curiosity. In fact, it&amp;rsquo;s almost an obsessive compulsion to mentally explore all sorts of seemingly unrelated subjects and fit all of the knowledge I discover into one unified system, or one big picture of reality.
 I sometimes get lost in my own little world of theoretical possibilities, seeing everything in terms of how it could be improved, or what it could be turned into.</description>
     </item>
     
     <item>
+      <title>Recommended Content</title>
+      <link>http://localhost:1313/page/bibliography/</link>
+      <pubDate>Sat, 21 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/page/bibliography/</guid>
+      <description>Here&amp;rsquo;s a collection of Books, Articles, Podcasts and Videos I wanted to make you aware of.
+As I continue to add more items to these lists, I may take the time to categorize them by topic.
+Books -
+Articles -
+Podcasts -
+Videos -</description>
+    </item>
+    
+    <item>
       <title>First Post</title>
-      <link>https://onesentforth.com/post/first-post/</link>
+      <link>http://localhost:1313/post/first-post/</link>
       <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://onesentforth.com/post/first-post/</guid>
+      <guid>http://localhost:1313/post/first-post/</guid>
       <description>&lt;p&gt;This will not interest most of you. But I wanted to include some technical info about the site.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

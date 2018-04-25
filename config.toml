@@ -1,5 +1,5 @@
-#baseURL = "http://localhost:1313"
-baseURL = "https://onesentforth.com/"
+baseURL = "http://localhost:1313"
+#baseURL = "https://onesentforth.com/"
 languageCode = "en-us"
 title = "OneSentForth"
 theme = "after-dark"
@@ -7,7 +7,7 @@ theme = "after-dark"
 #markup = "markdown"
 #description needs to be 50-300 words. Get my description from discipleschool.com
 googleAnalytics = "UA-68558525-2"
-disqusShortname = "onesentforth"
+#disqusShortname = "onesentforth"
 keywords = [
   "bible study",
   "disciple",
@@ -30,7 +30,7 @@ keywords = [
   #]
 
 [social]
-  facebook = "kevinjasonwest"
+  facebook = "onesentforth"
   twitter = "onesentforth"
 
 [params.seo.webmaster_verifications]
