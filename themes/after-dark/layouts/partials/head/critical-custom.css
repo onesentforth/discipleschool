@@ -182,7 +182,7 @@ a[rel*="external"] {
   fill: none;
 }
 .homepage-content img {
-  border: 2px solid white;
+  /*border: 2px solid white;*/
 }
 /* Grow */
 .hvr-grow {
@@ -210,8 +210,8 @@ a[rel*="external"] {
     color: #333;
     width: 5rem;
     display: inline-block;
-    height: 38px;
-    line-height: 38px;
+    height: 36px;
+    line-height: 36px;
     padding: 0;
     float: left;
     position: relative;
@@ -220,16 +220,25 @@ a[rel*="external"] {
     outline: none;
     border: none;
     border-bottom: 2px solid #ccc;
-    padding: .5rem 0;
+    /*padding: .5rem 0;*/
     width: 21rem;
-    height: 33px;
+    height: 31px;
+    /*height: 36px;*/
+    line-height: 36px;
     background-color: transparent;
     font-size: 18px;
+}
+.form-control name {
+    width: 11rem;
 }
 .btn-error {
     color: #fff;
     background-color: #d00;
     border: 1px solid #d00;
+}
+
+#osf-email.alert.alert-error {
+  padding-bottom: 0px;
 }
 
 /* ---- */

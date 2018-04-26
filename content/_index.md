@@ -1,16 +1,15 @@
 +++
 title = "OneSentForth"
-description = "Hey, my name is Jason West. I create content and resources designed to help others become and produce true disciples of Jesus Christ."
+description = "Hey, my name is Jason West. OneSentForth is my personal blog where I create content and resources designed to help others become and produce true disciples of Jesus Christ."
 author = "Jason West"
 date = ""
 lastmod = ""
-keywords = ["discple", "disciples", "discipleship", "jason west", "onesentforth", "one sent forth"]
+keywords = ["disciple", "disciples", "discipleship", "jason west", "onesentforth", "one sent forth"]
 +++
 
 <img src="images/header.jpg" class="blur-up lazyautosizes lazyloaded" width="100%">
 
-Hey, my name is Jason West. I create **content and resources** designed to help others **become and produce** ***true*** **disciples of Jesus Christ**.
-OneSentForth is my personal blog, which will serve as my outlet for sharing stuff.
+Hey, my name is Jason West. *OneSentForth* is my personal blog where I create **content and resources** designed to help others **become and produce** ***true*** **disciples of Jesus Christ**.
 
 I'd love for you to **connect with me** via email or any of the various social platforms.
 <ul class="soc">
@@ -23,17 +22,20 @@ I'd love for you to **connect with me** via email or any of the various social p
   <li><a href="https://www.linkedin.com/in/kevinjasonwest/" class="hvr-grow" target="_blank" title="LinkedIn"><svg viewBox="0 0 512 512"><path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"></path></svg><!--[if lt IE 9]><em>LinkedIn</em><![endif]--></a></li>
 </ul>
 
-
-{{% hackcss-alert type="error" %}}
-__*Receive new posts in your inbox:*__
-<form name="mc-form" method="post" netlify-honeypot="bot-field" action="page/success" netlify>
+<div class="alert alert-error" id="osf-email">
+  <p><strong><em>Receive new posts in your inbox:</em></strong>
+<!--<div style="width:56%;">-->
+</p><form name="mc-form" method="post" netlify-honeypot="bot-field" action="page/success" netlify="">
   <fieldset class="form-group form-error">
+    <!--<p><label>Name:</label>
+    <input name="name" type="text" placeholder="your name here" class="form-control"></p>-->
     <label>Email:</label>
-    <input name="email" type="text" placeholder="enter email address here" class="form-control">
+    <input name="email" type="email" placeholder="enter email address here" class="form-control">
     <button class="btn btn-error" type="submit">Sign up!</button>
   </fieldset>
   <p style="display:none;">
     <label>Don’t fill this out: <input name="bot-field"></label>
   </p>
 </form>
-{{% /hackcss-alert %}}
+<!--</div>--><p></p>
+</div>

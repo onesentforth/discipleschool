@@ -19,12 +19,15 @@ keywords = [
   "evangelism",
   "christianity",
   "jesus",
-  "bible"
+  "bible",
+  "jason west",
+  "onesentforth",
+  "one sent forth"
 ]
 
 [params]
   author = "Jason West"
-  description = "Hey, my name is Jason West. I create content and resources designed to help others become and produce true disciples of Jesus Christ. OnesentForth is my personal blog, which will serve as my outlet for sharing stuff with you."
+  description = "Hey, my name is Jason West. OneSentForth is my personal blog where I create content and resources designed to help others become and produce true disciples of Jesus Christ."
   #images = [
   #  "https://source.unsplash.com/user/onesentforth/likes"
   #]
