@@ -3,45 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/page/about/</loc>
+    <loc>https://onesentforth.com/page/about/</loc>
     <lastmod>2018-03-16T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/page/bibliography/</loc>
+    <loc>https://onesentforth.com/page/bibliography/</loc>
     <lastmod>2018-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/first-post/</loc>
+    <loc>https://onesentforth.com/post/first-post/</loc>
     <lastmod>2018-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2018-03-16T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://onesentforth.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/page/</loc>
+    <loc>https://onesentforth.com/</loc>
+    <lastmod>2018-03-16T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://onesentforth.com/page/</loc>
     <lastmod>2018-03-16T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://onesentforth.com/post/</loc>
     <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://onesentforth.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
-    <priority>0</priority>
+    <loc>https://onesentforth.com/page/success/</loc>
   </url>
   
 </urlset>

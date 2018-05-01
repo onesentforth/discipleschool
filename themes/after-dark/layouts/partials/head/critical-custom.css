@@ -14,8 +14,8 @@ nav[itemtype*="SiteNavigation"] a.active, nav[itemtype*="SiteNavigation"] a:hove
 .hack, .hack em, .hack strong {
     /*font-family: 'Roboto Condensed', sans-serif;*/
     font-family: Helvetica, sans-serif;
-    font-size: 1.0rem;
-    line-height: 1.8rem;
+    /*font-size: 1.0rem;
+    line-height: 1.8rem;*/
 }
 .hack h1:after {
     content: "";
@@ -50,14 +50,14 @@ nav[itemtype*="SiteNavigation"] a.active, nav[itemtype*="SiteNavigation"] a:hove
     font-size: 1.3em;
     letter-spacing: 0em;
     font-family: 'Slabo 27px', serif;
-    /*font-family: 'Bree Serif', serif;
+    /*font-family: 'Maiden Orange', cursive;
+    font-family: 'Bree Serif', serif;
     font-family: 'Antic Slab', serif;
     font-family: 'Kreon', serif;
     font-family: 'Coda', cursive;
     font-family: 'Podkova', serif;
     font-family: 'Port Lligat Slab', serif;
     font-family: 'Medula One', cursive;
-    font-family: 'Maiden Orange', cursive;
     font-family: 'Stint Ultra Condensed', cursive;*/
 }
 .hack blockquote {
@@ -70,9 +70,9 @@ nav[itemtype*="SiteNavigation"] a.active, nav[itemtype*="SiteNavigation"] a:hove
     line-height: 26px;
 }
 .hack, .hack em, .hack strong {
-    /*font-family: Helvetica Neue,Helvetica,Arial,Geneva,sans-serif;*/
+    /*font-family: Helvetica Neue,Helvetica,Arial,Geneva,sans-serif;
     font-size: 1.2rem;
-    line-height: 1.8rem;
+    line-height: 1.8rem;*/
 }
 
 .hack em:before {
