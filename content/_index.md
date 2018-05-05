@@ -7,7 +7,7 @@ lastmod = ""
 keywords = ["disciple", "disciples", "discipleship", "jason west", "onesentforth", "one sent forth"]
 +++
 
-<img src="images/header.jpg" class="blur-up lazyautosizes lazyloaded" width="100%">
+<img src="images/osf-header.jpg" class="blur-up lazyautosizes lazyloaded" width="100%">
 
 Hey, my name is Jason West. *OneSentForth* is my personal blog where I create **content and resources** designed to help others **become and produce** ***true*** **disciples of Jesus Christ**.
 
