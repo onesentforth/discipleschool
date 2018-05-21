@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://onesentforth.com/post/stock-and-flow/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://onesentforth.com/page/bibliography/</loc>
     <lastmod>2018-04-21T00:00:00+00:00</lastmod>
   </url>
@@ -18,7 +23,20 @@
   </url>
   
   <url>
+    <loc>https://onesentforth.com/categories/blog-management/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://onesentforth.com/categories/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://onesentforth.com/tags/content-strategy/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -35,11 +53,22 @@
   
   <url>
     <loc>https://onesentforth.com/post/</loc>
-    <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://onesentforth.com/search/</loc>
+  </url>
+  
+  <url>
+    <loc>https://onesentforth.com/tags/social-media/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://onesentforth.com/tags/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

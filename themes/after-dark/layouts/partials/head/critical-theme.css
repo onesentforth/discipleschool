@@ -18,7 +18,8 @@
   -webkit-filter: blur(0);
   filter: blur(0);
 }
-.muted {
+.muted,
+.hack .help-block {
   color: #e0e0e070;
 }
 .hack .readmore {
@@ -69,6 +70,19 @@ blockquote cite::before {
 .main {
   padding: 20px 10px;
 }
+input.form-control {
+  border-radius: 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+}
+input.form-control {
+  font-size: initial;
+}
+.hack .help-block {
+  font-size: 1rem;
+}
 nav a.active {
   background-color: #ff2e88;
   color: #fff;
@@ -93,6 +107,12 @@ html {
 .hack pre {
   font-size: 17px;
 }
+.hack .form input,
+.hack .form textarea,
+.hack .form button,
+.hack .form label {
+  font-size: 1rem;
+}
 article [itemprop="description"] {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -108,4 +128,7 @@ article header img {
   .container {
     max-width: 50rem;
   }
+}
+[v-cloak] {
+  display: none;
 }

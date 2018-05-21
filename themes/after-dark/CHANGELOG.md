@@ -2,6 +2,77 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="3.9.1"></a>
+## [3.9.1](https://github.com/comfusion/after-dark/compare/v3.9.0...v3.9.1) (2018-05-13)
+
+
+### Bug Fixes
+
+* **$layouts:** hide search app when noscript ([c3bcff0](https://github.com/comfusion/after-dark/commit/c3bcff0))
+
+
+
+<a name="3.9.0"></a>
+# [3.9.0](https://github.com/comfusion/after-dark/compare/v3.8.4...v3.9.0) (2018-05-03)
+
+
+### Features
+
+* **$layouts:** allow customization of referrer policy and add privacy-focused default ([5759a30](https://github.com/comfusion/after-dark/commit/5759a30)), closes [#96](https://github.com/comfusion/after-dark/issues/96)
+
+
+
+<a name="3.8.4"></a>
+## [3.8.4](https://github.com/comfusion/after-dark/compare/v3.8.3...v3.8.4) (2018-05-01)
+
+
+### Bug Fixes
+
+* **$layouts:** prevent js error on search form submit ([0dce741](https://github.com/comfusion/after-dark/commit/0dce741)), closes [#94](https://github.com/comfusion/after-dark/issues/94)
+
+
+
+<a name="3.8.3"></a>
+## [3.8.3](https://github.com/comfusion/after-dark/compare/v3.8.2...v3.8.3) (2018-04-16)
+
+
+### Bug Fixes
+
+* **$layouts:** improve search input focus and usability ([e94f6df](https://github.com/comfusion/after-dark/commit/e94f6df)), closes [#91](https://github.com/comfusion/after-dark/issues/91)
+
+
+
+<a name="3.8.2"></a>
+## [3.8.2](https://github.com/comfusion/after-dark/compare/v3.8.1...v3.8.2) (2018-04-16)
+
+
+### Bug Fixes
+
+* **$layouts:** disable ua input styling safari mobile ([f7c81f4](https://github.com/comfusion/after-dark/commit/f7c81f4))
+* **$layouts:** prevent auto-zoom on safari mobile ([81c3f39](https://github.com/comfusion/after-dark/commit/81c3f39))
+
+
+
+<a name="3.8.1"></a>
+## [3.8.1](https://github.com/comfusion/after-dark/compare/v3.8.0...v3.8.1) (2018-04-15)
+
+
+### Bug Fixes
+
+* **$layouts:** remove duplicate descriptor from post image srcset ([0295370](https://github.com/comfusion/after-dark/commit/0295370))
+
+
+
+<a name="3.8.0"></a>
+# [3.8.0](https://github.com/comfusion/after-dark/compare/v3.7.0...v3.8.0) (2018-04-15)
+
+
+### Features
+
+* **$layouts:** add fuzzy search ([93d2a29](https://github.com/comfusion/after-dark/commit/93d2a29)), closes [#83](https://github.com/comfusion/after-dark/issues/83)
+
+
+
 <a name="3.7.0"></a>
 # [3.7.0](https://github.com/comfusion/after-dark/compare/v3.6.0...v3.7.0) (2018-03-25)
 

@@ -21,9 +21,10 @@
     {{ if eq .Kind "home" }}
       {{ partial "head/site-verification.html" . }}
     {{ end }}
+    {{ partial "meta/http-referrer.html" . }}
     {{ template "_internal/google_analytics_async.html" . }}
     {{ if .RSSLink }}
-      <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+      <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
     {{ end }}
     <link rel="canonical" href="{{ .Permalink }}">
     {{ if (isset .Params "prev") }}
@@ -35,33 +36,11 @@
     {{ partial "head/favicon.html" . }}
     {{ partial "global-styles.html" . }}
     {{ partial "async-scripts.html" . }}
-    <script src="/js/baffle.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
   </head>
   {{ $theme_variant := .Site.Params.theme_variant | default "hack dark" }}
   <body class="{{ $theme_variant }} main container">
     <header>{{ block "header" . }}{{ end }}</header>
     <main>{{ block "main" . }}{{ end }}</main>
-    <footer>
-<img style="float:left; margin-right:20px;" src="{{ .Site.BaseURL }}images/osf-logo2.svg" height="5%" width="5%">
-      {{ block "footer" . }}{{ end }}
-      <script>
-        baffle('header h1')
-          .start()
-          .set({
-              speed: 50
-          })
-          .reveal(1500, 1500);
-      </script>
-
-      <!-- <script>
-        baffle('.baffle')
-          .start()
-          .set({
-              speed: 50
-          })
-          .reveal(1500, 1500);
-      </script> -->
-    </footer>
+    <footer>{{ block "footer" . }}{{ end }}</footer>
   </body>
 </html>

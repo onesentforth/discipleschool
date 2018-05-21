@@ -7,6 +7,7 @@ lastmod = ""
 keywords = []
 categories = []
 tags = []
+noindex = true
 [[resources]]
   name = "header"
   src = "img/.jpg"

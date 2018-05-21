@@ -7,6 +7,7 @@ lastmod = ""
 keywords = ["recommnded", "books", "websites", "articles", "podcasts", "videos"]
 categories = []
 tags = []
+noindex = true
 [[resources]]
   name = "header"
   src = "img/.jpg"

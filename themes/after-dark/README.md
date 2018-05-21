@@ -42,10 +42,10 @@
       </tr>
       <tr>
         <td>Performance Optimized</td>
-        <td>Page content, favicon and styles <b>load in a single request</b> on all pages. With exception to the BPG image polyfill, all external resources used by the theme are loaded asynchronously and only when necessary. This keeps pages zippy and affords <b>~1 second page loads over 2G</b> when hosted using a <abbr title="Content Delivery Network">CDN</abbr>.</td>
+        <td>Page content, favicon and styles <b>load in a single request</b> on all pages. Resources loaded asynchronously whenver possible. Responsive images with LQIP out of the box. Users should see a <b>~1 second page loads over 2G</b> when hosted using a <abbr title="Content Delivery Network">CDN</abbr>.</td>
       </tr>
       <tr>
-        <td>Vertical Scaling</td>
+        <td>Designed to Scale</td>
         <td>After Dark is capable of generating <b>~1000 pages per second</b> thanks to <a target="feature" href="https://gohugo.io/">Hugo</a> and is likely to become faster over time.</td>
       </tr>
       <tr>
@@ -69,6 +69,10 @@
         <td>Increase the visual appeal of your posts by providing a captivating image above your content. After Dark enables configuration-driven post images which are lazy-loaded, responsive and automatically cropped for a consistent look-and-feel across your site.</td>
       </tr>
       <tr>
+        <td><a href="#fuzzy-search">Fuzzy Search</a></td>
+        <td>After Dark ships with an in-browser search app built with <a target="features" href="https://vuejs.org/">Vue</a>, <a target="features" href="http://fusejs.io/">Fuse</a> and <a target="features" href="https://markjs.io">Mark</a>. Use it to quickly find content anywhere your site.</td>
+      </tr>
+      <tr>
         <td><a href="#personalization">Personalization</a></td>
         <td>Adjust CSS using purpose-built <a href="#custom-styles">customization file</a>. Choose one of several <a href="#theme-variants">theme variants</a>. Swap in <a href="#favicon">your own favicon</a>. Leverage <a target="features" href="https://gohugo.io/templates/blocks">block templates</a> to quickly extend new custom layouts. And use <a target="features" href="https://hackcss.egoist.moe/dark.html">hack.css</a> flexbox grids and CSS components to add style your site.</td>
       </tr>
@@ -78,7 +82,7 @@
       </tr>
       <tr>
         <td><a href="#content-reuse">Content Reuse</a></td>
-        <td>Sometimes plan markdown isn't enough to build engaging page content. For this reason After Dark provides a number of customizable partials and shortcodes for adding things like blockquotes, figure elements, GIFs with sound and <a target="feature" href="https://hackcss.egoist.moe/">hackcss components</a> to your posts, pages and layouts. Mix and match to create truly unique experiences.</td>
+        <td>Sometimes plan markdown isn't enough to build engaging page content. For this reason After Dark provides a number of reusable code snippets and shortcodes for adding things blockquotes, figure elements, coubs, videos, <a target="feature" href="https://hackcss.egoist.moe/">hackcss components</a> and more to your pages and posts. Use them to create completely custom layouts or simply spice up an old page.</td>
       </tr>
       <tr>
         <td><a href="#related-content">Related Content</a></td>
@@ -407,6 +411,27 @@ And, finally, if you're using Hugo `v0.18` or newer, you can also add an `_index
 
 To learn more about how crawlers use this feature read [block search indexing with meta tags](https://support.google.com/webmasters/answer/93710).
 
+#### Referrer Policy
+
+Resource requests such as images and scripts typically send an HTTP header containing the location where the request originated. Most of the time this is okay. But sometimes it's not. Sometimes the referrer header is used to censor information or even perform [spear phishing](https://en.wikipedia.org/wiki/Phishing#Spear_phishing) attacks. Perhaps more importantly, transmission of the referrer header can present a privacy concern when transmitted to external sites. But not in After Dark.
+
+After Dark leverages [Referrer Policy](https://w3c.github.io/webappsec-referrer-policy/) to increase security and privacy beyond browser defaults by preventing spec-compliant browsers from passing referrer data when making cross-origin requests.
+
+If you wish to relax the security policy for whatever reason you may do so by:
+
+- Setting the [`referrerpolicy`](https://w3c.github.io/webappsec-referrer-policy/#referrer-policy-delivery-referrer-attribute) by HTML attribute;
+- Override the policy using a [nested browsing context](https://w3c.github.io/webappsec-referrer-policy/#referrer-policy-delivery-nested); or,
+- Override the page-level default specified by After Dark.
+
+To override the page-level default of [`same-origin`](https://w3c.github.io/webappsec-referrer-policy/#referrer-policy-same-origin) add/adjust the following config when building your site:
+
+```
+[params.seo]
+  referrer = "same-origin"
+```
+
+For a list of possible values and their meanings please see W3C's [Referrer Policy](https://w3c.github.io/webappsec-referrer-policy/).
+
 #### Link Types
 
 For related content split across multiple pages in a sequence After Dark supports use of `prev` and `next` settings in your front matter. Use them to provide semantic relationships between pages in a segmented article or series or [LiveBlogPosting](https://schema.org/LiveBlogPosting).
@@ -465,6 +490,42 @@ With the following front matter specified in `index.md`:
 ```
 
 That's it! After Dark does the rest.
+
+### Fuzzy Search
+
+Find content site-wide in the blink of an eye. JavaScript fuzzy search is at your fingertips. To use it simply create a section called `search` using the After Dark search layout like so:
+
+```
+└── content
+    └── search
+        └── _index.md
+```
+
+With `_index.md` like:
+
+```
++++
+title = "Search"
+layout = "search"
+noindex = true
++++
+```
+
+Then tell Hugo to output an `index.json` file along with your site when building by adding the following to the config:
+
+```
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS", "JSON"]
+```
+
+**Note:** If you don't see `index.json` in your `public` folder after building try running a `hugo --gc` to cajole the generator into creating the JSON file.
+
+After that navigate to the `/search/` path on your site and let the fun begin.
+
+**Tip:** Consider enabling the After Dark [section menu](#section-menu) to expose the search section to users.
+
+While deep link searches are supported, please note Fuzzy Search will only return results for [Regular Pages](https://gohugo.io/variables/site/#site-variables-list) and intentionally omits any page tagged for [index blocking](#index-blocking). In other words it's easy to find stuff. But only if you want it to be found.
 
 ### Markdown Output
 
@@ -602,7 +663,7 @@ After Dark ships with a lightweight SVG favicon embedded into every page. To cus
 
 ## License
 
-Copyright © 2016-2017 Josh Habdas <jhabas@pm.me> (https://habd.as)
+Copyright 2016-2018 Josh Habdas <jhabas@protonmail.com> (https://habd.as)
 <br>This work is free. You can redistribute it and/or modify it under the
 <br>terms of the Do What The Fuck You Want To Public License, Version 2,
 <br>as published by Sam Hocevar. See the COPYING file for more details.

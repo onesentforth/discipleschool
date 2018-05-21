@@ -4,14 +4,14 @@ licenselink = "https://github.com/comfusion/after-dark/blob/master/COPYING"
 description = "A retro dark theme for Hugo."
 homepage = "https://comfusion.github.io/after-dark/"
 tags = [
-  "minimalist",
-  "responsive",
-  "technical",
-  "accessible",
-  "terminal",
-  "custom themes",
+  "personal",
   "simple",
-  "dark"
+  "minimal",
+  "responsive",
+  "accessible",
+  "search",
+  "dark",
+  "blog"
 ]
 features = [
   "Mobile-optimized",
@@ -21,8 +21,11 @@ features = [
   "Google Analytics",
   "Disqus",
   "BPG Image Support",
-  "Lazyloading",
-  "OpenGraph",
+  "Fuzzy Search",
+  "Lazy Loading",
+  "Responsive Images",
+  "Low-Quality Image Placeholders",
+  "OpenGraph Data",
   "Schema Structured Data",
   "Pagination",
   "Reading time",
