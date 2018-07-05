@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on OneSentForth</title>
-    <link>https://onesentforth.com/page/</link>
-    <description>Recent content in Pages on OneSentForth</description>
+    <title>Pages on Disciple School</title>
+    <link>https://discipleschool.com/page/</link>
+    <description>Recent content in Pages on Disciple School</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Mar 2018 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="https://onesentforth.com/page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://discipleschool.com/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://onesentforth.com/page/about/</link>
+      <link>https://discipleschool.com/page/about/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 -0400</pubDate>
       
-      <guid>https://onesentforth.com/page/about/</guid>
+      <guid>https://discipleschool.com/page/about/</guid>
       <description>Explore and Explain  Hi, I&amp;rsquo;m Jason West and I have been studying and teaching the Bible for a couple of decades.
 I have an insatiable curiosity. In fact, it&amp;rsquo;s almost an obsessive compulsion to mentally explore all sorts of seemingly unrelated subjects and fit all of the knowledge I discover into one unified system, or one big picture of reality.
 I sometimes get lost in my own little world of theoretical possibilities, seeing everything in terms of how it could be improved, or what it could be turned into.</description>
@@ -24,10 +24,10 @@ I sometimes get lost in my own little world of theoretical possibilities, seeing
     
     <item>
       <title>Recommended Content</title>
-      <link>https://onesentforth.com/page/bibliography/</link>
+      <link>https://discipleschool.com/page/bibliography/</link>
       <pubDate>Sat, 21 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://onesentforth.com/page/bibliography/</guid>
+      <guid>https://discipleschool.com/page/bibliography/</guid>
       <description>Here&amp;rsquo;s a collection of Books, Websites, Podcasts and Videos I wanted to make you aware of.
 As I continue to add more items to these lists, I may take the time to categorize them by topic.
 Books -
@@ -38,10 +38,10 @@ Videos Everything&amp;rsquo;s a Remix</description>
     
     <item>
       <title>Thanks for Subscribing</title>
-      <link>https://onesentforth.com/page/success/</link>
+      <link>https://discipleschool.com/page/success/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://onesentforth.com/page/success/</guid>
+      <guid>https://discipleschool.com/page/success/</guid>
       <description>Thanks for subscribing!
 Catch up on some of our most recent posts.</description>
     </item>
