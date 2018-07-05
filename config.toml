@@ -1,5 +1,5 @@
 baseURL = "http://localhost:1313"
-#baseURL = "https://onesentforth.com/"
+#baseURL = "https://discipleschool.com/"
 languageCode = "en-us"
 title = "Disciple School"
 theme = "after-dark"
@@ -14,6 +14,7 @@ keywords = [
   "disciples",
   "discipleship",
   "disciple making",
+  "making disciples",
   "true disciples",
   "church",
   "apologetics",
@@ -22,7 +23,8 @@ keywords = [
   "jesus",
   "bible",
   "jason west",
-  "apostolic"
+  "apostolic",
+  "pentecostal"
 ]
 
 [blackfriday]
