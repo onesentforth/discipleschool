@@ -1,19 +1,20 @@
-#baseURL = "http://localhost:1313"
-baseURL = "https://onesentforth.com/"
+baseURL = "http://localhost:1313"
+#baseURL = "https://onesentforth.com/"
 languageCode = "en-us"
-title = "OneSentForth"
+title = "Disciple School"
 theme = "after-dark"
 #metaDataFormat = "yaml"
 #markup = "markdown"
 #description needs to be 50-300 words. Get my description from discipleschool.com
-googleAnalytics = "UA-68558525-2"
-#disqusShortname = "onesentforth"
+googleAnalytics = "UA-68558525-1"
+#disqusShortname = ""
 keywords = [
   "bible study",
   "disciple",
   "disciples",
   "discipleship",
   "disciple making",
+  "true disciples",
   "church",
   "apologetics",
   "evangelism",
@@ -21,8 +22,6 @@ keywords = [
   "jesus",
   "bible",
   "jason west",
-  "onesentforth",
-  "one sent forth",
   "apostolic"
 ]
 
@@ -31,20 +30,20 @@ keywords = [
 
 [params]
   author = "Jason West"
-  description = "Hey, my name is Jason West. OneSentForth is my platform for creating content and resources designed to help others become and produce true disciples of Jesus Christ."
+  description = "Hey, my name is Jason West. Disciple School is my platform for creating content and resources designed to help others become and produce true disciples of Jesus Christ."
   #images = [
   #  "https://source.unsplash.com/user/onesentforth/likes"
   #]
 
 [social]
-  facebook = "onesentforth"
-  twitter = "onesentforth"
+  facebook = "seeksavesend"
+  twitter = "seeksavesend"
 
 [params.seo.webmaster_verifications]
-  google = "google33bb9c8df9b14443.html" # Optional, Google verification code
-  bing = "D863718EBA7CEF2553A55CB4BFA1AC0B" # Optional, Bing verification code
+  #google = "google33bb9c8df9b14443.html" # Optional, Google verification code
+  #bing = "D863718EBA7CEF2553A55CB4BFA1AC0B" # Optional, Bing verification code
   #alexa = "" # Optional, Alexa verification code
-  yandex = "82aba20a16e81b5f" # Optional, Yandex verification code
+  #yandex = "82aba20a16e81b5f" # Optional, Yandex verification code
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
