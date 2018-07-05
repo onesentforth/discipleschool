@@ -1,6 +1,6 @@
 +++
-title = "OneSentForth"
-description = "Hey, my name is Jason West. OneSentForth is my personal blog where I create content and resources designed to help you become and produce true disciples of Jesus Christ."
+title = "Disciple School"
+description = "Hey, my name is Jason West. Disciple School is my personal blog where I create content and resources designed to help you become and produce true disciples of Jesus Christ."
 author = "Jason West"
 date = ""
 lastmod = ""
