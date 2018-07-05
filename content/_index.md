@@ -1,17 +1,17 @@
 +++
 title = "Disciple School"
-description = "Hey, my name is Jason West. Disciple School is my personal blog where I create content and resources designed to help you become and produce true disciples of Jesus Christ."
+description = "Hey, my name is Jason West. Disciple School is my platform for creating content and resources designed to help you become and produce true disciples of Jesus Christ."
 author = "Jason West"
 date = ""
 lastmod = ""
-keywords = ["disciple", "disciples", "discipleship", "jason west", "onesentforth", "one sent forth"]
+keywords = ["disciple", "disciples", "discipleship", "disciple making", "making disciples", "true disciples", "jason west"]
 +++
 
 <img src="images/osf-header.jpg" class="blur-up lazyautosizes lazyloaded" width="100%">
 
 # Becoming and Producing Disciples of Jesus Christ
 
-Hey, my name is Jason West. *OneSentForth* is my personal blog where I create **content and resources** designed to help others **become and produce disciples of Jesus Christ**.
+Hey, my name is Jason West. *Disciple School* is my platform for creating **content and resources** designed to help others **become and produce disciples of Jesus Christ**.
 
 I'd love for you to **connect with me** via email or any of the various social platforms.
 <ul class="soc">
