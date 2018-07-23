@@ -147,7 +147,7 @@ Matthew 28:18-20 contains the most recognizable version of Jesus' command to mak
 
 {{% blockquote cite="Jesus Christ" citelink="" %}}
   18 "All authority in heaven and on earth has been given to me.<br />
-  19 Go therefore and make disciples of all nations, baptizing them and<br />
+  19 Go therefore and ***make disciples*** of all nations, baptizing them and<br />
   20 teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age."
 {{% /blockquote %}}
 

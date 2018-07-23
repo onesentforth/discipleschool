@@ -6,10 +6,19 @@
     <description>Recent content in Recent Posts on Disciple School</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The &#39;End&#39; Game</title>
+      <link>http://localhost:1313/post/the-end-game/</link>
+      <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/the-end-game/</guid>
+      <description>Feathers for Worms Let&amp;rsquo;s begin with a parable. One day long ago, over the hot sands of a Middle Eastern country, a white skylark flew in joyous loops about the sky. As she swooped near the earth, she heard a merchant cry out, &amp;ldquo;Worms! Worms! Worms for feathers! Delicious worms!&amp;rdquo; The skylark circled about the merchant, hungry at the mention of worms, but puzzled about what the merchant meant. Seeing that the skylark was interested, the merchant motioned her nearer.</description>
+    </item>
     
     <item>
       <title>Becoming and Producing Disciples of Jesus Christ</title>
@@ -31,6 +40,15 @@ I&amp;rsquo;m sure that you&amp;rsquo;d love to respond by telling me the size o
       <guid>http://localhost:1313/post/stock-and-flow/</guid>
       <description>Austin Kleon wrote a great book about creativity and audience-building that I&amp;rsquo;ve read multiple times. It&amp;rsquo;s called Show Your Work, and I highly recommend it for anyone who&amp;rsquo;s ever wondered aloud, &amp;ldquo;How do I get my stuff out there? How do I get noticed? How do I find an audience?&amp;rdquo;
 There&amp;rsquo;s a great section in the book called &amp;ldquo;Stock and Flow,&amp;rdquo; where Kleon mentions an article that economist Robin Sloan wrote in 2010.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/template/</guid>
+      <description></description>
     </item>
     
   </channel>

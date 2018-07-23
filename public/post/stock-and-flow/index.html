@@ -182,105 +182,24 @@ article header img {
   }
 }
 
-  :root {
- --screen-size-small: 30em; /* breakpoint reference only */
-}
-@keyframes intro {
- 0% {
-   opacity: 0;
- }
- 100% {
-   opacity: 1;
- }
-}
-.blur-up {
- -webkit-filter: blur(5px);
- filter: blur(5px);
- transition: filter 400ms, -webkit-filter 400ms;
-}
-.blur-up.lazyloaded {
- -webkit-filter: blur(0);
- filter: blur(0);
-}
-.muted,
-.hack .help-block {
- color: #e0e0e070;
-}
-.hack .readmore {
- margin-bottom: 2.2em;
-}
-.responsive-iframe {
- position: relative;
- padding-bottom: 56.25%; /* 16:9 */
- padding-top: 25px;
- height: 0;
-}
-.responsive-iframe iframe {
- position: absolute;
- top: 0;
- left: 0;
- width: 100%;
- height: 100%;
-}
-iframe {
- border: 0;
-}
-main, footer {
- animation: intro 0.3s both;
- animation-delay: 0.15s;
-}
-footer time[datetime$="M"]:before {
- content: "\2013\0020";
-}
-@media only screen
- and ( max-width: 30em ) {
- footer time[datetime$="M"] {
-   display: none;
- }
-}
-blockquote cite {
- display: block;
-}
-blockquote cite::before {
-  content: "\2014";
-}
-:target {
- color: #fff;
-}
-/* hack.css overrides and enhancements */
-.hack li ul {
- margin: 0;
-}
-.main {
- padding: 20px 10px;
-}
-input.form-control {
- border-radius: 0;
- background-color: transparent;
- -webkit-appearance: none;
- -moz-appearance: none;
- -ms-appearance: none;
-}
-input.form-control {
- font-size: initial;
-}
-.hack .help-block {
- font-size: 1rem;
-}
-nav a.active {
+  nav a.active {
  /*background-color: #ff2e88;*/
- background-color: #ff0000;
+ background-color: #dd0000;
  color: #fff;
 }
 a[itemprop="url"] {
- color: #ff9800;
+ /*color: #ff9800;*/
+ color: #dda600;
 }
 a[itemprop="url"]:hover {
  color: #fff;
 }
 a[href*="://"]::after,
 a[rel*="external"] {
- content: " " url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20class='i-external'%20viewBox='0%200%2032%2032'%20width='14'%20height='14'%20fill='none'%20stroke='%23ff9800'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='9.38%'%3E%3Cpath%20d='M14%209%20L3%209%203%2029%2023%2029%2023%2018%20M18%204%20L28%204%2028%2014%20M28%204%20L14%2018'/%3E%3C/svg%3E");
+   content: " " url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20class='i-external'%20viewBox='0%200%2032%2032'%20width='14'%20height='14'%20fill='none'%20stroke='%23fff'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='9.38%'%3E%3Cpath%20d='M14%209%20L3%209%203%2029%2023%2029%2023%2018%20M18%204%20L28%204%2028%2014%20M28%204%20L14%2018'/%3E%3C/svg%3E");
+}
+a {
+  color: #dda600;
 }
 figure a[href*="://"]::after,
 figure a[rel*="external"] {
@@ -301,7 +220,10 @@ html {
 article [itemprop="description"] {
  margin-bottom: 20px;
  margin-top: 20px;
+ font-size: 18px;
+ line-height: 24px;
 }
+
 article header img {
  width: 100%;
  border-radius: 3px;
@@ -318,7 +240,7 @@ article header img {
  display: none;
 }
 
- /* ## Hacks */
+ /* ## Hacks
 nav a[href="/cheat/"],
 nav a[href="/deal/"],
 nav a[href="/ico/"],
@@ -339,11 +261,11 @@ nav a[href="/cowork/southeast-asia/bali/"] {
 
 .hack,.hack em,.hack strong {
  font-family: Helvetica Neue,Helvetica,Arial,Geneva,sans-serif;
- font-size: 1.25rem;
- line-height: 1.8rem;
+ font-size: 1.2rem;
+ line-height: 24px;
 }
 
-.hack h1,.hack h2,.hack h3,.hack h4,.hack h5,.hack h6,.hack blockquote {
+.hack h1,.hack h2,.hack h3,.hack h4,.hack h5,.hack h6 {
  font-family: klinic,Consolas,Andale Mono,Rockwell,Courier,sans-serif;
  font-weight: 500;
  font-size: 1.25rem;
@@ -369,7 +291,8 @@ summary {
 .hack a:hover,
 .hack a:focus,
 summary:focus {
- background-color: #ff2e8880;
+ /*background-color: #ff2e88;*/
+ background-color: #ff0000;
  outline: none;
 }
 details {
@@ -399,13 +322,16 @@ summary {
  font-weight: 500;
  font-style: normal
 }
-.hack header h1, .hack header h2, .hack header h3 {
+.hack header h2, .hack header h3 {
  letter-spacing: .02em;
  font-weight: 600;
 }
 .hack header h1 {
  font-size: 1.5em;
  letter-spacing: -0.1rem;
+ font-family: 'Liberation Mono';
+ font-weight: 300;
+ /*font-family: klinic,Consolas,Andale Mono,Rockwell,Courier,sans-serif;*/
 }
 .hack header h1::after {
  content: "";
@@ -466,18 +392,30 @@ figure a:hover {
   letter-spacing: -0.04em;
 }
 
-.hack blockquote {
-  font-size: 1rem;
-  padding-bottom: 24px;
+.hack blockquote{
+  padding-bottom: 22px;
   padding-left: 5ch;
 }
 
+.hack blockquote em, .hack blockquote strong {
+  font-family: 'Liberation Mono';
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+
 .hack header blockquote {
   padding-top: 20px;
+  font-size: 16px;
+  padding-bottom: 20px;
+  line-height: 20px;
+  padding-left: 5ch;
 }
 
 .hack blockquote[itemprop="headline"]{
   padding-top: 20px;
+  padding-bottom: 22px;
+  padding-left: 5ch;
 }
 
 .hack h2:before {
@@ -494,15 +432,19 @@ figure a:hover {
   font-size: 1.5rem;
 }
 
+/*************/
+
+
 .hack h2[itemprop="name"]{
   margin-top: 0px;
   letter-spacing: 0.05em;
 }
 
 .hack h1{
-  letter-spacing: -0.05em;
+  font-family: 'Slabo 27px', serif;
   font-size: 1.3em;
   font-weight: 600;
+  padding-bottom: 20px;
 }
 
 .hack h1:after {
@@ -513,10 +455,64 @@ figure a:hover {
 }
 
 .hack h1[itemprop="headline"] {
-  font-weight: 600;
+  font-family: 'Liberation Mono';
+  font-weight: 300;
   margin-top: 0px;
   margin-bottom: 5px;
   font-size: 1.8rem;
+}
+
+.hack li {
+    position: relative;
+    display: block;
+    margin-left: 30px;
+    padding-left: 40px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.hack li:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 20px;
+}
+
+.btn-error {
+    color: #fff;
+    background-color: #dd0000;
+    border: 1px solid #f44336;
+}
+
+.btn-error:hover {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+.form-group label {
+    border-bottom: 2px solid #ccc;
+    color: #333;
+    width: 10rem;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+.form-group.form-error label {
+    color: #dd0000!important;
+    border-color: #dd0000!important;
+}
+
+.hack em, .hack strong {
+  font-size: 1.2rem;
+}
+
+.hack header p.muted {
+    margin-top: -15px;
+    font-size: initial;
 }
 
 </style>
