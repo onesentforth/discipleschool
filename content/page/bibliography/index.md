@@ -4,7 +4,14 @@ description = ""
 author = "Jason West"
 date = "2018-04-21"
 lastmod = ""
-keywords = ["recommnded", "books", "websites", "articles", "podcasts", "videos"]
+keywords = [
+  "recommended",
+  "books",
+  "websites",
+  "articles",
+  "podcasts",
+  "videos"
+  ]
 categories = []
 tags = []
 noindex = true

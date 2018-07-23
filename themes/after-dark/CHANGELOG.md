@@ -2,6 +2,78 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="4.1.0"></a>
+# [4.1.0](https://git.habd.as/comfusion/after-dark/compare/v4.0.2...v4.1.0) (2018-07-19)
+
+
+### Features
+
+* select theme variant directly from site config ([aa82f5d](https://git.habd.as/comfusion/after-dark/commit/aa82f5d)), closes [#6](https://git.habd.as/comfusion/after-dark/issues/6)
+
+
+### BREAKING CHANGES
+
+* hugo 0.43 and above required. css override file locations have changed
+
+
+
+<a name="4.0.2"></a>
+## 4.0.2 (2018-07-18)
+
+
+### Bug Fixes
+
+* **install:** update default open graph image ([aaaf64e](https://git.habd.as/comfusion/after-dark/commit/aaaf64e))
+* **layouts:** output urls relative to baseurl ([2d278dd](https://git.habd.as/comfusion/after-dark/commit/2d278dd)), closes [#4](https://git.habd.as/comfusion/after-dark/issues/4)
+* **layouts:** restore smooth scrolling to toc links ([89a9c8d](https://git.habd.as/comfusion/after-dark/commit/89a9c8d))
+
+
+
+<a name="4.0.1"></a>
+## [4.0.1](https://git.habd.as/comfusion/after-dark/compare/v4.0.0...v4.0.1) (2018-07-18)
+
+
+### Bug Fixes
+
+* **hugo:** require 0.44 at minimum ([78a09c8](https://git.habd.as/comfusion/after-dark/commits/78a09c8))
+
+
+
+<a name="4.0.0"></a>
+# [4.0.0](https://git.habd.as/comfusion/after-dark/compare/v3.10.1...v4.0.0) (2018-07-09)
+
+
+
+<a name="3.10.1"></a>
+## [3.10.1](https://git.habd.as/comfusion/after-dark/compare/v3.10.0...v3.10.1) (2018-07-09)
+
+
+
+<a name="3.10.0"></a>
+# [3.10.0](https://github.com/comfusion/after-dark/compare/v3.9.1...v3.10.0) (2018-06-18)
+
+
+### Bug Fixes
+
+* **$layouts:** resolve search layout header display ([9eee69c](https://github.com/comfusion/after-dark/commit/9eee69c)), closes [#104](https://github.com/comfusion/after-dark/issues/104)
+
+
+### Features
+
+* **$layout:** add telegram iv support ([4d520f9](https://github.com/comfusion/after-dark/commit/4d520f9)), closes [#113](https://github.com/comfusion/after-dark/issues/113)
+
+
+
+<a name="3.9.2"></a>
+## [3.9.2](https://github.com/comfusion/after-dark/compare/v3.9.1...v3.9.2) (2018-06-09)
+
+
+### Bug Fixes
+
+* **$layouts:** resolve search layout header display ([9eee69c](https://github.com/comfusion/after-dark/commit/9eee69c)), closes [#104](https://github.com/comfusion/after-dark/issues/104)
+
+
+
 <a name="3.9.1"></a>
 ## [3.9.1](https://github.com/comfusion/after-dark/compare/v3.9.0...v3.9.1) (2018-05-13)
 

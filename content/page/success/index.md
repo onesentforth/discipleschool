@@ -1,6 +1,6 @@
 +++
 title = "Thanks for Subscribing"
-description = ""
+description = "Thanks for subscribing tovthe Disciple School email list"
 author = "Jason West"
 date = ""
 lastmod = ""

@@ -1,6 +1,6 @@
 +++
 title = "Stock and Flow"
-description = "A Basic Content and Social Media Strategy for OneSentForth"
+description = "A Basic Content and Social Media Strategy for Disciple School"
 author = "Jason West"
 date = "2018-05-14"
 lastmod = ""

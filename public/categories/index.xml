@@ -2,21 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Disciple School</title>
-    <link>https://discipleschool.com/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Disciple School</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 14 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://discipleschool.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog Management</title>
-      <link>https://discipleschool.com/categories/blog-management/</link>
+      <link>http://localhost:1313/categories/blog-management/</link>
       <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://discipleschool.com/categories/blog-management/</guid>
+      <guid>http://localhost:1313/categories/blog-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discipleship</title>
+      <link>http://localhost:1313/categories/discipleship/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/discipleship/</guid>
       <description></description>
     </item>
     

@@ -1,11 +1,13 @@
-#!/usr/bin/env bash
-
+#!/bin/bash
 #
 # The suspicious-looking install script for After Dark.
-# https://themes.gohugo.io/after-dark/
+# View the theme at <https://themes.gohugo.io/after-dark/>.
 #
-# Copyright (c) 2016-2017  Josh Habdas <jhabas@pm.me> (https://habd.as)
-# Licensed under WTFPL. You just DO WHAT THE FUCK YOU WANT TO.
+# Copyright (C) 2016–2018 Josh Habdas <jhabdas@protonmail.com>
+#
+# This work is free. You can redistribute it and/or modify it under the
+# terms of the Do What The Fuck You Want To Public License, Version 2,
+# as published by Sam Hocevar. See the COPYING file for more details.
 #
 
 # Exit early on failure
@@ -27,7 +29,7 @@ fi
 echo "Installing After Dark ..."
 
 # Clone repo
-(cd themes; git clone -q --depth 1 https://github.com/comfusion/after-dark || { echo "cloning failed :/"; exit 1; })
+(cd themes; git clone -q --depth 1 https://git.habd.as/comfusion/after-dark || { echo "cloning failed :/"; exit 1; })
 
 # Copy archetypes
 cp themes/after-dark/archetypes/* ./archetypes
@@ -59,9 +61,13 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
   show_menu = false # Optional, set true to enable section menu
   powered_by = true # Optional, set false to disable credits
   images = [
-    "https://source.unsplash.com/category/technology/2000x1322"
+    "https://source.unsplash.com/collection/983219/2000x1322"
   ] # Suggested, controls default Open Graph images
-  theme_variant = "" # Optional, for use to overriding default theme
+
+[params.hackcss]
+  disabled = false # Optional, set `true` to disable hackcss
+  mode = "hack" # Optional, choose from `standard` or `hack` display modes
+  palette = "dark" # Optional, choose `dark`, `dark-grey` or `solarized-dark`
 TOML
 
 echo "Creating an example post to get you started ..."

@@ -18,7 +18,12 @@
     <blockquote itemprop="headline">{{ .Description }}</blockquote>
   {{ end }}
   <div itemprop="description">
-    {{ .Summary }}
+    <!-- added -->
+    {{ if .Truncated }}
+      {{ if .Params.summary }}{{ .Params.summary | markdownify }}{{ else }}{{ .Summary }}{{ end }}
+    {{end}}
+    <!-- /added -->
+    <!-- commented out {{ .Summary }} -->
   </div>
   {{ if .Truncated }}
     <nav class="readmore"><a itemprop="url" href="{{ .RelPermalink }}">Read More&nbsp;&raquo;</a></nav>

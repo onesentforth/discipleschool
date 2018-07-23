@@ -26,7 +26,7 @@
         <div id="search-results">
           <article v-for="result in results" itemscope itemtype="http://schema.org/CreativeWork">
             <header itemprop="name">
-              <h2 itemprop="name"><a :href="result.item.url">{ result.item.title }</a></h2>
+              <h2 itemprop="name"><a :href="result.item.url"><span v-html="result.item.title"></span></a></h2>
             </header>
             <div v-html=result.item.summary itemprop="description"></div>
             <nav class="readmore"><a itemprop="url" :href="result.item.url">Read More&nbsp;&raquo;</a></nav>
@@ -38,10 +38,10 @@
 {{ end }}
 {{ define "footer" }}
   {{ partial "powered-by.html" . }}
-  <script src="/js/vue.min.js"></script>
-  <script src="/js/lodash.custom.min.js"></script>
-  <script src="/js/fuse.min.js"></script>
-  <script src="/js/mark.min.js"></script>
+  <script src={{ "/js/vue.min.js" | relURL }}></script>
+  <script src={{ "/js/lodash.custom.min.js" | relURL }}></script>
+  <script src={{ "/js/fuse.min.js" | relURL }}></script>
+  <script src={{ "/js/mark.min.js" | relURL }}></script>
   <script>
     (function (window, document, undefined) {
       "use strict"

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta name="generator" content="Hugo 0.42.2" />
+    <meta name="generator" content="Hugo 0.44" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disciple School</title>
@@ -19,7 +19,7 @@
     <meta property="og:title" content="Disciple School" />
 <meta property="og:description" content="Hey, my name is Jason West. Disciple School is my platform for creating content and resources designed to help you become and produce true disciples of Jesus Christ." />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://discipleschool.com/" />
+<meta property="og:url" content="http://localhost:1313/" />
 
 
 
@@ -48,8 +48,14 @@
 
     
       
+  <meta name="google-site-verification" content="google33bb9c8df9b14443.html" />
 
 
+  <meta name="msvalidate.01" content="EAD018090A1C80C7BCF1D0597504AFCE">
+
+
+
+  <meta name="yandex-verification" content="d211d986614bd557">
 
 
     
@@ -66,9 +72,9 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
     
-      <link href="https://discipleschool.com/index.xml" rel="alternate" type="application/rss+xml" title="Disciple School" />
+      <link href="http://localhost:1313/index.xml" rel="alternate" type="application/rss+xml" title="Disciple School" />
     
-    <link rel="canonical" href="https://discipleschool.com/">
+    <link rel="canonical" href="http://localhost:1313/">
     
     
     <link rel="icon" sizes="any" href="data:image/svg+xml,%3Csvg%20viewBox='0%200%2046%2045'%20xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EAfter%20Dark%3C/title%3E%3Cpath%20d='M.708%2045L23%20.416%2045.292%2045H.708zM35%2038L23%2019%2011%2038h24z'%20fill='%23000'/%3E%3C/svg%3E">
@@ -187,92 +193,150 @@ article header img {
   }
 }
 
-  .hack blockquote, .hack h1, .hack ol, .hack p, .hack ul {
-    margin-top: 0px;
-    margin-bottom: 20px;
+  :root {
+ --screen-size-small: 30em; /* breakpoint reference only */
+}
+@keyframes intro {
+ 0% {
+   opacity: 0;
+ }
+ 100% {
+   opacity: 1;
+ }
+}
+.blur-up {
+ -webkit-filter: blur(5px);
+ filter: blur(5px);
+ transition: filter 400ms, -webkit-filter 400ms;
+}
+.blur-up.lazyloaded {
+ -webkit-filter: blur(0);
+ filter: blur(0);
+}
+.muted,
+.hack .help-block {
+ color: #e0e0e070;
 }
 .hack .readmore {
-    margin-bottom: 2.2em;
-    text-align: right;
+ margin-bottom: 2.2em;
+}
+.responsive-iframe {
+ position: relative;
+ padding-bottom: 56.25%; /* 16:9 */
+ padding-top: 25px;
+ height: 0;
+}
+.responsive-iframe iframe {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+iframe {
+ border: 0;
+}
+main, footer {
+ animation: intro 0.3s both;
+ animation-delay: 0.15s;
+}
+footer time[datetime$="M"]:before {
+ content: "\2013\0020";
+}
+@media only screen
+ and ( max-width: 30em ) {
+ footer time[datetime$="M"] {
+   display: none;
+ }
+}
+blockquote cite {
+ display: block;
+}
+blockquote cite::before {
+  content: "\2014";
+}
+:target {
+ color: #fff;
+}
+/* hack.css overrides and enhancements */
+.hack li ul {
+ margin: 0;
+}
+.main {
+ padding: 20px 10px;
+}
+input.form-control {
+ border-radius: 0;
+ background-color: transparent;
+ -webkit-appearance: none;
+ -moz-appearance: none;
+ -ms-appearance: none;
+}
+input.form-control {
+ font-size: initial;
+}
+.hack .help-block {
+ font-size: 1rem;
+}
+nav a.active {
+ /*background-color: #ff2e88;*/
+ background-color: #ff0000;
+ color: #fff;
+}
+a[itemprop="url"] {
+ color: #ff9800;
+}
+a[itemprop="url"]:hover {
+ color: #fff;
+}
+a[href*="://"]::after,
+a[rel*="external"] {
+ content: " " url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20class='i-external'%20viewBox='0%200%2032%2032'%20width='14'%20height='14'%20fill='none'%20stroke='%23ff9800'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='9.38%'%3E%3Cpath%20d='M14%209%20L3%209%203%2029%2023%2029%2023%2018%20M18%204%20L28%204%2028%2014%20M28%204%20L14%2018'/%3E%3C/svg%3E");
+}
+figure a[href*="://"]::after,
+figure a[rel*="external"] {
+ content: "";
+}
+html {
+ font-size: 13px;
+}
+.hack pre {
+ font-size: 17px;
+}
+.hack .form input,
+.hack .form textarea,
+.hack .form button,
+.hack .form label {
+ font-size: 1rem;
+}
+article [itemprop="description"] {
+ margin-bottom: 20px;
+ margin-top: 20px;
+}
+article header img {
+ width: 100%;
+ border-radius: 3px;
+}
+@media screen and (min-width: 768px) {
+ html {
+   font-size: 1em;
+ }
+ .container {
+   max-width: 50rem;
+ }
+}
+[v-cloak] {
+ display: none;
 }
 
-nav[itemtype*="SiteNavigation"] a.active, nav[itemtype*="SiteNavigation"] a:hover, a[itemprop="url"]:hover {
-    color: white;
-    background-color: #d00;
+ /* ## Hacks */
+nav a[href="/cheat/"],
+nav a[href="/deal/"],
+nav a[href="/ico/"],
+nav a[href="/cowork/southeast-asia/bali/"] {
+ display: none;
 }
-.hack, .hack em, .hack strong {
-    /*font-family: 'Roboto Condensed', sans-serif;*/
-    font-family: Helvetica, sans-serif;
-    /*font-size: 1.0rem;
-    line-height: 1.8rem;*/
-}
-.hack h1:after {
-    content: "";
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-}
-.hack header h1 {
-    font-size: 1.9rem;
-    /*font-family: 'Ubuntu Mono', monospace;
-    monospace is the best font for using baffle.js*/
-    font-family: 'Slabo 27px', serif;*/
-    /*letter-spacing: 0em;*/
-    letter-spacing: -0.06em;
-    font-weight: 600;
-    padding: 20px 0 30px
-}
-.hack h1, .hack h2, .hack h3, .hack h4, .hack h5, .hack h6, .hack blockquote {
-    font-family: 'Slabo 27px', serif;
-    font-weight: 600;
-    font-size: 1.4rem;
-    color: white;
-}
-.hack header p.muted {
-    margin-top: -30px;
-}
-.hack header .grid p.muted {
-    margin-top: 0;
-    text-align: right;
-}
-.hack header .grid h2 {
-    font-size: 1.3em;
-    letter-spacing: 0em;
-    font-family: 'Slabo 27px', serif;
-    /*font-family: 'Maiden Orange', cursive;
-    font-family: 'Bree Serif', serif;
-    font-family: 'Antic Slab', serif;
-    font-family: 'Kreon', serif;
-    font-family: 'Coda', cursive;
-    font-family: 'Podkova', serif;
-    font-family: 'Port Lligat Slab', serif;
-    font-family: 'Medula One', cursive;
-    font-family: 'Stint Ultra Condensed', cursive;*/
-}
-/*.hack blockquote {
-    font-family: 'Slabo 27px', serif;
-    letter-spacing: 0rem;
-    font-weight: normal;
-    font-size: 1.2rem;
-    font-style: italic;
-    margin-left: 15px;
-    line-height: 26px;
-}*/
-.hack blockquote {
-    font-family: 'Slabo 27px', serif;
-    letter-spacing: 0.02rem;
-    font-weight: normal;
-    font-size: 1.1rem;
-    font-style: italic;
-    margin-left: 15px;
-    line-height: 21px;
-}
-
-.hack, .hack em, .hack strong {
-    /*font-family: Helvetica Neue,Helvetica,Arial,Geneva,sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.8rem;*/
-}
+/* ## End Hacks */
 
 .hack em:before {
     content:"";
@@ -284,218 +348,187 @@ nav[itemtype*="SiteNavigation"] a.active, nav[itemtype*="SiteNavigation"] a:hove
     font-style: italic;
 }
 
-a[itemprop="url"] {
-    color: #f00;
-    margin-right: 1em;
-    border-bottom: 0;
+.hack,.hack em,.hack strong {
+ font-family: Helvetica Neue,Helvetica,Arial,Geneva,sans-serif;
+ font-size: 1.25rem;
+ line-height: 1.8rem;
+}
+
+.hack h1,.hack h2,.hack h3,.hack h4,.hack h5,.hack h6,.hack blockquote {
+ font-family: klinic,Consolas,Andale Mono,Rockwell,Courier,sans-serif;
+ font-weight: 500;
+ font-size: 1.25rem;
+}
+
+a {
+ border-bottom: none;
+ border-radius: 1px;
+ transition-duration: 0.3s;
+ transition-property: color, background-color;
+ padding: 1px;
+ margin: -1px;
+}
+a[itemprop="url"],
+[itemprop="name"] a,
+summary {
+ margin: inherit;
+ padding: 2px 3px;
+}
+.hack a.active {
+ color: black;
+}
+.hack a:hover,
+.hack a:focus,
+summary:focus {
+ background-color: #ff2e8880;
+ outline: none;
+}
+details {
+ margin-top: 20px;
+}
+mark,
+kbd {
+ color: #abb2bf;
+ background-color: #2c313a;
+}
+.readmore a,
+header nav[itemtype*="SiteNavigation"] a:first-of-type,
+summary {
+ margin-left: -3px;
+}
+@font-face {
+ font-family: klinic;
+ src: url(/fonts/klinicslabbook-webfont.eot);
+ src: url(/fonts/klinicslabbook-webfont.eot?#iefix) format("embedded-opentype"),url(/fonts/klinicslabbook-webfont.woff2) format("woff2"),url(/fonts/klinicslabbook-webfont.woff) format("woff"),url(/fonts/klinicslabbook-webfont.ttf) format("truetype"),url(/fonts/klinicslabbook-webfont.svg#klinic_slabbook) format("svg");
+ font-weight: 400;
+ font-style: normal
+}
+@font-face {
+ font-family: klinic;
+ src: url(/fonts/klinicslabmedium-webfont.eot);
+ src: url(/fonts/klinicslabmedium-webfont.eot?#iefix) format("embedded-opentype"),url(/fonts/klinicslabmedium-webfont.woff2) format("woff2"),url(/fonts/klinicslabmedium-webfont.woff) format("woff"),url(/fonts/klinicslabmedium-webfont.ttf) format("truetype"),url(/fonts/klinicslabmedium-webfont.svg#klinic_slabmedium) format("svg");
+ font-weight: 500;
+ font-style: normal
+}
+.hack header h1, .hack header h2, .hack header h3 {
+ letter-spacing: .02em;
+ font-weight: 600;
+}
+.hack header h1 {
+ font-size: 1.5em;
+ letter-spacing: -0.1rem;
+}
+.hack header h1::after {
+ content: "";
 }
 .hack header h2 {
-    font-size: 1.3em;
-    letter-spacing: -0.06em;
+ font-size: 1.2em;
 }
-#about-jason-west {
-    /*font-size: 1.9em;*/
+.hack header .grid p.muted {
+ /* adjust the list page meta display */
+ margin-top: 0;
+ text-align: right;
 }
-
-/*nav a.active {
-  background-color: #00ff00;
-  color: #0f0;
+.hack header p.muted {
+ margin-top: -30px; /* TODO: consolidate above */
+ font-size: initial;
+}
+.hack header p.muted, .hack header h1, .hack header h2 {
+ margin-bottom: 0;
+}
+.hack ol li:nth-child(n+10):after {
+ left: -12px;
+}
+@media screen and (max-width: 768px) {
+ header .grid p.muted  {
+   display: none;
+ }
+}
+/* ## Figures */
+figure {
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+}
+figure img {
+ max-width: 80%;
+}
+figure a {
+ border-bottom: none !important;
+}
+figure a:hover {
+ background-color: inherit !important;
+}
+/* ## Google Maps */
+.mapcanvas {
+ /* default map canvas height */
+ height: 200px;
+}
+.mapcanvas a[target="_blank"]::after {
+ /* hide svg content on Google map canvas */
+ content: ""
+}
+/* ## Ads */
+/*a[href="/go/ledger-home"] {
+ border-bottom: none !important;
 }*/
-nav a {
-   padding: 5px;
+
+.hack header h2 {
+  letter-spacing: -0.04em;
 }
 
-a[itemprop="url"]:hover {
-  color: #fff;
-}
-a[href*="://"]::after,
-a[rel*="external"] {
-   content: " " url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20class='i-external'%20viewBox='0%200%2032%2032'%20width='14'%20height='14'%20fill='none'%20stroke='%23fff'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='9.38%'%3E%3Cpath%20d='M14%209%20L3%209%203%2029%2023%2029%2023%2018%20M18%204%20L28%204%2028%2014%20M28%204%20L14%2018'/%3E%3C/svg%3E");
-}
-a {
-   cursor: pointer;
-   color: #ff0000;
-   text-decoration: none;
-   border-bottom: 1px solid #ff0000;
-   padding-left: 2px;
-   padding-right: 5px;
-}
-a:hover {
-   background-color:#d00;
-   border-bottom: 2px solid #d00;
+.hack blockquote {
+  font-size: 1rem;
+  padding-bottom: 24px;
+  padding-left: 5ch;
 }
 
-/*Added the following in order to make the font-weight normal for the text in the first column of tables*/
-.dark table tbody td:first-child {
-   color: #ccc;
-}
-table tbody td:first-child {
-   font-weight: normal;
+.hack header blockquote {
+  padding-top: 20px;
 }
 
-.alert-error {
-   color: #ff0000;
-   border-color: #ff0000;
+.hack blockquote[itemprop="headline"]{
+  padding-top: 20px;
 }
 
-.soc {
-   display: block;
-   font-size: 0;
-   list-style: none;
-   margin: 0px;
-   padding: 4.8rem;
-   text-align: left;
-}
-.soc li :hover {
-   border-bottom: 0px;
-   fill: #fff;
-   border-radius: 100%;
-}
-.soc li {
-   display: inline-block;
-   margin: 0rem;
-   padding: 0px;
-}
-ul.soc {
-  margin-bottom: 0px;
-}
-.soc a, svg {
-   display: inline-block;
-   fill: #d00;
-}
-.soc a {
-   height: 2.8rem;
-   width: 2.8rem;
-   border-bottom: 0px;
-   padding: 0rem;
-}
-.soc a[href*="://"]::after,
-a[rel*="external"] {
-   content: " " url();
-}
-.soc svg {
-   height: 100%;
-   width: 100%;
-}
-.i-clock, .i-edit {
-  fill: none;
-}
-.homepage-content img {
-  border: 1px solid white;
-}
-/* Grow */
-.hvr-grow {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    /*box-shadow: 0 0 1px rgba(0, 0, 0, 0);*/
-    backface-visibility: hidden;
-    /*-moz-osx-font-smoothing: grayscale;*/
-    transition-duration: 0.2s;
-    transition-property: transform;
-}
-.hvr-grow:hover,
-.hvr-grow:focus,
-.hvr-grow:active {
-    transform: scale(1.17);
+.hack h2:before {
+    /*content: "## ";*/
+    content: "";
 }
 
-.form-group.form-error label{
-  color: #d00!important;
-  border-color: #d00!important;
-}
-.form-group label {
-    border-bottom: 2px solid #ccc;
-    color: #333;
-    width: 5rem;
-    display: inline-block;
-    /*height: 36px;
-    line-height: 36px;*/
-    height: 40px;
-    line-height: 44px;
-    padding: 0;
-    float: left;
-    position: relative;
-}
-.form-control {
-    outline: none;
-    border: none;
-    border-bottom: 2px solid #ccc;
-    /*padding: .5rem 0;*/
-    width: 21rem;
-    /*height: 31px;*/
-    /*height: 36px;*/
-    line-height: 36px;
-    background-color: transparent;
-    font-size: 18px;
-}
-.form-control name {
-    width: 11rem;
-}
-.btn-error {
-    color: #fff;
-    background-color: #d00;
-    border: 1px solid #d00;
+.hack h2 {
+  font-family: 'Slabo 27px', serif;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
 }
 
-.btn-error:hover {
-    background-color: #ff3333;
-    border: 1px solid #d00;
-    color: #fff;
+.hack h2[itemprop="name"]{
+  margin-top: 0px;
+  letter-spacing: 0.05em;
 }
 
-#osf-email.alert.alert-error {
-  padding-bottom: 0px;
+.hack h1{
+  letter-spacing: -0.05em;
+  font-size: 1.3em;
+  font-weight: 600;
 }
 
-/* ---- */
-/* Brackets Effect */
-/*
-nav[itemtype*="SiteNavigation"] {
-  text-align: center;
+.hack h1:after {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 0;
 }
-nav[itemtype*="SiteNavigation"] a.active {
-  background-color: inherit;
-  color: #59757880;
+
+.hack h1[itemprop="headline"] {
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 1.8rem;
 }
-nav[itemtype*="SiteNavigation"] a:hover {
-  background-color: inherit;
-}
-nav[itemtype*="SiteNavigation"] a::before,
-nav[itemtype*="SiteNavigation"] a::after {
-	display: inline-block;
-	opacity: 0;
-	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
-	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
-	transition: transform 0.3s, opacity 0.2s;
-}
-nav[itemtype*="SiteNavigation"] a::before {
-	margin-right: 7px;
-	content: '[';
-	-webkit-transform: translateX(20px);
-	-moz-transform: translateX(20px);
-	transform: translateX(20px);
-}
-nav[itemtype*="SiteNavigation"] a::after {
-	margin-left: 7px;
-	content: ']';
-	-webkit-transform: translateX(-20px);
-	-moz-transform: translateX(-20px);
-	transform: translateX(-20px);
-}
-nav[itemtype*="SiteNavigation"] a:hover::before,
-nav[itemtype*="SiteNavigation"] a:hover::after,
-nav[itemtype*="SiteNavigation"] a:focus::before,
-nav[itemtype*="SiteNavigation"] a:focus::after,
-nav[itemtype*="SiteNavigation"] a.active::before,
-nav[itemtype*="SiteNavigation"] a.active::after {
-	opacity: 1;
-	-webkit-transform: translateX(0px);
-	-moz-transform: translateX(0px);
-	transform: translateX(0px);
-}
-*/
-/* END Brackets Effect */
 
 </style>
 
@@ -545,7 +578,7 @@ nav[itemtype*="SiteNavigation"] a.active::after {
 
 <p>I&rsquo;d love for you to <strong>connect with me</strong> via email or any of the various social platforms.
 <ul class="soc">
-  <!-- <li><a href="mailto:onesentforth@gmail.com" class="hvr-grow" target="_blank" title="Email"><svg viewBox="0 0 512 512"><path d="M101.3 141.6v228.9h0.3 308.4 0.8V141.6H101.3zM375.7 167.8l-119.7 91.5 -119.6-91.5H375.7zM127.6 194.1l64.1 49.1 -64.1 64.1V194.1zM127.8 344.2l84.9-84.9 43.2 33.1 43-32.9 84.7 84.7L127.8 344.2 127.8 344.2zM384.4 307.8l-64.4-64.4 64.4-49.3V307.8z"></path></svg></a></li> -->
+  <!-- <li><a href="mailto:seeksavesend@gmail.com" class="hvr-grow" target="_blank" title="Email"><svg viewBox="0 0 512 512"><path d="M101.3 141.6v228.9h0.3 308.4 0.8V141.6H101.3zM375.7 167.8l-119.7 91.5 -119.6-91.5H375.7zM127.6 194.1l64.1 49.1 -64.1 64.1V194.1zM127.8 344.2l84.9-84.9 43.2 33.1 43-32.9 84.7 84.7L127.8 344.2 127.8 344.2zM384.4 307.8l-64.4-64.4 64.4-49.3V307.8z"></path></svg></a></li> -->
   <li><a href="http://twitter.com/seeksavesend" class="hvr-grow" target="_blank" title="Twitter"><svg viewBox="0 0 512 512"><path d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z"></path></svg><!--[if lt IE 9]><em>Twitter</em><![endif]--></a></li>
   <li><a href="https://www.facebook.com/seeksavesend" class="hvr-grow" target="_blank" title="Facebook"><svg viewBox="0 0 512 512"><path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"></path></svg><!--[if lt IE 9]><em>Facebook</em><![endif]--></a></li>
   <li><a href="https://www.youtube.com/channel/UCbz86f96_2yeWPyAY6tQgkA" class="hvr-grow" target="_blank" title="YouTube"><svg viewBox="0 0 512 512"><path d="M422.6 193.6c-5.3-45.3-23.3-51.6-59-54 -50.8-3.5-164.3-3.5-215.1 0 -35.7 2.4-53.7 8.7-59 54 -4 33.6-4 91.1 0 124.8 5.3 45.3 23.3 51.6 59 54 50.9 3.5 164.3 3.5 215.1 0 35.7-2.4 53.7-8.7 59-54C426.6 284.8 426.6 227.3 422.6 193.6zM222.2 303.4v-94.6l90.7 47.3L222.2 303.4z"/></svg><!--[if lt IE 9]><em>YouTube</em><![endif]--></a></li>
@@ -576,7 +609,7 @@ nav[itemtype*="SiteNavigation"] a.active::after {
 
 </main>
     <footer>
-<img style="float:left; margin-right:20px;" src="https://discipleschool.com/images/osf-logo2.svg" height="5%" width="5%">
+<img style="float:left; margin-right:20px;" src="http://localhost:1313/images/osf-logo2.svg" height="5%" width="5%">
       
 
   

@@ -1,15 +1,15 @@
-#baseURL = "http://localhost:1313"
-baseURL = "https://discipleschool.com/"
+baseURL = "http://localhost:1313/"
+#baseURL = "https://discipleschool.com/"
 languageCode = "en-us"
 title = "Disciple School"
 theme = "after-dark"
-#metaDataFormat = "yaml"
 #markup = "markdown"
 #description needs to be 50-300 words. Get my description from discipleschool.com
 googleAnalytics = "UA-68558525-1"
 #disqusShortname = ""
 keywords = [
   "bible study",
+  "discipling",
   "disciple",
   "disciples",
   "discipleship",
@@ -41,11 +41,14 @@ keywords = [
   facebook = "seeksavesend"
   twitter = "seeksavesend"
 
+[params.seo]
+  telegram_channel = "discipleschool" # omit the `@`
+
 [params.seo.webmaster_verifications]
-  #google = "google33bb9c8df9b14443.html" # Optional, Google verification code
-  #bing = "D863718EBA7CEF2553A55CB4BFA1AC0B" # Optional, Bing verification code
+  google = "google33bb9c8df9b14443.html" # Optional, Google verification code
+  bing = "EAD018090A1C80C7BCF1D0597504AFCE" # Optional, Bing verification code
   #alexa = "" # Optional, Alexa verification code
-  #yandex = "82aba20a16e81b5f" # Optional, Yandex verification code
+  yandex = "d211d986614bd557" # Optional, Yandex verification code
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

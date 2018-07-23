@@ -3,77 +3,89 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://discipleschool.com/page/about/</loc>
+    <loc>http://localhost:1313/page/about/</loc>
     <lastmod>2018-03-16T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/post/stock-and-flow/</loc>
+    <loc>http://localhost:1313/post/becoming-and-producing/</loc>
+    <lastmod>2018-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/stock-and-flow/</loc>
     <lastmod>2018-05-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/page/bibliography/</loc>
+    <loc>http://localhost:1313/page/bibliography/</loc>
     <lastmod>2018-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/post/first-post/</loc>
-    <lastmod>2018-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://discipleschool.com/categories/blog-management/</loc>
+    <loc>http://localhost:1313/categories/blog-management/</loc>
     <lastmod>2018-05-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2018-05-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/tags/content-strategy/</loc>
+    <loc>http://localhost:1313/tags/content-strategy/</loc>
     <lastmod>2018-05-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2018-03-16T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/page/</loc>
+    <loc>http://localhost:1313/tags/discipleship/</loc>
+    <lastmod>2018-07-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/discipleship/</loc>
+    <lastmod>2018-07-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/page/</loc>
     <lastmod>2018-03-16T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/post/</loc>
-    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2018-07-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/tags/social-media/</loc>
-    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://discipleschool.com/tags/</loc>
+    <loc>http://localhost:1313/tags/social-media/</loc>
     <lastmod>2018-05-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/page/success/</loc>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/page/success/</loc>
   </url>
   
 </urlset>
