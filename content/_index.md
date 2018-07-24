@@ -6,6 +6,7 @@ date = ""
 lastmod = ""
 keywords = [
   "disciple",
+  "disciple school",
   "disciples",
   "discipleship",
   "disciple making",
