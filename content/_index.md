@@ -20,3 +20,5 @@ keywords = [
 # Becoming and Producing Disciples of Jesus Christ
 
 Hi, my name is Jason West. *Disciple School* is my personal website where I'll be creating **content and resources** designed to help others **become and produce disciples of Jesus Christ**.
+
+I'm on <a target="_blank" rel="noopener" href="https://www.facebook.com/seeksavesend">Facebook</a>, <a target="_blank" rel="noopener" href="https://twitter.com/seeksavesend">Twitter</a>, <a target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCbz86f96_2yeWPyAY6tQgkA">YouTube</a> and <a target="_blank" rel="noopener" href="https://www.instagram.com/kevinjasonwest/">Instagram</a>.

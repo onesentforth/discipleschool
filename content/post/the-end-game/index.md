@@ -1,6 +1,6 @@
 +++
 title = "The 'End' Game"
-description = "No matter how many times you guess about when the world will end, you can only ever be correct one time. So, what is there to gain from all this guessing? What's the point?"
+description = "No matter how many times you guess about when the world will end, you can only ever be correct one time. So what is there to gain from all this guessing? What's the point?"
 author = "Jason West"
 date = "2018-07-22"
 lastmod = ""
@@ -56,7 +56,7 @@ Here's what the article says about Baxter:
   He has said: "The Bible teaches that end event is coming just ahead of us now and that will be the greatest prophetic fulfilment in the last 2,000 years."</p>
 {{< /blockquote >}}
 
-Even if you believe everything that comes out of Baxter's mouth, can you see how fruitless it is to invest ourselves in these kinds of predictions? Why should we even get involved in such nonsense? No matter how many times you guess about when the world will end, you can only ever be correct one time. Just once! But your chances of being wrong increase with every guess. So, what is there to gain from all this guessing? What's the point? To scare people into believing the Bible? Someone might say, "Well, the Bible ***does*** say, 'And others save with fear, pulling them out of the fire'." But after "a number of failed predictions," nobody is concerned by what you're saying anymore.
+Even if you believe everything that comes out of Baxter's mouth, can you see how fruitless it is to invest ourselves in these kinds of predictions? Why should we even get involved in such nonsense? No matter how many times you guess about when the world will end, you can only ever be correct one time. Just once! But your chances of being wrong increase with every guess. So what is there to gain from all this guessing? What's the point? To scare people into believing the Bible? Someone might say, "Well, the Bible ***does*** say, 'And others save with fear, pulling them out of the fire'." But after "a number of failed predictions," nobody is concerned by what you're saying anymore.
 
 I would like to ask Mr. Baxter, what are your honest expectations when you publish this nonsense? Are you hoping for something like, "Hey honey.. that guy who has been wrong about the end of the world on *multiple* occasions has released yet *another* article stating that the end of the world will now take place on Tuesday afternoon. Maybe we should give our hearts to Jesus sometime before then, just in case..?"
 
