@@ -2,7 +2,7 @@
 title = "Becoming and Producing Disciples of Jesus Christ"
 description = "The goal of Disciple School is to develop a clear and uncomplicated way to train spiritually mature, fully devoted disciples of Jesus who are able to then make more disciples"
 author = "Jason West"
-date = "2018-07-20"
+date = "2018-07-26"
 lastmod = ""
 keywords = ["discipleship", "disciples", "disciple school"]
 categories = ["Discipleship"]
