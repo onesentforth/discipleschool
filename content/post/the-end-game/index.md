@@ -14,6 +14,9 @@ keywords = [
 categories = ["Opinion"]
 tags = ["end-time", "prophecy"]
 summary = "Instead of wildly guessing about possible dates for the apocalypse, why not make it a point to declare in public only those things which we know are verifiable and well-attested in Scripture? Why not use the public square for more fruitful discussions and interactions that actually increase our trustworthiness as representatives of God rather than destroying it?"
+images = [
+  "/post/the-end-game/img/matt-botsford-610989-unsplash.jpg"
+]
 [[resources]]
   name = "header"
   src = "img/matt-botsford-610989-unsplash.jpg"

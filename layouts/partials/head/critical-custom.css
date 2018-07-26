@@ -61,25 +61,9 @@ nav a[href="/cheat/"],
 nav a[href="/deal/"],
 nav a[href="/ico/"],
 nav a[href="/cowork/southeast-asia/bali/"] {
- display: none;
+ display: none;*/
 }
 /* ## End Hacks */
-
-.hack em:before {
-    content:"";
-  }
-.hack em:after {
-    content:"";
-}
-.hack em {
-    font-style: italic;
-}
-
-.hack,.hack em,.hack strong {
- font-family: Helvetica Neue,Helvetica,Arial,Geneva,sans-serif;
- font-size: 1.2rem;
- line-height: 24px;
-}
 
 .hack h1,.hack h2,.hack h3,.hack h4,.hack h5,.hack h6 {
  font-family: klinic,Consolas,Andale Mono,Rockwell,Courier,sans-serif;
@@ -322,8 +306,18 @@ figure a:hover {
     border-color: #dd0000!important;
 }
 
-.hack em, .hack strong {
-  font-size: 1.2rem;
+.hack em:after, .hack em:before {
+    content: "";
+}
+
+.hack em {
+  font-style: italic;
+}
+
+.hack, .hack em, .hack strong {
+ font-family: Helvetica Neue,Helvetica,Arial,Geneva,sans-serif;
+ font-size: 1.2rem;
+ line-height: 24px;
 }
 
 .hack header p.muted {
