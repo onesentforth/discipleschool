@@ -96,9 +96,9 @@ I have not single-handedly come up with some newer, better way to "do church." O
 
 "Old is the new new," writes Steven Poole, author of *Rethink: The Surprising History of Ideas* (Scribner, 2016).  Poole insists that ours is "an an age of ***re***-discovery. Because surprisingly often, it turns out, innovation depends on old ideas.”
 
-So we will explore the "old ideas" of Jesus, the master disciple-maker. We'll study his methods and techniques for training his disciples. Could it be that those methods are just as divine as his teachings? We will also look into the possible causes for the church's current inability and/or unwillingness to make disciples. How and why did we settle onto this current form of church? What are we allowed to change? Are we even to change if it means greater effectiveness?
+So we will explore the "old ideas" of Jesus, the master disciple-maker. We'll study his methods and techniques for training his disciples. Could it be that those methods are just as divine as his teachings? We will also look into the possible causes for the church's current inability and/or unwillingness to make disciples. How and why did we settle onto this current form of church? What are we allowed to change? Are we even willing to change if it means greater effectiveness?
 
-Regardless of how reluctant we may be to accept it, the data is overwhelming clear: we are not currently producing disciples of Jesus. We must accept responsibility for that failure, diligently search the Scriptures for the answers, and be prepared to change - or even completely discard - anything that hinders our disciple-making abilities.
+Regardless of how reluctant we may be to accept it, the data is overwhelmingly clear: we are not currently producing disciples of Jesus. We must accept responsibility for that failure, diligently search the Scriptures for the answers, and be prepared to change, or even completely discard, anything - yes, *anything* - that hinders our disciple-making abilities.
 
 ## ...the Art of
 
@@ -110,9 +110,9 @@ Basically, if you can become better at it, it's considered an art.
 
 An art can be any activity in which one can improve her skills by studying, observing or practicing. Becoming a disciple certainly involves all of those activities. In fact, as we discover more about the rabbi-disciple relationship being modeled in Jesus' day, it will become clear that those are some of the primary activities required of a disciple. Studying the Scripture. Observing the words and actions of the rabbi. And then putting the rabbi's words and activity into personal practice.
 
-Interestingly, the Greek word used for “disciple” in the New Testament is “*mathetes*” (pronounced moth-ay-tayce') and its root, “math-“ (as in "***math***ematics") means the “mental **effort** needed to think something through“. *Mathetes* is also derived from *manthano* which "carries the connotation of **intentional learning** by inquiry and observation."
+Interestingly, the Greek word used for “disciple” in the New Testament is *mathetes* (pronounced moth-ay-tayce') and its root, “math-“ (as in "***math***ematics") means the “mental **effort** needed to think something through“. *Mathetes* is also derived from *manthano* which "carries the connotation of **intentional learning** by inquiry and observation."
 
-In that case, becoming a disciple of another person is, by definition, an art, and making disciples would definitely qualify as an art.
+In that case, becoming a disciple of another person is, by definition, an art. And so too, making disciples would definitely qualify as an art.
 
 Referring to discipleship as an art makes clear becoming a disciple is not a passive transformation. It will require intentional effort. Becoming a disciple is hard work. Making disciples is even more difficult.
 
@@ -120,19 +120,19 @@ Referring to discipleship as an art makes clear becoming a disciple is not a pas
 
 I used “becoming” because it acknowledges the likelihood that we ourselves may not even **be** disciples.
 
-If it is true that the current system is not producing disciples of Jesus, we must be willing to accept the notion that - as products of that broken system - we may have developed some ideas and habits that are actually keeping us from reaching full maturity as disciples. More than that, we may have reached the point where we're no longer even ***attempting*** to mature as disciples.
+If it is true that the current model is not producing disciples of Jesus, we must be willing to accept the notion that - as products of that broken system - we may have developed some ideas and habits that are actually keeping us from reaching full maturity as disciples. More than that, we may have reached the point where we're no longer even ***attempting*** to mature as disciples.
 
 Research indicates that fewer than one in five born-again adults have any specific, measurable goals related to their spiritual development.
 
-In a nationwide survey, conducted by The Barna Group, hundreds committed Christians were interviewed, including pastors and church leaders. The results of the survey revealed that "Not one of the adults we interviewed said that their goal in life was to be a committed follower of Jesus Christ or to make disciples of the entire world-or even their entire block." (Greg Ogden, *Transforming Discipleship,* InterVarsity Press, 2003)
+In fact, in a nationwide survey, conducted by The Barna Group, hundreds committed Christians were interviewed, including pastors and church leaders. The results of the survey revealed that "Not one of the adults we interviewed said that their goal in life was to be a committed follower of Jesus Christ or to make disciples of the entire world-or even their entire block." (Greg Ogden, *Transforming Discipleship,* InterVarsity Press, 2003)
 
 Why is that? Probably because we think of our relationship with Jesus as a passive one, where we simply receive good things from him, like forgiveness from sin, good health and financial blessings. We don't view it as an apprenticeship, where we're supposed to exert energy and apply discipline in an effort to become more like him.
 
 And if we're not truly applying ourselves in order to shape our nature and character into something that resembles Jesus, then how could we possibly be helping others do the same?
 
-After all, one cannot make disciples of Jesus if one has never truly become a disciple - or student - of Jesus.
+After all, one cannot make disciples of Jesus if one has never truly become a disciple, or committed apprentice, of Jesus.
 
-A passive recipient is not the same as a devoted disciple. And our current church model has been meticulously designed to create passive recipients.
+A passive recipient is not the same as a devoted disciple. And our current church model seems to have been meticulously designed to create passive recipients.
 
 ## Producing
 
@@ -140,7 +140,7 @@ Producing disciples of Jesus is the entire purpose of the church. There is absol
 
 It's not enough for us to simply become disciples ourselves - and that task is difficult enough. Jesus also expects us to produce other disciples. I initially wondered if I should omit "producing" and simply say that we're "rediscovering the art of becoming disciples." After all, I reasoned, if we actually become true disciples of Jesus, we will - by our very nature - produce other disciples.
 
-But then it occurred to me that it ***is*** possible to ***become*** something without also ***producing*** that same something. While there is a tremendous variety in the means by which organisms reproduce themselves, living things typically experience two stages of being or cycles of life. There is the juvenile, or pre-productive stage in which individuals grow and mature. Then there is the adult, or reproductive stage in which individuals are able to produce more instances of their particular organism.
+But then it occurred to me that it ***is*** possible to ***become*** something, and yet ***not*** be involved in ***producing*** that same something. Think of living organisms. While there is a tremendous variety in the means by which organisms reproduce themselves, living things typically experience two stages of being or cycles of life. There is the juvenile, or pre-productive stage in which individuals grow and mature. Once an organism reaches a certain level of maturity, it enters into the adult, or reproductive stage. In this stage, individuals can be expected to produce and care for more instances of their particular kind of organism, helping them to achieve their own maturity.
 
 The same is true in the area of disciple-making. We first *become* disciples of Jesus, and then at some point, we reach maturity and are able to *produce* other disciples. How long should this developmental stage last? I think it's safe to say that it varies from one person to another. But there is no doubt that every disciple should - at some point - reach a level of maturity where they begin producing other disciples.
 
@@ -161,13 +161,13 @@ As long as we're unclear about Jesus' concept of a disciple, how can we be sure 
 
 In order to gain a better understanding of what we should be producing, we'll explore the first-century concept of discipleship. Then we'll compare Jesus' expectations for disciples against what we're actually producing.
 
-I think it will clear that we are facing a crisis of discipleship.
+I think it will clear that we are facing a serious crisis of discipleship.
 
-If it is true that the product we are producing in our churches is so far removed from what Jesus clearly intended us to make, may I suggest that we stop and ask ourselves why we should continue pouring resources into a failed system. The solution is to repent, study the Scriptures, pray for direction and work towards an effective strategy for making disciples in our current context.
+If it is true that the product we are producing in our churches is so far removed from what Jesus clearly intended us to make, may I suggest that we stop and ask ourselves why we should continue devoting our lives and pouring resources into a failed system. The solution is for us to repent of our stubbornness, study the Scriptures, pray for direction, initiate honest dialogue and work towards an effective strategy for making disciples in our current context.
 
 ## OF Jesus Christ
 
-In our effort to become and produce disciples, it's essential for us to remember that nobody is just a disciple. They must be a disciple ***of*** something or someone.
+In our effort to become and produce disciples, it's essential for us to remember that nobody is just "a disciple," in general. They must be a disciple ***of*** something or someone.
 
 Dallas Willard asks the question in his classic book, *The Divine Conspiracy*:
 
@@ -191,13 +191,15 @@ Willard continues by saying:
 
 Of course, Willard is right. At some point, we should all seriously consider who has mastered us and evaluate the results of their mastery over. Maybe it's a person or group of people. It may be more likely that we've been mastered by an idea or a system of thinking. At any rate, it's vitally important that you take an active role in choosing whose ideas will control your life.
 
-Obviously, the goal is for us to become and produce disciples (apprentices) who are under the mastery of Jesus Christ alone.
+Obviously, the goal is for us to become and produce disciples (apprentices) who are under the mastery of Jesus Christ alone. We can only do this in the context of submission to Scriptures, the Spirit of Jesus, and a devoted community of believers where all of the functions of ministry are being fulfilled.
+
+So, we will explore those areas together in detail.
 
 ## Conclusion
 
 What we’re currently doing isn’t working. It's foolish to pretend that it is. We have allowed ourselves to be defined by habits, methods, and routines that do not - and cannot - produce the results Jesus intended.
 
-Will we continue devoting ourselves to a model of church that brought us to this moment of abject failure? Or will we finally recognize the need to completely re-examine our beliefs and practices - even our entire lives, for that matter - in the light of Scripture? Given that the stakes are so high, we should be willing to challenge and change any beliefs and practices that may be hindering us from becoming and producing disciples of Jesus.
+Will we continue devoting ourselves to a model of church that brought us to this moment of abject failure? Or will we finally recognize the need to completely re-examine our beliefs and practices - even our entire lives, for that matter - in the light of Scripture? Given that the stakes are so high, we *should* be willing to challenge and change ***any*** beliefs and practices that may be hindering us from becoming and producing disciples of Jesus.
 
 Think about this quote from John Stott:
 
@@ -205,9 +207,11 @@ Think about this quote from John Stott:
   <p>We must allow the Word of God to confront us, to disturb our security, to undermine our complacency and to overthrow our patterns of thought and behavior.</p>
 {{< /blockquote >}}
 
-He also said that what we need is "***not*** the uncritical repetition of old traditions, but the willingness to submit every tradition, however ancient, to fresh Biblical scrutiny and, if necessary, reform."
+He also said that what we need is "***not*** the uncritical repetition of old traditions, but the ***willingness to submit every tradition***, however ancient, to fresh Biblical scrutiny and, if necessary, reform."
 
-For just a moment, consider what he's saying to us in that quote. Stop going through the motions without thinking about their effectiveness. Be willing to submit ***every*** tradition to fresh Biblical scrutiny. And if necessary, be willing to change ***anything*** your doing, no matter how long you've been doing it - even if "grandpa did it this way" or "we've always done it that way." Are we really willing to do that? Or, are there some things that are "off limits?" Would you really be willing to start from scratch with a Bible and a blank sheet of paper, surrounded by some committed followers of Jesus, and build a plan to make disciples of your community?
+For just a moment, consider what he's saying to us in that quote. Stop going through the motions without thinking about their effectiveness. Be willing to submit ***every*** tradition to fresh Biblical scrutiny. And if necessary, be willing to change ***anything*** you're doing, no matter how long you've been doing it - even if "grandpa did it this way" or "we've always done it that way."
+
+Are we really prepared to do that? Or, are there some things that are "off limits?" Would you really be willing to start from scratch with a Bible and a blank sheet of paper, surrounded by some committed followers of Jesus, and build a plan to make disciples of your community?
 
 When Bill Hybels and the leaders at Willow Creek conducted a thorough review of their effectiveness as a church, they realized that they had to make significant changes. Hybels said it like this:
 
