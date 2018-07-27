@@ -1,18 +1,24 @@
 +++
-title = "The 'End' Game"
+title = "The 'End' Game: End-time Theories and the End of Our Credibility"
 description = "No matter how many times you guess about when the world will end, you can only ever be correct one time. So what is there to gain from all this guessing? What's the point?"
 author = "Jason West"
 date = "2018-07-22"
 lastmod = ""
 keywords = [
   "prophecy",
+  "end",
   "end-time",
   "Endtime",
   "credibility",
-  "believers"
+  "prediction",
+  "eschatology",
+  "believers",
+  "Irvin Baxter",
+  "apocalypse",
+  "bible"
 ]
-categories = ["Opinion"]
-tags = ["end-time", "prophecy"]
+categories = ["Opinion", "Eschatology"]
+tags = ["end-time", "prophecy", "eschatology", "Irvin Baxter"]
 summary = "Instead of wildly guessing about possible dates for the apocalypse, why not make it a point to declare in public only those things which we know are verifiable and well-attested in Scripture? Why not use the public square for more fruitful discussions and interactions that actually increase our trustworthiness as representatives of God rather than destroying it?"
 images = [
   "post/the-end-game/img/matt-botsford-610989-unsplash.jpg"
@@ -24,6 +30,8 @@ images = [
 
 ## Feathers for Worms
 
+I'm concerned that focusing our attention on "end-of-the-world" prophecies could bring an end to our credibility. Sharing social media posts about the latest apocalyptic theories from doomsday preachers could cost you more than you realize.
+
 Let's begin with a parable. One day long ago, over the hot sands of a Middle Eastern country, a white skylark flew in joyous loops about the sky. As she swooped near the earth, she heard a merchant cry out, "Worms! Worms! Worms for feathers! Delicious worms!" The skylark circled about the merchant, hungry at the mention of worms, but puzzled about what the merchant meant. Seeing that the skylark was interested, the merchant motioned her nearer. "Come here, my little friend. Come! See the lovely worms I have!"
 
 Cautiously, the skylark landed and cocked her head to the merchant. "Come! Taste the juicy worms!" The skylark became aware that she was, indeed, quite hungry. And these worms looked bigger and tastier than any she had ever dug for herself out of the hardscrabble ground of the desert. The skylark hopped closer and put her beak up close to the worm. "Two worms for a feather, my friend. Two worms for merely one!"
@@ -32,7 +40,7 @@ The skylark was unable to resist. And she had, after all, so many feathers. So, 
 
 Day after day the skylark returned. And always the merchant had wonderful worms to offer: black ones and blue ones, red ones and green ones, all fat and shiny and iridescent. But one day, after eating her fill, the skylark leapt again into the air-and to her horror, she fell to the ground with a thud. She was unable to fly!
 
-All at once with a shock she realized what had happened. From eating the delicious worms she had grown fatter and fatter; and she had plucked her feathers one by one, first her body, then her tail, and finally her very wings had grown balder and balder. Horrified, she remembered how, slowly, imperceptibly, day by day, it had been getting harder and harder to fly, and how she had told herself it was no matter. She could always stop before it was too late. Now suddenly here she was, trapped on the ground.
+All at once with a shock she realized what had happened. From eating the delicious worms she had grown fatter and fatter; and she had plucked her feathers one by one, first her body, then her tail, and finally her very wings had grown balder and balder. Horrified, she remembered how, slowly, imperceptibly, day by day, it had been getting harder and harder to fly, and how she had told herself it was no matter. She could always stop before it was too late. Now suddenly here she was, trapped on the ground. [^1]
 
 ## Our Credibility is Vital to Our Mission
 
@@ -71,6 +79,8 @@ Now, I admit there is a market for the kind of content Irvin Baxter is peddling.
 
 Even if he genuinely believes his own nonsense, I wish he were willing to say, "You know what... As much as I enjoy this fool's errand of trying to predict when the world will end, I recognize that every time I'm wrong, I lose more of the credibility I need to effectively convince the world of the truthfulness of the Bible's claims. For that reason, I will no longer publicly share my opinion about such matters, and will instead pursue it only as a personal hobby."
 
-I personally think it's a complete waste of time and energy to constantly try to fit every new political figure into end-time cast of characters or to explain how any random unique astronomical alignments almost certainly mark the beginning of the end. As a result, I don't fund his "ministry" at all. But there are some who hang on Baxter's every word, and others who apparently find his predictions amusing or diverting. Though they may not share his particular views, there are plenty of people who pay to hear him speak at events and buy his products. I can only assume they see it as some form of entertainment. So obviously it's not a complete waste of time and energy for Irvin Baxter. After all, he has made a fortune peddling his entertainment-as-prophecy. But I'm not so concerned with what he has gained as I am in what we've lost: which is nothing less than our credibility.
+I personally think it's a complete waste of time and energy to constantly try to fit every new political figure into end-time cast of characters or to explain how any random unique astronomical alignments almost certainly mark the beginning of the end. As a result, I don't fund his "ministry" at all. But there are some who hang on Baxter's every word, and others who apparently find his predictions amusing or diverting. Though they may not share his particular views, there are plenty of people who pay to hear him speak at events and buy his products. I can only assume they see it as some form of entertainment. So obviously it's not a complete waste of time and energy for Irvin Baxter. After all, he has made a fortune peddling his entertainment-as-prophecy. But I'm not so concerned with what he has gained as I am in what we've lost - which is nothing less than our credibility.
 
 Think of that. We're willing trade our very purpose in exchange for something we could easily and cheaply get by other means. We lose credibility when we consume and promote the sort of nonsense he offers. Like the skylark in the parable, we exchange our feathers for worms, trading the invaluable for the worthless.
+
+[^1]: I first read this parable in Alan Hirsch's book, *Untamed*

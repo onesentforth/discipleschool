@@ -129,9 +129,9 @@ summary {
 .hack header h1 {
  font-size: 1.5em;
  letter-spacing: -0.1rem;
- font-family: 'Liberation Mono';
+ /*font-family: 'Liberation Mono';*/
  font-weight: 300;
- /*font-family: klinic,Consolas,Andale Mono,Rockwell,Courier,sans-serif;*/
+ font-family: klinic,Consolas,Andale Mono,Rockwell,Courier,sans-serif;
 }
 .hack header h1::after {
  content: "";
@@ -323,4 +323,12 @@ figure a:hover {
 .hack header p.muted {
     margin-top: -15px;
     font-size: initial;
+}
+
+.hack li:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 20px;
+    margin-top: 6px;
 }
