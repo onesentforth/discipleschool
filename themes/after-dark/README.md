@@ -1,17 +1,39 @@
 # After Dark
 
-> A retro dark theme for <a target="intro" href="https://gohugo.io/">Hugo</a>.
+> A deceptively simple dark theme for [Hugo](https://gohugo.io/).
 
 [![Latest NPM version](https://img.shields.io/npm/v/after-dark.svg?style=flat-square)](https://www.npmjs.com/package/after-dark)
 [![NPM downloads per month](https://img.shields.io/npm/dm/after-dark.svg?style=flat-square)](https://www.npmjs.com/package/after-dark)
+[![Minimum Hugo version](https://img.shields.io/badge/hugo->%3D%200.44-FF4088.svg?style=flat-square)](https://gohugo.io)
+[![Telegram chat](https://img.shields.io/badge/chat-telegram-32AFED.svg?style=flat-square)](https://t.me/joinchat/Iw_6FEhmKL9sPUAukX9jzg)
 [![WTFPL licensed](https://img.shields.io/npm/l/after-dark.svg?style=flat-square&longCache=true)](https://git.habd.as/comfusion/after-dark/src/branch/master/COPYING)
 
-![Screenshots of After Dark running on a MacBook and iPhone](https://git.habd.as/comfusion/after-dark/raw/branch/master/images/docs/minimal-mac.png)
+## Demo & Tutorial
+
+Visit [Hack Cabin](https://hackcabin.com) for a production example of which can be recreated using a [step-by-step guide](https://go.habd.as/zero-to-http-2).
+
+## Principia
+
+> People can't live with change if there's not a changeless core inside them. —Stephen R. Covey, The 7 Habits of Highly Effective People
+
+Features are great, but not if they arise without reason. Let the following principles serve as a guide for change in After Dark.
+
+Principle | Description
+---|---
+Deceptive Simplicity | After Dark is [just a theme](https://themes.gohugo.io/after-dark/), making it a suitable starting point for novice and advanced users alike. It advances using the “Code for today and not for tomorrow” philosophy of <abbr title="eXtreme Programming">XP</abbr> and includes only what's necessary to create and run a site, nothing more.
+Privacy Focused | Your data is your property. After Dark regards it as private and will make every attempt possible to help you safeguard it from unexpected leakage or use without your knowledge or express consent. Both for you and for your end-users.
+Performance Optimized | Page content, favicon, required scripts and styles load in a single request on all pages. Ancillary resources are then loaded asynchronously in an unobtrusive manner, resulting in a ~1 second initial page load over 2G when edge caching.
+Inclusive Design | After Dark is designed to function optimally on mobile, tablet, desktop as well as terminal browsers such as [elinks]. This design approach typically results in reasonable accessibility and will help reduce the need for site maintenance over time.
+Semantic Versioning | Predictable changes help you keep up-to-date on what's changing. After Dark uses [Semantic Versioning](http://semver.org/) and keeps a [CHANGELOG](https://keepachangelog.com/en/1.0.0/) to enable theme users better decide when to upgrade, if at all.
+Scalable Core | After Dark is capable of generating ~1000 pages per second and will operate reasonably quickly even when run on constrained hardware thanks to its only hard software dependency: [Hugo](https://gohugo.io/).
 
 ## Features
 
+The following table summarizes various theme features considered important enough to differentiate After Dark from other Hugo themes.
+
 Feature | Summary
 --------|--------
+[Module System](#module-system) | Extend After Dark with prebuilt modules to add additional functionality to your site.
 [Lazy Loading](#lazy-loading) | Lazily load your images, iFrames and script embeds. After Dark ships with [lazysizes](https://github.com/aFarkas/lazysizes), a zero-configuration JavaScript library with LQIP support, responsive images and more.
 [BPG Image Support](#bpg-image-support) | Improve image fidelity and decrease size. Automatically [BPG Image](https://bellard.org/bpg/) support via polyfill.
 [Social Engagement](#social-engagement) | After Dark provides automatic and configurable [Open Graph](http://ogp.me/) support, Twitter Cards and Telegram Instant View template to make social shares pop like 37 pieces of flair.
@@ -23,7 +45,6 @@ Feature | Summary
 [Related Content](#related-content) | Promote more of your content to your site visitors. By offering your readers more content that's relevant to them you can increase your site's page views, the time spent on your site and reader loyalty.
 [Table of Contents](#table-of-contents) | Help users locate and share information in long posts. By providing a Table of Contents, users will spend less time scrolling to locate information in larger documents and are more likely to deep link to specific information on a page.
 [Section Menu](#section-menu) | Add and customize your site's global navigation. After Dark uses Hugo's [Section Menu for "the Lazy Blogger"](https://gohugo.io/extras/menus#section-menu-for-the-lazy-blogger), making navigation easy to create and predictable to use.
-[Analytics](https://gohugo.io/templates/internal/#google-analytics) | Understand and action on user behavior by enabling Google Analytics. After Dark uses the [async tracking snippet](https://developers.google.com/analytics/devguides/collection/analyticsjs/) to boost performance.
 [Comments](https://gohugo.io/templates/internal/#disqus) | Improve search rankings and allow users to comment on articles with [Disqus](https://disqus.com/) commenting.
 [Modification Dating](#modification-dating) | Surface recently updated content to users and crawlers, allowing them to understand when a post or page was was last modified. Recently updated posts will be flagged as modified and visually lifted upwards in chronological listings.
 [Syntax Highlighting](#syntax-highlighting) | Share code snippets with style. After Dark provides Atom One [Light](https://atom.io/themes/one-light-syntax) and [Dark](https://atom.io/themes/one-dark-syntax) syntax highlighting for 1337 code sharing.
@@ -33,27 +54,32 @@ Pagination | Pagination can be hard. After Dark makes it easy with simple list p
 Reading Time | Set user expectations up-front. After Dark provides estimated reading time for each post near the top of the page. This feature is automatic and assumes a reading speed of 200-250 words per minute.
 Post Bylines | Rich post bylines include optional author name, word count, links to taxonomy pages and metadata for search engines.
 
-## Demo & Tutorial
-
-Head to [Hack Cabin](https://hackcabin.com) for a **production example** of which the [site architecture](https://hackcabin.com/post/initial-commit/) can be recreated using a [step-by-step guide](https://go.habd.as/zero-to-http-2). And while you're looking at example sites, check out [a few others](https://git.habd.as/comfusion/after-dark/wiki/) for even more inspiration.
-
 ## Getting Started
 
-First [Install Hugo](https://gohugo.io/#action) and, optionally, [elinks](http://elinks.or.cz/) on your machine. Instructions for installing both using [Homebrew](https://brew.sh/) on macOS:
+First [Install Hugo](https://gohugo.io/getting-started/installing) and, optionally, [elinks] on your machine. Instructions for installing both using [Homebrew](https://brew.sh/) on macOS:
 
 ```shell
 brew install hugo elinks
 ```
 
-Then run the install script located in `bin/install.sh`, or just paste this into a terminal and press <kbd>Enter</kbd>:
+Then run the install script located in `bin/install`, or just paste this into a terminal and press <kbd>Enter</kbd>:
 
 ```shell
-curl -s https://git.habd.as/comfusion/after-dark/raw/branch/master/bin/install.sh | sh
+curl -s https://git.habd.as/comfusion/after-dark/raw/branch/master/bin/install | bash
 ```
 
 Installation should complete in a matter of seconds.
 
 ## Customizing
+
+### Module System
+
+After Dark uses Hugo [Theme Components](https://gohugo.io/themes/theme-components/) to provide optional add-on modules. Each module is packaged as an NPM module for convenience. A summary of available modules can be found in the following table.
+
+Module Name | Latest Version | Description
+---|---|---
+[Fractal Forest] | [![Latest NPM version](https://img.shields.io/badge/dynamic/json.svg?url=https://git.habd.as/comfusion/fractal-forest/raw/branch/master/package.json&label=vers&query=$.version&colorB=000000&style=for-the-badge&longCache=true&maxAge=86400)](https://git.habd.as/comfusion/fractal-forest.git) | Better Portable Graphics
+[Voyeur] | [![Latest NPM version](https://img.shields.io/badge/dynamic/json.svg?url=https://git.habd.as/comfusion/voyeur/raw/branch/master/package.json&label=vers&query=$.version&colorB=000000&style=for-the-badge&longCache=true&maxAge=86400)](https://git.habd.as/comfusion/voyeur.git) | Simple, trustworthy website analytics
 
 ### Section Menu
 
@@ -548,16 +574,20 @@ Once updated take a look at the 404 page, `theme-color.html` partial, and add an
 
 #### Custom Styles
 
-Customize theme styles without forking using Hugo's inbuilt [Partial Templates](https://gohugo.io/templates/partials/). To get started:
+Easily add and customize styles without modifying the theme simply by overriding styles in your site. To get started:
 
 1. Create a file named `custom.css` in your site's `assets/css` directory. If the directory does not exist yet, simply create it.
-2. Add your custom styles inside the file.
+2. Add your custom styles inside the file and rebuild your site.
 
-**Note:** After Dark ships with some example customizations. If you would like to keep these copy the styles from the theme's `custom.css` file into your site's `custom.css` after creating it.
+**Note:** After Dark ships with some example customizations. If you would like to keep these, copy the styles from the theme's version of `custom.css` into your site-level `custom.css` file after creating it.
 
 Example customizations:
 
 ```css
+canvas {
+  margin: auto;
+  display: block;
+}
 figure {
   margin-left: auto;
   margin-right: auto;
@@ -574,7 +604,7 @@ figure a:hover {
 }
 ```
 
-Styles are inlined into the `head` of each page. If you with to link to an external stylesheet, override the `partials/global-styles.html` template, modeling from the theme's version of the file, and make any adjustments you see fit.
+Custom styles will be automatically be concatenated into a `style` element in the document `head` along with theme and vendor styles. See the [Asset Bundling](https://gohugo.io/hugo-pipes/bundling/) section of the [Hugo Pipes](https://gohugo.io/hugo-pipes/) documentation for a better understanding of how this works.
 
 #### Favicon
 
@@ -591,3 +621,6 @@ terms of the Do What The Fuck You Want To Public License, Version 2,
 as published by Sam Hocevar. See the COPYING file for more details.
 
 [lazysizes]: https://github.com/aFarkas/lazysizes
+[elinks]: http://elinks.or.cz/
+[Fractal Forest]: https://git.habd.as/comfusion/fractal-forest
+[Voyeur]: https://git.habd.as/comfusion/voyeur

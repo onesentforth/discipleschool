@@ -1,5 +1,5 @@
 +++
-title = "The 'End' Game: End-time Theories and the End of Our Credibility"
+title = "The 'End' Game: End-times and the End of Our Credibility"
 description = "No matter how many times you guess about when the world will end, you can only ever be correct one time. So what is there to gain from all this guessing? What's the point?"
 author = "Jason West"
 date = "2018-07-22"
