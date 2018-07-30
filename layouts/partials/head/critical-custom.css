@@ -332,3 +332,7 @@ figure a:hover {
     margin-left: 20px;
     margin-top: 6px;
 }
+
+div.homepage-content img{
+  margin-top: -25px;
+}

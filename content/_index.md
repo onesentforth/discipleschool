@@ -16,7 +16,8 @@ keywords = [
   ]
 +++
 
-<img src="images/JASON-RED-768x354.jpg" class="blur-up lazyautosizes lazyloaded" width="100%">
+<!-- <img src="bpg/jason-red-768x432.bpg" class="blur-up lazyautosizes lazyloaded" width="100%"> -->
+<img src="images/jason-red-768x432.jpg" class="blur-up lazyautosizes lazyloaded" width="100%">
 
 # Becoming and Producing Disciples of Jesus Christ
 
