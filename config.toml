@@ -33,9 +33,9 @@ keywords = [
 [params]
   author = "Jason West"
   description = "Hey, my name is Jason West. Disciple School is my platform for creating content and resources designed to help others become and produce true disciples of Jesus Christ."
-  #images = [
-  #  "https://source.unsplash.com/user/onesentforth/likes"
-  #]
+  images = [
+    "images/jason-red-tritone-16x9.jpg"
+  ]
 
 [social]
   facebook = "seeksavesend"
