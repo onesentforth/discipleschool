@@ -1,6 +1,6 @@
 +++
 title = "Disciple School"
-description = "Hey, my name is Jason West. Disciple School is my platform for creating content and resources designed to help you become and produce true disciples of Jesus Christ."
+description = "Hey, my name is Jason West. Disciple School will help you become and produce true disciples of Jesus Christ."
 author = "Jason West"
 date = ""
 lastmod = ""
