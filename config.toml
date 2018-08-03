@@ -32,6 +32,7 @@ keywords = [
 
 [params]
   author = "Jason West"
+  creator = "Jason West"
   description = "Hey, my name is Jason West. Disciple School is my platform for creating content and resources designed to help others become and produce true disciples of Jesus Christ."
   images = [
     "images/jason-red-tritone-16x9.jpg"
