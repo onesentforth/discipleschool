@@ -255,7 +255,8 @@ figure a:hover {
 }
 
 .hack h1[itemprop="headline"] {
-  font-family: 'Liberation Mono';
+  /*font-family: 'Liberation Mono';*/
+  font-family: klinic,Consolas,Andale Mono,Rockwell,Courier,sans-serif;
   font-weight: 300;
   margin-top: 0px;
   margin-bottom: 5px;
