@@ -11,6 +11,8 @@ keywords = [
   "bible study",
   "discipling",
   "disciple",
+  "disciple school",
+  "discipleschool",
   "disciples",
   "discipleship",
   "disciple making",
@@ -32,7 +34,7 @@ keywords = [
 
 [params]
   author = "Jason West"
-  description = "Hey, my name is Jason West. Disciple School will help you become and produce true disciples of Jesus Christ."
+  description = "Disciple School will help you become and produce true disciples of Jesus Christ."
   images = [
     "images/jason-red-tritone-16x9.jpg"
   ]
@@ -41,8 +43,8 @@ keywords = [
   facebook = "seeksavesend"
   twitter = "seeksavesend"
 
-[params.seo]
-  telegram_channel = "discipleschool" # omit the `@`
+#[params.seo]
+#  telegram_channel = "discipleschool" # omit the `@`
 
 [params.seo.webmaster_verifications]
   google = "google33bb9c8df9b14443.html" # Optional, Google verification code
