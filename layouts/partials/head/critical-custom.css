@@ -268,8 +268,10 @@ figure a:hover {
     display: block;
     margin-left: 30px;
     padding-left: 40px;
-    font-size: 18px;
-    line-height: 26px;
+    /*font-size: 18px;
+    /* line-height: 26px;*/
+    font-size: 1.2rem;
+    line-height: 24px;
 }
 
 .hack li:after {
@@ -277,6 +279,7 @@ figure a:hover {
     top: 0;
     left: 0;
     margin-left: 20px;
+    /*margin-top: 6px;*/
 }
 
 .btn-error {
@@ -324,14 +327,6 @@ figure a:hover {
 .hack header p.muted {
     margin-top: -15px;
     font-size: initial;
-}
-
-.hack li:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: 20px;
-    margin-top: 6px;
 }
 
 div.homepage-content img{
