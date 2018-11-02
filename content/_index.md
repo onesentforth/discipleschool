@@ -17,9 +17,9 @@ keywords = [
 +++
 
 <!-- <img src="bpg/jason-red-768x432.bpg" class="blur-up lazyautosizes lazyloaded" width="100%"> -->
-<!-- <img alt class="blur-up lazyautosizes lazyloaded" data-sizes="auto" src="images/jason-red-tritone-16x9.jpg" width="100%"> -->
-<!-- responsive with automatic sizes calculation -->
-<img data-sizes="auto" data-src="images/jason-red-tritone-16x9.jpg" data-srcset="jason-red-tritone-16x9.jpg 300w, jason-red-tritone-16x9.jpg 600w, jason-red-tritone-16x9.jpg 900w" class="lazyload" alt="Jason West of Disciple School">
+<img alt class="blur-up lazyautosizes lazyloaded" data-sizes="auto" src="images/jason-red-tritone-16x9.jpg" width="100%">
+<!-- responsive with automatic sizes calculation
+<img data-sizes="auto" data-src="images/jason-red-tritone-16x9.jpg" class="lazyload" alt="Jason West of Disciple School"> -->
 
 # Becoming and Producing Disciples of Jesus Christ
 
