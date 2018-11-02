@@ -1,87 +1,100 @@
 # After Dark
 
-> A deceptively simple dark theme for [Hugo].
+> After Dark is a hypermedia authoring toolkit built with Hugo designed to create the world's fastest, most scalable websites imaginable.
 
 [![Latest NPM version](https://img.shields.io/npm/v/after-dark.svg?style=flat-square)](https://www.npmjs.com/package/after-dark)
 [![Monthly downloads](https://img.shields.io/npm/dm/after-dark.svg?style=flat-square)](https://www.npmjs.com/package/after-dark)
 [![Minimum Hugo version](https://img.shields.io/badge/hugo->%3D%200.44-FF4088.svg?style=flat-square)](https://gohugo.io)
-[![Keybase profile](https://img.shields.io/badge/pm-keybase-4c8eff.svg?style=flat-square&longCache=true)](https://keybase.io/jhabdas)
-[![Telegram chat](https://img.shields.io/badge/chat-telegram-32AFED.svg?style=flat-square&longCache=true)][1]
 [![WTFPL licensed](https://img.shields.io/npm/l/after-dark.svg?style=flat-square&longCache=true)](https://git.habd.as/comfusion/after-dark/src/branch/master/COPYING)
-
-![After Dark screenshots](https://git.habd.as/comfusion/after-dark/raw/branch/master/images/docs/minimal-mac.png)
-
-## About
-
-After Dark is a Hugo theme for bloggers, journalists and technology enthusiasts. It is an original work created to preserve the aesthetic and simplicity of hobbiest websites created during the mid- to late-1990’s. The theme includes an inbuilt search engine, portable quick installer, online help and optional plug-in modules to enhance functionality. Use it online or off to create anything from an indie microblog to a visually stunning photojournal.
-
-## Demo
-
-Visit [Hack Cabin](https://hackcabin.com) for a live example [you can recreate](https://go.habd.as/zero-to-http-2).
+[![Telegram chat](https://img.shields.io/badge/chat-telegram-32AFED.svg?style=flat-square&longCache=true)](https://t.me/comfusion)
+[![Keybase profile](https://img.shields.io/badge/pm-keybase-4c8eff.svg?style=flat-square&longCache=true)](https://keybase.io/jhabdas)
 
 ## Features
 
-See what's included or [jump ahead](#getting-started) to get started.
+- [Web Mining](https://after-dark.habd.as/#feature-mining)
+- [Unreal Graphics](https://after-dark.habd.as/#feature-graphics)
+- [Ludicrous Speed](https://after-dark.habd.as/#feature-speed)
+- [Fully Customizable](https://after-dark.habd.as/#feature-customize)
+- [Offline Search](https://after-dark.habd.as/#feature-search)
+- [Securely Designed](https://after-dark.habd.as/#feature-security)
 
-<details>
-<summary>Feature Overview</summary>
+And a lot more. Visit [after-dark.habd.as](https://after-dark.habd.as) to get a feel for what's possible.
 
-Feature | Summary
---------|--------
-Quick Installer | One command is all you need to get started with After Dark.
-Online Help | Learn to use the theme with convenient help from within your site.
-Module System | Add functionality with prebuilt modules designed to compliment your site.
-Section Menu | Display a contextual site-wide navigation with links to content.
-Display Variants | Customize look-and-feel with one of eight included display variations.
-Custom Styles | Add to, adjust or disable theme styles for complete design control.
-Trim Color | Define the color used to display borders around your site.
-SVG Favicon | Push browser standards forward by decorating your site with an SVG favicon.
-Fuzzy Search | Find and share indexable content anywhere on your site. No registration required.
-Code Highlighter | Highlight code in over 160 languages without requiring JavaScript.
-Post Images | Add graphics to your posts without touching an image editor.
-Lazy Loading | Boost page speed and save bandwidth by deferring assets you define.
-Social Engagement | Share links to your site with large images on Facebook, Twitter, Telegram and more.
-Search Optimization | Give crawlers rich information about your site structure and content.
-Modification Dating | Recently updated content is flagged and made more discoverable to readers.
-Index Blocking | Hide pages from search engines without modifying robots.txt.
-Referrer Policy | Help protect your visitors from nosy neighbors with a simple site-wide policy.
-Snippets | Display alerts, cards, progress indicators and easily build great-looking forms.
-Related Content | Display links to relevant content below blog posts automatically.
-Table of Contents | Create collapsable content summaries with deep link and smooth-scroll support.
-Error Page | Entertain users when errors occur by giving them a glimpse inside the machine.
-</details>
+## Screenshots
+
+<table role="presentation">
+  <tr>
+    <td>
+      <a target="_blank" href="https://after-dark.habd.as/images/screenshots/example-landing-page-fs8.png">
+        <img alt="Example Landing Page screenshot" src="https://after-dark.habd.as/images/screenshots/example-landing-page-fs8.png">
+      </a>
+    </td>
+    <td>
+      <a target="_blank" href="https://after-dark.habd.as/images/screenshots/feature-online-help-fs8.png">
+        <img alt="Online Help screenshot" src="https://after-dark.habd.as/images/screenshots/feature-online-help-fs8.png">
+      </a>
+    </td>
+    <td>
+      <a target="_blank" href="https://after-dark.habd.as/images/screenshots/feature-error-page-fs8.png">
+        <img alt="Error Page screenshot" src="https://after-dark.habd.as/images/screenshots/feature-error-page-fs8.png">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <th scope="col">Landing Page Example</th>
+    <th scope="col">Online Help</th>
+    <th scope="col">Error Page</th>
+  </tr>
+</table>
+
+<table role="presentation">
+  <tr>
+    <td>
+      <a target="_blank" href="https://after-dark.habd.as/images/screenshots/module-toxic-swamp-fs8.png">
+        <img alt="Webmining screenshot" src="https://after-dark.habd.as/images/screenshots/module-toxic-swamp-fs8.png">
+      </a>
+    </td>
+    <td>
+      <a target="_blank" href="https://after-dark.habd.as/images/screenshots/shortcode-button-fs8.png">
+        <img alt="Form Controls screenshot" src="https://after-dark.habd.as/images/screenshots/shortcode-button-fs8.png">
+      </a>
+    </td>
+    <td>
+      <a target="_blank" href="https://after-dark.habd.as/images/screenshots/extra-high-tea-fs8.png">
+        <img alt="Extras screenshot" src="https://after-dark.habd.as/images/screenshots/extra-high-tea-fs8.png">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <th scope="col">Webmining</th>
+    <th scope="col">Form Controls</th>
+    <th scope="col">Extras</th>
+  </tr>
+</table>
 
 ## Getting Started
 
-Satisfy the requirements, run the quick installer and go live with a single command.
+Please [Install Hugo](https://gohugo.io/getting-started/installing) `0.44` or greater before getting started.
 
-### Requirements
+### Installation
 
-After Dark requires Hugo `0.44` or later. Before running the quick installer please [install Hugo](https://gohugo.io/getting-started/installing).
+For scripted installation please use [Quick Install](https://after-dark.habd.as/feature/quick-install/). Otherwise download a copy and:
 
-### Quick Installer
-
-Then run the quick installer located at [`bin/install`](https://git.habd.as/comfusion/after-dark/src/branch/master/bin/install), or just paste this into a POSIX terminal and press <kbd>Enter</kbd>:
-
-```shell
-wget -qO - https://go.habd.as/after-dark | sh
+```sh
+hugo serve --theme after-dark
 ```
 
-Installation should complete in a matter of seconds resulting in a functional offline website ready to go live.
+### Upgrading
 
-### Go Live
+Run the [Upgrade Script](https://after-dark.habd.as/feature/upgrade-script/) anytime to check for updates and automatically upgrade to the latest version.
 
-Serve your site online with end-to-end encryption using [Serveo], no sign-up required:
+### Verifying
 
-```
-hugo serve --disableLiveReload & ssh -R 80:localhost:1313 serveo.net
-```
+If installed or upgraded via script you may use the [Release Validator](https://after-dark.habd.as/validate/) to verify you're running a PGP-signed and SHA-verified release.
 
-Once started press `g` for traffic inspection, or quit to go offline and use `fg` to return to `hugo`. Install [dropbear] or [openssh] if you need `ssh`.
+### Help
 
-## Upgrading
-
-To check for theme updates and automatically upgrade to the latest version simply run `./theme/after-dark/bin/upgrade` from your site directory. This feature requires you install After Dark starting with `v6.7.5`. If you installed from an earlier version simply follow the steps [listed here](https://git.habd.as/comfusion/after-dark/commit/6415250769c9c78338893f98b5ab9b77968053f7).
+Complete [Online Help](https://after-dark.habd.as/feature/online-help/) included in the `/docs` directory.
 
 ## License
 
@@ -93,10 +106,4 @@ as published by Sam Hocevar. See the COPYING file for more details.
 
 ## Acknowledgements
 
-Thanks to Steve Francia for creating Hugo. Thanks to エゴイスト for creating hackcss. Thanks to Dan Klammer for the SVG icons. Thanks to Simon Fremaux for the groovy 404 background animation. And thanks to Vincent Prouillet for creating an After Dark [port for Gutenberg](https://www.getgutenberg.io/themes/after-dark/).
-
-[1]: https://t.me/joinchat/Iw_6FEhmKL9sPUAukX9jzg
-[Hugo]: https://gohugo.io/
-[Serveo]: https://serveo.net
-[dropbear]: https://matt.ucc.asn.au/dropbear/dropbear.html
-[openssh]: https://www.openssh.com
+Thanks to Steve Francia for creating Hugo, エゴイスト for creating hackcss, Dan Klammer for the SVG icons, Simon Fremaux for the groovy 404 background animation and Vincent Prouillet for [porting After Dark to Gutenberg](https://www.getgutenberg.io/themes/after-dark/).

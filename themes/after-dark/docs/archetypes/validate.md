@@ -25,12 +25,12 @@ noindex = true
   {{< /hackcss-formgroup >}}
 {{< /hackcss-form >}}
 
-<small>Valid installations use the [Quick Installer](/feature/quick-installer) or [Upgrade Script](/feature/upgrade-script) and may be checked offline. See [Release Hashes](/feature/release-hashes) for a more thorough approach to validation.</small>
+<small>Valid installations use the [Quick Install](/feature/quick-install) or [Upgrade Script](/feature/upgrade-script) and may be checked offline. See [Release Hashes](/feature/release-hashes) for a more thorough approach to validation.</small>
 
 <script>
   (function (window, document, undefined) {
     "use strict";
-    const digest = '{{ strings.TrimLeft "sha512-" .Site.Data.npm.latest.dist.integrity }}';
+    const digest = '{{ strings.TrimPrefix "sha512-" .Site.Data.npm.latest.dist.integrity }}';
     const confirm = form => {
       form.digest.readOnly = true;
       form.digest.value = digest;

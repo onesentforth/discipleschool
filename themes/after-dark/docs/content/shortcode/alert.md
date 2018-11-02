@@ -3,10 +3,28 @@ title = "Alert"
 description = "Display contextual alert messages and dialogs."
 categories = ["experience"]
 tags = ["alert", "dialog", "message", "advertisement"]
-html_attributes = []
+html_attributes = ['class']
 custom_attributes = ["type", "text"]
 snippets_used = ["alert", "card", "external", "button", "button group", "progress"]
 +++
+
+<style>.margin-reset { margin: 0; }</style>
+{{< hackcss-card header="Quick Example" >}}
+  {{< hackcss-alert type="info" class="margin-reset" >}}
+    {{< hackcss-button
+      type="primary" text="Toggle"
+      onclick="this.parentElement.classList.toggle('alert')"
+    />}} alert styling.
+  {{< /hackcss-alert >}}
+{{< highlight html "linenos=inline" >}}
+{{</* hackcss-alert type="info" >}}
+  {{< hackcss-button
+    type="primary" text="Toggle"
+    onclick="this.parentElement.classList.toggle('alert')"
+  />}} alert styling.
+{{< /hackcss-alert */>}}
+{{< /highlight >}}
+{{< /hackcss-card >}}
 
 Default with plain text and hidden comment:
 

@@ -1,5 +1,5 @@
-#baseURL = "http://localhost:1313/"
-baseURL = "https://discipleschool.com/"
+baseURL = "http://localhost:1313/"
+#baseURL = "https://discipleschool.com/"
 languageCode = "en-us"
 title = "Disciple School"
 theme = "after-dark"
@@ -43,8 +43,9 @@ keywords = [
   facebook = "seeksavesend"
   twitter = "seeksavesend"
 
-#[params.seo]
-#  telegram_channel = "discipleschool" # omit the `@`
+[params.seo]
+# telegram_channel = "discipleschool" # omit the `@`
+  disable_bpg = true # Disable BPG image support
 
 [params.seo.webmaster_verifications]
   google = "google33bb9c8df9b14443.html" # Optional, Google verification code
@@ -66,8 +67,3 @@ keywords = [
   weight = 2
   identifier = "post"
   url = "/post/"
-[[menu.main]]
-  name = "Search"
-  weight = 3
-  identifier = "search"
-  url = "/search/"

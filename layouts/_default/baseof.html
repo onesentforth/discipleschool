@@ -36,7 +36,7 @@
     {{ partial "head/favicon.html" . }}
     {{ partial "global-styles.html" . }}
     {{ partial "async-scripts.html" . }}
-    <script src="/js/baffle.min.js"></script>
+    <!-- <script src="/js/baffle.min.js"></script> -->
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
   </head>
   {{ $theme_variant := .Site.Params.theme_variant | default "hack dark" }}
@@ -46,14 +46,14 @@
     <footer>
 <img style="float:left; margin-right:20px;" src="{{ .Site.BaseURL }}images/osf-logo2.svg" height="5%" width="5%">
       {{ block "footer" . }}{{ end }}
-      <script>
+      <!-- DISABLED <script>
         baffle('header h1')
           .start()
           .set({
               speed: 50
           })
           .reveal(1500, 1500);
-      </script>
+      </script> -->
 
     </footer>
   </body>

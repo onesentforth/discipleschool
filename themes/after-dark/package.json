@@ -1,7 +1,7 @@
 {
   "name": "after-dark",
-  "version": "6.10.0",
-  "description": "Hypermedia authoring system for Hugo.",
+  "version": "6.13.3",
+  "description": "After Dark is a hypermedia authoring toolkit built with Hugo designed to create the world's fastest, most scalable websites imaginable.",
   "author": "Josh Habdas <jhabdas@protonmail.com>",
   "keywords": [
     "hugo",
@@ -43,7 +43,8 @@
     "smoothscroll-polyfill": "^0.4.3",
     "vue": "^2.5.16",
     "lodash-cli": "^4.17.5",
-    "standard-version": "^4.4.0"
+    "standard-version": "^4.4.0",
+    "toxic-swamp": "git+ssh://git@git.habd.as/comfusion/toxic-swamp.git#v0.1.0-alpha.0"
   },
   "license": "WTFPL"
 }
