@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Disciple School</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/tags/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Church Model</title>
@@ -17,6 +26,15 @@
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/church-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comunications</title>
+      <link>http://localhost:1313/tags/comunications/</link>
+      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/comunications/</guid>
       <description></description>
     </item>
     
@@ -66,11 +84,38 @@
     </item>
     
     <item>
+      <title>Internet</title>
+      <link>http://localhost:1313/tags/internet/</link>
+      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/internet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Irvin Baxter</title>
       <link>http://localhost:1313/tags/irvin-baxter/</link>
       <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/irvin-baxter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile</title>
+      <link>http://localhost:1313/tags/mobile/</link>
+      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>http://localhost:1313/tags/network/</link>
+      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/network/</guid>
       <description></description>
     </item>
     

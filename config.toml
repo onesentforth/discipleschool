@@ -67,3 +67,14 @@ keywords = [
   weight = 2
   identifier = "post"
   url = "/post/"
+#[[menu.main]]
+#  name = "Book Reviews"
+#  weight = 3
+#  identifier = "books"
+#  url = "/books/"
+
+#[[menu.main]]
+#  name = "Search"
+#  weight = 3
+#  identifier = "search"
+#  url = "/search/"

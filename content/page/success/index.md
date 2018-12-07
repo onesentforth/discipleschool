@@ -1,6 +1,6 @@
 +++
 title = "Thanks for Subscribing"
-description = "Thanks for subscribing tovthe Disciple School email list"
+description = "Thanks for subscribing to the Disciple School email list"
 author = "Jason West"
 date = ""
 lastmod = ""
@@ -12,8 +12,6 @@ noindex = true
   name = "header"
   src = "img/.jpg"
 +++
-
-Thanks for subscribing!
 
 Catch up on some of our most [recent posts](../../post/).
 

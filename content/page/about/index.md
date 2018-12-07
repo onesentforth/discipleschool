@@ -1,7 +1,7 @@
 +++
 title = "About"
 date = 2018-03-16
-description = "This is the about page"
+description = "About Jason West and Disciple School"
 draft = true
 menu = "main"
 weight = 3

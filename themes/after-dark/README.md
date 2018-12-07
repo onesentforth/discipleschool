@@ -1,6 +1,6 @@
 # After Dark
 
-> After Dark is a hypermedia authoring toolkit built with Hugo designed to create the world's fastest, most scalable websites imaginable.
+> After Dark is privacy-focused hypermedia authoring system designed to amplify the world's most influential voices.
 
 [![Latest NPM version](https://img.shields.io/npm/v/after-dark.svg?style=flat-square)](https://www.npmjs.com/package/after-dark)
 [![Monthly downloads](https://img.shields.io/npm/dm/after-dark.svg?style=flat-square)](https://www.npmjs.com/package/after-dark)
@@ -12,13 +12,13 @@
 ## Features
 
 - [Web Mining](https://after-dark.habd.as/#feature-mining)
-- [Unreal Graphics](https://after-dark.habd.as/#feature-graphics)
+- [Advanced Graphics](https://after-dark.habd.as/#feature-graphics)
+- [Fuzzy Search](https://after-dark.habd.as/#feature-search)
 - [Ludicrous Speed](https://after-dark.habd.as/#feature-speed)
-- [Fully Customizable](https://after-dark.habd.as/#feature-customize)
-- [Offline Search](https://after-dark.habd.as/#feature-search)
+- [Easily Customized](https://after-dark.habd.as/#feature-customize)
 - [Securely Designed](https://after-dark.habd.as/#feature-security)
 
-And a lot more. Visit [after-dark.habd.as](https://after-dark.habd.as) to get a feel for what's possible.
+Visit the [Online Help](https://after-dark.habd.as) docs to learn
 
 ## Screenshots
 
@@ -94,7 +94,7 @@ If installed or upgraded via script you may use the [Release Validator](https://
 
 ### Help
 
-Complete [Online Help](https://after-dark.habd.as/feature/online-help/) included in the `/docs` directory.
+[Online Help](https://after-dark.habd.as/feature/online-help/) may be served locally with `hugo --source themes/after-dark/docs` upon installation and hosted online at after-dark.habd.as. WYSIWYG.
 
 ## License
 
@@ -106,4 +106,4 @@ as published by Sam Hocevar. See the COPYING file for more details.
 
 ## Acknowledgements
 
-Thanks to Steve Francia for creating Hugo, エゴイスト for creating hackcss, Dan Klammer for the SVG icons, Simon Fremaux for the groovy 404 background animation and Vincent Prouillet for [porting After Dark to Gutenberg](https://www.getgutenberg.io/themes/after-dark/).
+Thanks to Steve Francia for creating the Hugo logo, エゴイスト for hackcss, Dan Klammer for the bytesized SVG icons, Alexander Farkas for killing it with lazySizes, Simon Fremaux for such a groovy 404 background animation and Vincent Prouillet for the [Gutenberg port](https://www.getgutenberg.io/themes/after-dark/).
