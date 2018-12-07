@@ -7,6 +7,7 @@ lastmod = ""
 keywords = ["comunications", "internet", "mobile", "network"]
 categories = [""]
 tags = ["comunications", "internet", "mobile", "network"]
+summary = "There are almost 4 billion people using the internet! What would the Apostle Paul have done if he could've communicated with 4 billion people with such little difficulty? What could you and I be doing to reach the masses?"
 [[resources]]
   name = "header"
   src = "img/image-name.jpg"
@@ -14,7 +15,7 @@ tags = ["comunications", "internet", "mobile", "network"]
 
 I just read that [More than half of global population now online: UN](https://sg.news.yahoo.com/more-half-global-population-now-115946999.html)
 
-HIghlights from the article:
+Highlights from the article:
 
 * According to the UN, 3.9 billion people are now using the Internet, meaning that for the first time more than half of the global population is online.
 
@@ -27,7 +28,7 @@ HIghlights from the article:
 * Nearly the entire world population, a full 96 percent, now lives within reach of a mobile cellular network, and 90 percent of people can access the Internet through a 3G or higher speed network.
 
 
-Whenever I hear stats like these, I can't help but think about the amazing opportunities to share the gospel. There are almost 4 billion people using the internet! What would the Apostle Paul have done if he could've communicated with 4 billion people with relative little difficulty? What could you and I be doing to reach the masses?
+Whenever I hear stats like these, I can't help but think about the amazing opportunities to share the gospel. There are almost 4 billion people using the internet! What would the Apostle Paul have done if he could've communicated with 4 billion people with such little difficulty? What could you and I be doing to reach the masses?
 
 * Start a blog. There are lots of free options:
   * [Wordpress](http://www.wordpress.org)
