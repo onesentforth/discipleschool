@@ -1,12 +1,13 @@
 +++
 title = "Learning in Public"
-description = ""
+description = "I need to be willing to bring people into the process that goes on behind the scenes. Show people how I get ideas. The idea is to allow the audience to follow along as I try to figure out how to make disciples of Jesus."
 author = "Jason West"
 date = "2018-12-14"
 lastmod = ""
 keywords = ["disciple", "disciples", "sharing", "ideas"]
 categories = ["blog management"]
 tags = ["process"]
+summary = "What if I started using this website as a publicly-accessible filing cabinet of thoughts and ideas that have stuck with me from the books and articles I've recently read? That might cause me to stop thinking of each post as something that needs to be well-structured, and to start thinking of each post as simply a new scrap of paper or index card with another idea or quote that I want to keep."
 [[resources]]
   name = "header"
   src = "img/filing-cabinet.jpg"
