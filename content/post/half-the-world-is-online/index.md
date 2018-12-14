@@ -5,7 +5,7 @@ author = "Jason West"
 date = "2018-12-07"
 lastmod = ""
 keywords = ["comunications", "internet", "mobile", "network"]
-categories = [""]
+categories = ["evangelism"]
 tags = ["comunications", "internet", "mobile", "network"]
 summary = "There are almost 4 billion people using the internet! What would the Apostle Paul have done if he could've communicated with 4 billion people with such little difficulty? What could you and I be doing to reach the masses?"
 [[resources]]

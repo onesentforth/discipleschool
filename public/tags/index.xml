@@ -2,138 +2,147 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Disciple School</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://discipleschool.com/tags/</link>
     <description>Recent content in Tags on Disciple School</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://discipleschool.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://localhost:1313/tags/</link>
+      <link>https://discipleschool.com/tags/</link>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/</guid>
+      <guid>https://discipleschool.com/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Church Model</title>
-      <link>http://localhost:1313/tags/church-model/</link>
+      <link>https://discipleschool.com/tags/church-model/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/church-model/</guid>
+      <guid>https://discipleschool.com/tags/church-model/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Comunications</title>
-      <link>http://localhost:1313/tags/comunications/</link>
+      <link>https://discipleschool.com/tags/comunications/</link>
       <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/comunications/</guid>
+      <guid>https://discipleschool.com/tags/comunications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Content Strategy</title>
-      <link>http://localhost:1313/tags/content-strategy/</link>
+      <link>https://discipleschool.com/tags/content-strategy/</link>
       <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/content-strategy/</guid>
+      <guid>https://discipleschool.com/tags/content-strategy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Crisis</title>
-      <link>http://localhost:1313/tags/crisis/</link>
+      <link>https://discipleschool.com/tags/crisis/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/crisis/</guid>
+      <guid>https://discipleschool.com/tags/crisis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Discipleship</title>
-      <link>http://localhost:1313/tags/discipleship/</link>
+      <link>https://discipleschool.com/tags/discipleship/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/discipleship/</guid>
+      <guid>https://discipleschool.com/tags/discipleship/</guid>
       <description></description>
     </item>
     
     <item>
       <title>End Time</title>
-      <link>http://localhost:1313/tags/end-time/</link>
+      <link>https://discipleschool.com/tags/end-time/</link>
       <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/end-time/</guid>
+      <guid>https://discipleschool.com/tags/end-time/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eschatology</title>
-      <link>http://localhost:1313/tags/eschatology/</link>
+      <link>https://discipleschool.com/tags/eschatology/</link>
       <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/eschatology/</guid>
+      <guid>https://discipleschool.com/tags/eschatology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Internet</title>
-      <link>http://localhost:1313/tags/internet/</link>
+      <link>https://discipleschool.com/tags/internet/</link>
       <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/internet/</guid>
+      <guid>https://discipleschool.com/tags/internet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Irvin Baxter</title>
-      <link>http://localhost:1313/tags/irvin-baxter/</link>
+      <link>https://discipleschool.com/tags/irvin-baxter/</link>
       <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/irvin-baxter/</guid>
+      <guid>https://discipleschool.com/tags/irvin-baxter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mobile</title>
-      <link>http://localhost:1313/tags/mobile/</link>
+      <link>https://discipleschool.com/tags/mobile/</link>
       <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/mobile/</guid>
+      <guid>https://discipleschool.com/tags/mobile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Network</title>
-      <link>http://localhost:1313/tags/network/</link>
+      <link>https://discipleschool.com/tags/network/</link>
       <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/network/</guid>
+      <guid>https://discipleschool.com/tags/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>https://discipleschool.com/tags/process/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://discipleschool.com/tags/process/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Prophecy</title>
-      <link>http://localhost:1313/tags/prophecy/</link>
+      <link>https://discipleschool.com/tags/prophecy/</link>
       <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/prophecy/</guid>
+      <guid>https://discipleschool.com/tags/prophecy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Social Media</title>
-      <link>http://localhost:1313/tags/social-media/</link>
+      <link>https://discipleschool.com/tags/social-media/</link>
       <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/social-media/</guid>
+      <guid>https://discipleschool.com/tags/social-media/</guid>
       <description></description>
     </item>
     
