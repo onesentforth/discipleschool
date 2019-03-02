@@ -121,7 +121,7 @@ Basically, if you can become better at it, it's considered an art.
 
 An art can be any activity in which one can improve her skills by studying, observing or practicing. Becoming a disciple certainly involves all of those activities. In fact, as we discover more about the rabbi-disciple relationship being modeled in Jesus' day, it will become clear that those are some of the primary activities required of a disciple. Studying the Scripture. Observing the words and actions of the rabbi. And then putting the rabbi's words and activity into personal practice.
 
-Interestingly, the Greek word used for “disciple” in the New Testament is *mathetes* (pronounced moth-ay-tayce') and its root, “math-“ (as in "***math***ematics") means the “mental **effort** needed to think something through“. *Mathetes* is also derived from *manthano* which "carries the connotation of **intentional learning** by inquiry and observation."
+Interestingly, the Greek word used for “disciple” in the New Testament is *mathetes* (pronounced moth-ay-tayce') and its root, “math-“ (as in "***math***-ematics") means the “mental **effort** needed to think something through“. *Mathetes* is also derived from *manthano* which "carries the connotation of **intentional learning** by inquiry and observation."
 
 In that case, becoming a disciple of another person is, by definition, an art. And so too, making disciples would definitely qualify as an art.
 

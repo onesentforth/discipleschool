@@ -1,7 +1,7 @@
 +++
 title = "Quick Install"
 description = "One command is all you need to start a new website."
-categories = ["experience"]
+categories = ["core"]
 tags = ["setup", "installation", "scripts"]
 features = ["code highlighter", "snippets", "related content"]
 notes = [
@@ -15,34 +15,44 @@ aliases = [
 
 After Dark includes a portable installation script for quick set-up:
 
-<style>.card-content .inner { overflow: scroll; max-height: 30em; }</style>
 {{< hackcss-card header="themes/after-dark/bin/install" >}}
-<details>
+<style>.card-content .inner { overflow: scroll; max-height: 30em; }</style>
+<details itemscope itemtype="https://schema.org/SoftwareSourceCode">
 <summary>Expand to view script</summary>
-{{< highlight shell "linenos=inline" >}}
+{{< highlight sh "linenos=inline" >}}
 {{< include "themes/after-dark/bin/install" >}}
 {{< /highlight >}}
+<link itemprop="codeRepository" href="https://git.habd.as/comfusion/after-dark">
+<meta itemprop="codeSampleType" content="script">
+<meta itemprop="programmingLanguage" content="sh">
+<meta itemprop="runtimePlatform" content="busybox">
+<link itemprop="targetProduct" href="https://after-dark.habd.as">
+<meta itemprop="accessMode" content="textual">
 </details>
 {{< /hackcss-card >}}
 
 Please install {{< external href="https://gohugo.io" text="Hugo" />}} `0.44` or greater before running the script.
 
+<!--more-->
+
 Script has been tested on Debian, BusyBox and Darwin, and should also work under Alpine, Ubuntu, Docker and Windows via {{< external href="http://cmder.net" text="Cmder" />}} without additional dependencies.
+
+{{% hackcss-alert type="warning" %}}**Warning:** Always examine scripts downloaded from the internet before running them locally. If you'd prefer not to run the script [Download Manually](/#download).{{% /hackcss-alert %}}
 
 Run the script however you like. Here are three possible methods:
 
-2. Download and pipe to `sh` directly:
+1. Download and pipe to `sh` directly:
 
     {{< hackcss-alert >}}
     {{< highlight shell >}}wget -qO - https://go.habd.as/after-dark | sh{{< /highlight >}}
     {{< /hackcss-alert >}}
 
-    <i>(Kahones not included.)</i>
+    <i>(Cojones not included.)</i>
 
-1. Download into new file, `chmod` and execute:
+2. Download into new file, `chmod` and execute:
 
     {{< hackcss-alert >}}
-    {{< highlight shell >}}curl -O cdn.jsdelivr.net/npm/after-dark@latest/bin/install && \
+    {{< highlight shell >}}curl -O https://cdn.jsdelivr.net/npm/after-dark@latest/bin/install && \
 chmod +x install && ./install{{< /highlight >}}
     {{< /hackcss-alert >}}
 
@@ -54,15 +64,15 @@ chmod +x install && ./install{{< /highlight >}}
     {{< highlight shell >}}# clone source and change to source directory
 git clone https://git.habd.as/comfusion/after-dark.git && cd "$_"
 
-# use npm cli to get source integrity value
+# use npm cli to get the release hash
 echo "${$(npm run integrity)#*sha512-}"
 
-# run quick install
+# run quick install after validating
 ./bin/install
 {{< /highlight >}}
     {{< /hackcss-alert >}}
 
-    <i>(If you're really paranoid.)</i>
+    <i>(<a href="/feature/release-hashes/">Release Hashes</a> may be used for code validation.)</i>
 
 Script should complete in 5-10 seconds resulting in a sample site and help docs:
 
@@ -72,8 +82,6 @@ Script should complete in 5-10 seconds resulting in a sample site and help docs:
   caption="After Dark Quick Install running to completion in Terminal on macOS Mojave."
 >}}
 
-If you'd prefer not to run the script you can still [Download Manually](/#download) and use [Online Help](../online-help) as an example to get you started.
-
 # Multi-site Configuration
 
 After Dark enables multi-site management from a single installation. To manage multiple websites use the `-c` and `-d` flags to specify the `content` and `destination` directories, respectively
@@ -82,7 +90,7 @@ For example, to generate an audio site using the current After Dark installation
 
 {{< hackcss-card header="flying-toasters/bin/gen-audio-site" >}}
 {{< highlight shell >}}#!/bin/sh
-hugo -c sites/audio -d public/audio.domain.example{{< /highlight >}}
+hugo -c sites/audio -d public/static.domain.example{{< /highlight >}}
 {{< /hackcss-card >}}
 
 Where `audio` contains the content for that site:
@@ -103,7 +111,7 @@ And `public` contains a folder for each site:
 
 ```
 public
-└── audio.balibebas.com
+└── static.domain.example
     ├── categories
     │   └── index.xml
     ├── audiobooks
@@ -119,7 +127,7 @@ public
         └── index.xml
 ```
 
-And create a another script to serve the content for editing:
+And create another script to serve the content for editing:
 
 {{< hackcss-card header="flying-toasters/bin/serve-audio-site" >}}
 {{< highlight shell >}}#!/bin/sh

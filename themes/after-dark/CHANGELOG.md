@@ -2,6 +2,98 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="7.0.3"></a>
+## [7.0.3](https://git.habd.as/comfusion/after-dark/compare/v7.0.2...v7.0.3) (2019-02-12)
+
+
+
+<a name="7.0.2"></a>
+## [7.0.2](https://git.habd.as/comfusion/after-dark/compare/v7.0.1...v7.0.2) (2019-02-12)
+
+
+
+<a name="7.0.1"></a>
+## [7.0.1](https://git.habd.as/comfusion/after-dark/compare/v7.0.0...v7.0.1) (2019-02-10)
+
+
+### Bug Fixes
+
+* **partials/powered-by:** point to expected directory of refactored file ([f32207f](https://git.habd.as/comfusion/after-dark/commits/f32207f))
+
+
+
+<a name="7.0.0"></a>
+# [7.0.0](https://git.habd.as/comfusion/after-dark/compare/v6.16.1...v7.0.0) (2019-02-08)
+
+
+### Bug Fixes
+
+* **assets/css:** normalize base font-size, large screens ([862da61](https://git.habd.as/comfusion/after-dark/commits/862da61))
+
+
+### Features
+
+* **feature/section-menu:** add support for multiple nav menus ([427f9d2](https://git.habd.as/comfusion/after-dark/commits/427f9d2))
+* **feature/table-of-contents:** add native smooth-scroll ([94b13a1](https://git.habd.as/comfusion/after-dark/commits/94b13a1)), closes [#43](https://git.habd.as/comfusion/after-dark/issues/43)
+
+
+### BREAKING CHANGES
+
+* **feature/section-menu:** removes disqus entirely, previously a deprecated feature
+
+
+
+<a name="6.16.1"></a>
+## [6.16.1](https://git.habd.as/comfusion/after-dark/compare/v6.16.0...v6.16.1) (2019-01-24)
+
+
+### Bug Fixes
+
+* **feature/post-images:** fix yandex validation error ([93cc90f](https://git.habd.as/comfusion/after-dark/commits/93cc90f))
+* **feature/post-images:** zap extra whitespaces ([32767d9](https://git.habd.as/comfusion/after-dark/commits/32767d9))
+
+
+
+<a name="6.16.0"></a>
+# [6.16.0](https://git.habd.as/comfusion/after-dark/compare/v6.15.1...v6.16.0) (2019-01-23)
+
+
+### Bug Fixes
+
+* **assets/css:** normalize samp element font size with pre ([c42ccba](https://git.habd.as/comfusion/after-dark/commits/c42ccba))
+* **assets/css:** normalize whitespace around toc when post images present ([c3f37a5](https://git.habd.as/comfusion/after-dark/commits/c3f37a5))
+
+
+### Features
+
+* **feature/fuzzy-search:** add aria landmark to search form ([7a9b75a](https://git.habd.as/comfusion/after-dark/commits/7a9b75a))
+* **feature/post-images:** add image captions and structured data ([41f41e7](https://git.habd.as/comfusion/after-dark/commits/41f41e7))
+* **feature/section-menu:** add support for html link decoration ([7634b42](https://git.habd.as/comfusion/after-dark/commits/7634b42))
+* **shortcodes/external:** add shorthand usage for named anchors ([243d15a](https://git.habd.as/comfusion/after-dark/commits/243d15a))
+
+
+
+<a name="6.15.1"></a>
+## [6.15.1](https://git.habd.as/comfusion/after-dark/compare/v6.15.0...v6.15.1) (2018-12-28)
+
+
+
+<a name="6.15.0"></a>
+# [6.15.0](https://git.habd.as/comfusion/after-dark/compare/v6.14.0...v6.15.0) (2018-12-11)
+
+
+### Bug Fixes
+
+* **assets/theme:** normalize blockquote line-height with rest of document ([20ec883](https://git.habd.as/comfusion/after-dark/commits/20ec883))
+
+
+### Features
+
+* **layouts/shortcodes:** add grid and cell flexbox shortcode & snippet ([5bc322b](https://git.habd.as/comfusion/after-dark/commits/5bc322b)), closes [#67](https://git.habd.as/comfusion/after-dark/issues/67)
+* **layouts/shortcodes:** add select shortcode, docs and example use ([71fff83](https://git.habd.as/comfusion/after-dark/commits/71fff83))
+
+
+
 <a name="6.14.0"></a>
 # [6.14.0](https://git.habd.as/comfusion/after-dark/compare/v6.13.5...v6.14.0) (2018-11-21)
 

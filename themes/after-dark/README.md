@@ -1,6 +1,6 @@
 # After Dark
 
-> After Dark is privacy-focused hypermedia authoring system designed to amplify the world's most influential voices.
+> After Dark is free and open-source software you can use to create a website, blog or app. Utilize the world's fastest framework for building websites and design your entire site right inside the terminal.
 
 [![Latest NPM version](https://img.shields.io/npm/v/after-dark.svg?style=flat-square)](https://www.npmjs.com/package/after-dark)
 [![Monthly downloads](https://img.shields.io/npm/dm/after-dark.svg?style=flat-square)](https://www.npmjs.com/package/after-dark)
@@ -11,64 +11,64 @@
 
 ## Features
 
-- [Web Mining](https://after-dark.habd.as/#feature-mining)
-- [Advanced Graphics](https://after-dark.habd.as/#feature-graphics)
-- [Fuzzy Search](https://after-dark.habd.as/#feature-search)
-- [Ludicrous Speed](https://after-dark.habd.as/#feature-speed)
-- [Easily Customized](https://after-dark.habd.as/#feature-customize)
-- [Securely Designed](https://after-dark.habd.as/#feature-security)
-
-Visit the [Online Help](https://after-dark.habd.as) docs to learn
+- [Streamlined Workflow](https://after-dark.habd.as/#feature-workflow) – cross-platform, 1 dependency, single-codebase
+- [Unparalleled Speed](https://after-dark.habd.as/#feature-speed) – ~0.615s builds, 100-200ms page loads
+- [Advanced Graphics](https://after-dark.habd.as/#feature-graphics) – responsive post images with lqip
+- [Rewards System](https://after-dark.habd.as/#feature-rewards) – monetize attention and earn borderless income
+- [Fuzzy Search](https://after-dark.habd.as/#feature-search) – automatic indexing and no third-parties
+- [Easily Customized](https://after-dark.habd.as/#feature-customize) – change skins, strip styles, create layouts
+- [Securely Designed](https://after-dark.habd.as/#feature-security) – verify release hashes even offline
+- [Privacy Focused](https://after-dark.habd.as/#feature-privacy) – no cookies and no external requests
 
 ## Screenshots
 
-<table role="presentation">
+<table>
   <tr>
     <td>
-      <a target="_blank" href="https://after-dark.habd.as/images/screenshots/example-landing-page-fs8.png">
-        <img alt="Example Landing Page screenshot" src="https://after-dark.habd.as/images/screenshots/example-landing-page-fs8.png">
+      <a href="https://after-dark.habd.as/">
+        <img alt src="https://after-dark.habd.as/images/screenshots/after-dark-v6.15.0-homepage-fs8.png">
       </a>
     </td>
     <td>
-      <a target="_blank" href="https://after-dark.habd.as/images/screenshots/feature-online-help-fs8.png">
-        <img alt="Online Help screenshot" src="https://after-dark.habd.as/images/screenshots/feature-online-help-fs8.png">
+      <a href="https://after-dark.habd.as/feature/svg-favicon/">
+        <img alt src="https://after-dark.habd.as/images/screenshots/feature-online-help-fs8.png">
       </a>
     </td>
     <td>
-      <a target="_blank" href="https://after-dark.habd.as/images/screenshots/feature-error-page-fs8.png">
-        <img alt="Error Page screenshot" src="https://after-dark.habd.as/images/screenshots/feature-error-page-fs8.png">
+      <a href="https://after-dark.habd.as/404.html">
+        <img alt src="https://after-dark.habd.as/images/screenshots/feature-error-page-fs8.png">
       </a>
     </td>
   </tr>
   <tr>
-    <th scope="col">Landing Page Example</th>
-    <th scope="col">Online Help</th>
-    <th scope="col">Error Page</th>
+    <th scope="col"><center>Multilingual Docs</center></th>
+    <th scope="col"><center>SVG Favicon</center></th>
+    <th scope="col"><center>Canvas Animations</center></th>
   </tr>
 </table>
 
-<table role="presentation">
+<table>
   <tr>
     <td>
-      <a target="_blank" href="https://after-dark.habd.as/images/screenshots/module-toxic-swamp-fs8.png">
-        <img alt="Webmining screenshot" src="https://after-dark.habd.as/images/screenshots/module-toxic-swamp-fs8.png">
+      <a href="https://after-dark.habd.as/module/toxic-swamp/">
+        <img alt src="https://after-dark.habd.as/images/screenshots/module-toxic-swamp-fs8.png">
       </a>
     </td>
     <td>
-      <a target="_blank" href="https://after-dark.habd.as/images/screenshots/shortcode-button-fs8.png">
-        <img alt="Form Controls screenshot" src="https://after-dark.habd.as/images/screenshots/shortcode-button-fs8.png">
+      <a href="https://after-dark.habd.as/shortcode/button/">
+        <img alt src="https://after-dark.habd.as/images/screenshots/shortcode-button-fs8.png">
       </a>
     </td>
     <td>
-      <a target="_blank" href="https://after-dark.habd.as/images/screenshots/extra-high-tea-fs8.png">
-        <img alt="Extras screenshot" src="https://after-dark.habd.as/images/screenshots/extra-high-tea-fs8.png">
+      <a href="https://after-dark.habd.as/extra/high-tea/">
+        <img alt src="https://after-dark.habd.as/images/screenshots/extra-high-tea-fs8.png">
       </a>
     </td>
   </tr>
   <tr>
-    <th scope="col">Webmining</th>
-    <th scope="col">Form Controls</th>
-    <th scope="col">Extras</th>
+    <th scope="col"><center>Web Mining Add-on</center></th>
+    <th scope="col"><center>Composable Shortcodes</center></th>
+    <th scope="col"><center>IndieWeb Extras</center></th>
   </tr>
 </table>
 
@@ -90,15 +90,15 @@ Run the [Upgrade Script](https://after-dark.habd.as/feature/upgrade-script/) any
 
 ### Verifying
 
-If installed or upgraded via script you may use the [Release Validator](https://after-dark.habd.as/validate/) to verify you're running a PGP-signed and SHA-verified release.
+If installed or upgraded via script you may use the [Release Validator](https://after-dark.habd.as/validate/) to verify you're running a PGP-signed and SHA-verified release. Integrity is checked at the source level and may be performed offline. See [Release Hashes](https://after-dark.habd.as/feature/release-hashes/) for more info.
 
 ### Help
 
-[Online Help](https://after-dark.habd.as/feature/online-help/) may be served locally with `hugo --source themes/after-dark/docs` upon installation and hosted online at after-dark.habd.as. WYSIWYG.
+Use the included [Online Help](https://after-dark.habd.as/feature/online-help/) to learn how to set-up and use After Dark. Help docs may be served locally and do not require an Internet connection to function.
 
 ## License
 
-Copyright (C) 2016–2018 Josh Habdas <jhabdas@protonmail.com>
+Copyright (C) Josh Habdas <jhabdas@protonmail.com>
 
 This work is free. You can redistribute it and/or modify it under the
 terms of the Do What The Fuck You Want To Public License, Version 2,
@@ -106,4 +106,4 @@ as published by Sam Hocevar. See the COPYING file for more details.
 
 ## Acknowledgements
 
-Thanks to Steve Francia for creating the Hugo logo, エゴイスト for hackcss, Dan Klammer for the bytesized SVG icons, Alexander Farkas for killing it with lazySizes, Simon Fremaux for such a groovy 404 background animation and Vincent Prouillet for the [Gutenberg port](https://www.getgutenberg.io/themes/after-dark/).
+Thanks to Steve Francia for creating the Hugo logo, エゴイスト for hackcss, Dan Klammer for the bytesized SVG icons, Alexander Farkas for killing it with lazySizes, Simon Fremaux for such a groovy 404 background animation and Vincent Prouillet for the [Zola port](https://www.getzola.org/themes/after-dark/).

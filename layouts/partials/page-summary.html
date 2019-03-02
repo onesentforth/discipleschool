@@ -1,32 +1,27 @@
-<article itemscope itemtype="http://schema.org/CreativeWork">
+<article itemprop="citation" itemscope itemtype="https://schema.org/CreativeWork">
   <header>
-    <div class="grid">
-      <div class="cell -9of12">
-        <h2 itemprop="name">
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </h2>
-      </div>
-      <div class="cell -3of12">
-	{{ if eq .Type "post" }}
-	  <p class="muted">{{ partial "post/short-meta.html" . }}</p>
-        {{ end }}
-      </div>
-    </div>
-
+    <h2 itemprop="name">
+      <a href="{{ .RelPermalink }}" rel="bookmark">{{ .Title }}</a>
+    </h2>
+    {{ if eq .Type "post" }}
+      <p class="muted">{{ partial "post/meta.html" . }}</p>
+    {{ end }}
   </header>
   {{ if .Description }}
     <blockquote itemprop="headline">{{ .Description }}</blockquote>
   {{ end }}
   <div itemprop="description">
-    <!-- added -->
+    <!-- removed {{ .Summary }} -->
+    <!-- [added] -->
     {{ if .Truncated }}
       {{ if .Params.summary }}{{ .Params.summary | markdownify }}{{ else }}{{ .Summary }}{{ end }}
     {{end}}
-    <!-- /added -->
-    <!-- commented out {{ .Summary }} -->
+    <!-- [/added] -->
   </div>
   {{ if .Truncated }}
-    <nav class="readmore"><a itemprop="url" href="{{ .RelPermalink }}">Read More&nbsp;&raquo;</a></nav>
+    <nav class="readmore"><p>
+      <a itemprop="url" href="{{ .RelPermalink }}" rel="bookmark">Read More&nbsp;&#x02192;</a>
+    </p></nav>
   {{ end }}
   <meta itemprop="inLanguage" content="{{ .Site.LanguageCode }}">
   <meta itemprop="datePublished" content="{{ dateFormat "2006-01-02T15:04:05-07:00" (default .Date (.PublishDate)) }}">

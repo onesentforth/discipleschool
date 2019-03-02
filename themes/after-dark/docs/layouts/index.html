@@ -1,8 +1,8 @@
 {{ define "title" -}}
-  {{ .Params.title }}
+  {{ .Params.title }} | Semantic Design System for Hugo
 {{- end }}
 {{ define "header" }}
-  {{ partial "menu.html" . }}
+  {{ partial "masthead.html" . }}
   <style>
     :root {
       --vertical-rhythm: 5rem;
@@ -13,9 +13,20 @@
       text-align: center;
     }
     nav[itemtype*="SiteNavigationElement"] {
-      visibility: hidden;
+      opacity: 0;
+      transition: opacity 300ms ease;
+    }
+    nav[itemtype*="SiteNavigationElement"]:focus-within {
+      opacity: 1;
+      transition: opacity 300ms ease;
     }
     @media screen and (max-width: 768px) {
+      nav[itemtype*="SiteNavigationElement"] {
+        display: none;
+      }
+      .hack header h1 {
+        margin-top: 2rem !important;
+      }
       .grid {
         flex-direction: row;
       }
@@ -28,7 +39,10 @@
       opacity: 0;
     }
     .animated {
+      /* FIXME: Animation disabled due to browser conflict with Web Miner */
       animation: reveal 2s both;
+      opacity: 1; /* remove with fix */
+      filter: var(--logo-animation-filter-end); /* remove with fix */
     }
     @keyframes reveal {
       from {
@@ -46,10 +60,19 @@
       content: none;
     }
     .hack header h1 {
+      font-family: Futura;
       padding: 0;
       margin: 1rem;
       font-size: 3em;
       display: inline-block;
+
+      background-color: #2a3439;
+      color: transparent;
+      text-shadow: 0 2px 3px rgba(255, 255, 255, 0.1);
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+      filter: brightness(3);
     }
     .hack header h1 sup {
       font-size: 1rem;
@@ -59,7 +82,7 @@
     }
     .hack header h2:before,
     .hack section h2:before {
-      content: ""
+      content: unset;
     }
     .hack header h2,
     .hack section h2 {
@@ -93,7 +116,7 @@
       margin: var(--vertical-rhythm) 0;
     }
     .hack section.hero {
-      margin-top: -1rem;
+      margin-top: -2rem;
       margin-bottom: 0;
     }
     .hack section.hero figure {
@@ -149,7 +172,7 @@
 {{ define "main" }}
   <header>
     <h1>{{ .Title }}<sup class="muted">v{{ .Site.Data.npm.latest.version }}</sup></h1>
-    <h2 class="muted">The deepest part of the Surface Web.</h2>
+    <h2 class="muted">Semantic Design System for Hugo</h2>
   </header>
   {{ .Content }}
 {{ end }}

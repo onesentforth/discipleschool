@@ -3,196 +3,234 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://discipleschool.com/post/public-filing-cabinet/</loc>
+    <loc>http://localhost:1313/post/the-christianity-of-chris-pratt/</loc>
+    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/diagnosing-the-problem/</loc>
+    <lastmod>2018-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/learning-in-public/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/post/half-the-world-is-online/</loc>
+    <loc>http://localhost:1313/post/half-the-world-is-online/</loc>
     <lastmod>2018-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/post/mind-the-gap/</loc>
+    <loc>http://localhost:1313/post/mind-the-gap/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/post/becoming-and-producing/</loc>
+    <loc>http://localhost:1313/post/becoming-and-producing/</loc>
     <lastmod>2018-07-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/post/the-end-game/</loc>
+    <loc>http://localhost:1313/post/the-end-game/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/post/stock-and-flow/</loc>
+    <loc>http://localhost:1313/post/stock-and-flow/</loc>
     <lastmod>2018-05-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/page/bibliography/</loc>
+    <loc>http://localhost:1313/page/bibliography/</loc>
     <lastmod>2018-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/categories/blog-management/</loc>
+    <loc>http://localhost:1313/categories/blog-management/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/categories/christian-character/</loc>
+    <loc>http://localhost:1313/tags/challenges/</loc>
+    <lastmod>2018-12-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/christian-character/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/tags/church-model/</loc>
-    <lastmod>2018-07-26T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/church-model/</loc>
+    <lastmod>2018-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/tags/comunications/</loc>
+    <loc>http://localhost:1313/tags/comunications/</loc>
     <lastmod>2018-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/tags/content-strategy/</loc>
+    <loc>http://localhost:1313/tags/content-strategy/</loc>
     <lastmod>2018-05-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/tags/crisis/</loc>
+    <loc>http://localhost:1313/tags/crisis/</loc>
     <lastmod>2018-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/</loc>
-    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/tags/discipleship/</loc>
+    <loc>http://localhost:1313/tags/disciples/</loc>
+    <lastmod>2018-12-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/discipleship/</loc>
     <lastmod>2018-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/categories/discipleship/</loc>
-    <lastmod>2018-07-26T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/discipleship/</loc>
+    <lastmod>2018-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/tags/end-time/</loc>
+    <loc>http://localhost:1313/tags/end-time/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/tags/eschatology/</loc>
+    <loc>http://localhost:1313/tags/eschatology/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/categories/eschatology/</loc>
+    <loc>http://localhost:1313/categories/eschatology/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/categories/evangelism/</loc>
+    <loc>http://localhost:1313/categories/evangelism/</loc>
     <lastmod>2018-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/tags/internet/</loc>
+    <loc>http://localhost:1313/tags/failure/</loc>
+    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/failure-of-christianity/</loc>
+    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/internet/</loc>
     <lastmod>2018-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/tags/irvin-baxter/</loc>
+    <loc>http://localhost:1313/tags/irvin-baxter/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/tags/mobile/</loc>
+    <loc>http://localhost:1313/tags/mobile/</loc>
     <lastmod>2018-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/tags/network/</loc>
+    <loc>http://localhost:1313/tags/network/</loc>
     <lastmod>2018-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/categories/opinion/</loc>
+    <loc>http://localhost:1313/categories/opinion/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/page/</loc>
+    <loc>http://localhost:1313/page/</loc>
     <lastmod>2018-04-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/tags/process/</loc>
+    <loc>http://localhost:1313/tags/process/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/tags/prophecy/</loc>
+    <loc>http://localhost:1313/tags/prophecy/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/post/</loc>
-    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/tags/social-media/</loc>
+    <loc>http://localhost:1313/search/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/social-media/</loc>
     <lastmod>2018-05-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://discipleschool.com/page/success/</loc>
+    <loc>http://localhost:1313/page/success/</loc>
   </url>
   
 </urlset>

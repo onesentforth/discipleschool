@@ -1,5 +1,5 @@
-#baseURL = "http://localhost:1313/"
-baseURL = "https://discipleschool.com/"
+baseURL = "http://localhost:1313/"
+#baseURL = "https://discipleschool.com/"
 languageCode = "en-us"
 title = "Disciple School"
 theme = "after-dark"
@@ -55,7 +55,8 @@ keywords = [
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-  section = ["HTML", "RSS", "JSON"]
+  #section = ["HTML", "RSS", "JSON"]
+  #COMMENTED out the above line to remove errors in compiler about NO TEMPLATE existing for JSON content
 
 [[menu.main]]
   name = "Home"
