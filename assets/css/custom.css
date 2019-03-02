@@ -15,6 +15,10 @@
   font-family: 'FiraCode';
   src: url('https://discipleschool.com/FiraCode-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
+/*
+***==> I put the 'font-face' code in the 'baseof.html' file. KJW <==***
+*/
+
 
 nav a.active {
  /*background-color: #ff2e88;*/
@@ -201,13 +205,11 @@ figure a:hover {
 
 .hack blockquote{
   font-family: 'FiraCode';
-  /*padding-bottom: 22px;*/
   padding-left: 5ch;
   color: #B9A44C;
 }
 
 .hack blockquote em, .hack blockquote strong {
-  /*font-family: 'Liberation Mono';*/
   font-family: 'FiraCode';
   font-size: 1rem;
   line-height: 1.4rem;
@@ -216,7 +218,8 @@ figure a:hover {
 
 .hack header blockquote {
   padding-top: 20px;
-  font-size: 16px;
+  /*font-size: 16px;*/
+  font-size: 1rem;
   padding-bottom: 20px;
   /*line-height: 20px;*/
   padding-left: 5ch;
@@ -352,6 +355,7 @@ div.homepage-content img {
 
 .hack blockquote:after {
   line-height: 1.4rem;
+  font-size: 1rem;
 }
 
 .dark code, .dark strong {

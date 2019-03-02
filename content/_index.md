@@ -29,7 +29,7 @@ I'm on <a target="_blank" rel="noopener" href="https://www.facebook.com/seeksave
 <a target="_blank" rel="noopener" href="https://twitter.com/seeksavesend">Twitter</a>,
 <a target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCbz86f96_2yeWPyAY6tQgkA">YouTube</a>,
 <a target="_blank" rel="noopener" href="https://www.instagram.com/seeksavesend">Instagram</a> and
-<a target="_blank" rel="noopener" href="hhttps://medium.com/@seeksavesend">Medium</a>
+<a target="_blank" rel="noopener" href="https://medium.com/@seeksavesend">Medium</a>
 
 ---
 
