@@ -1,19 +1,30 @@
 
+/*@font-face {
+  font-family: 'FiraCode';
+  src: local('Fira Code'), local('FiraCode-Regular'), url('https://discipleschool.com/FiraCode-Regular.eot'); /* IE9 Compat Modes */
+/*}
 @font-face {
   font-family: 'FiraCode';
+  src: local('Fira Code'), local('FiraCode-Regular'), url('https://discipleschool.com/FiraCode-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+/*}
+@font-face {
+  font-family: 'FiraCode';
+  src: local('Fira Code'), local('FiraCode-Regular'), url('https://discipleschool.com/FiraCode-Regular.woff') format('woff'), /* Modern Browsers */
+/*}
+@font-face {
+  font-family: 'FiraCode';
+  src: local('Fira Code'), local('FiraCode-Regular'), url('https://discipleschool.com/FiraCode-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+/*}
+*/
+
+@font-face {
+  font-family: 'FiraCode';
+  src: local('Fira Code'), local('FiraCode-Regular');
   src: url('https://discipleschool.com/FiraCode-Regular.eot'); /* IE9 Compat Modes */
-}
-@font-face {
-  font-family: 'FiraCode';
   src: url('https://discipleschool.com/FiraCode-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-}
-@font-face {
-  font-family: 'FiraCode';
-  src: url('https://discipleschool.com/FiraCode-Regular.woff') format('woff'), /* Modern Browsers */
-}
-@font-face {
-  font-family: 'FiraCode';
-  src: url('https://discipleschool.com/FiraCode-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+       url('https://discipleschool.com/FiraCode-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('https://discipleschool.com/FiraCode-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('https://discipleschool.com/FiraCode-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 /*
 ***==> I put the 'font-face' code in the 'baseof.html' file. KJW <==***
@@ -90,109 +101,107 @@ nav a[href="/cowork/southeast-asia/bali/"] {
 /* ## End Hacks */
 
 .hack h1,.hack h2,.hack h3,.hack h4,.hack h5,.hack h6 {
- font-family: 'FiraCode',klinic,Consolas,Andale Mono,Rockwell,Courier,sans-serif;
- font-weight: 500;
- font-size: 1.25rem;
+  font-family: 'FiraCode',klinic,Consolas,Andale Mono,Rockwell,Courier,sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
 }
 
 a {
- border-bottom: none;
- border-radius: 1px;
- transition-duration: 0.3s;
- transition-property: color, background-color;
- padding: 1px;
- margin: -1px;
+  border-bottom: none;
+  border-radius: 1px;
+  transition-duration: 0.3s;
+  transition-property: color, background-color;
+  padding: 1px;
+  margin: -1px;
 }
-a[itemprop="url"],
-[itemprop="name"] a,
-summary {
- margin: inherit;
- padding: 2px 3px;
+a[itemprop="url"], [itemprop="name"] a, summary {
+  margin: inherit;
+  padding: 2px 3px;
+}
+.hack a {
+  border-bottom: 1px #dda600 dashed;
 }
 .hack a.active {
- color: black;
+  color: black;
+  border-bottom: none;
 }
-.hack a:hover,
-.hack a:focus,
-summary:focus {
- /*background-color: #ff2e88;*/
- background-color: #ff0000;
- outline: none;
+.hack a:hover, .hack a:focus, summary:focus {
+  /*background-color: #ff2e88;*/
+  background-color: #ff0000;
+  outline: none;
+  border-bottom: none;
 }
 details {
- margin-top: 20px;
+  margin-top: 20px;
 }
-mark,
-kbd {
+mark, kbd {
  color: #abb2bf;
  background-color: #2c313a;
 }
-.readmore a,
-header nav[itemtype*="SiteNavigation"] a:first-of-type,
-summary {
- margin-left: -3px;
+.readmore a, header nav[itemtype*="SiteNavigation"] a:first-of-type, summary {
+  margin-left: -3px;
 }
 
 .hack header h2, .hack header h3 {
- letter-spacing: .02em;
- font-weight: 300;
+  letter-spacing: .02em;
+  font-weight: 300;
 }
 .hack header h1 {
- font-size: 1.6em;
- letter-spacing: -0.1rem;
- font-family: 'FiraCode';
- font-weight: 600;
-/* font-family: klinic,Consolas,Andale Mono,Rockwell,Courier,sans-serif;*/
+  font-size: 1.6em;
+  letter-spacing: -0.1rem;
+  font-family: 'FiraCode';
+  font-weight: 600;
+  /* font-family: klinic,Consolas,Andale Mono,Rockwell,Courier,sans-serif;*/
 }
 .hack header h1::after {
- content: "";
+  content: "";
 }
 .hack header h2 {
- font-size: 1.2em;
+  font-size: 1.2em;
 }
 .hack header .grid p.muted {
- /* adjust the list page meta display */
- margin-top: 0;
- text-align: right;
+  /* adjust the list page meta display */
+  margin-top: 0;
+  text-align: right;
 }
 .hack header p.muted {
- margin-top: -30px; /* TODO: consolidate above */
- font-size: initial;
+  margin-top: -30px; /* TODO: consolidate above */
+  font-size: initial;
 }
 .hack header p.muted, .hack header h1, .hack header h2 {
- margin-bottom: 0;
+  margin-bottom: 0;
 }
 .hack ol li:nth-child(n+10):after {
- left: -12px;
+  left: -12px;
 }
 @media screen and (max-width: 768px) {
- header .grid p.muted  {
-   display: none;
+  header .grid p.muted  {
+    display: none;
  }
 }
 /* ## Figures */
 figure {
- margin-left: auto;
- margin-right: auto;
- text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 figure img {
- max-width: 80%;
+  max-width: 80%;
 }
 figure a {
- border-bottom: none !important;
+  border-bottom: none !important;
 }
 figure a:hover {
- background-color: inherit !important;
+  background-color: inherit !important;
 }
 /* ## Google Maps */
 .mapcanvas {
- /* default map canvas height */
- height: 200px;
+  /* default map canvas height */
+  height: 200px;
 }
 .mapcanvas a[target="_blank"]::after {
- /* hide svg content on Google map canvas */
- content: ""
+  /* hide svg content on Google map canvas */
+  content: ""
 }
 /* ## Ads */
 /*a[href="/go/ledger-home"] {
