@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Discipleship on Disciple School</title>
-    <link>https://discipleschool.com/categories/discipleship/</link>
+    <link>http://localhost:1313/categories/discipleship/</link>
     <description>Recent content in Discipleship on Disciple School</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://discipleschool.com/categories/discipleship/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/categories/discipleship/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Diagnosing the Problem</title>
-      <link>https://discipleschool.com/post/diagnosing-the-problem/</link>
+      <link>http://localhost:1313/post/diagnosing-the-problem/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://discipleschool.com/post/diagnosing-the-problem/</guid>
+      <guid>http://localhost:1313/post/diagnosing-the-problem/</guid>
       <description>I have already made an effort to convince you that something is broken within the modern western church, and I will continue to share more research and statistics from studies that are being conducted.
 I realize that there will be a natural tendency on your part to blindly resist any and all criticisms of the church at large, and you will especially resist any perceived attack on your own particular traditions and way of structuring and conducting church.</description>
     </item>
     
     <item>
       <title>Becoming and Producing Disciples of Jesus Christ</title>
-      <link>https://discipleschool.com/post/becoming-and-producing/</link>
+      <link>http://localhost:1313/post/becoming-and-producing/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://discipleschool.com/post/becoming-and-producing/</guid>
+      <guid>http://localhost:1313/post/becoming-and-producing/</guid>
       <description>The Discipleship Crisis   The Great Commission has been worshipped, but not obeyed. The church has tried to get world evangelization without disciple making. Bill Hull, The Disciple-Making Pastor (Grand Rapids, Mich.: Revell, 1988)  I&amp;rsquo;m compelled to tell you something that may be difficult for you to hear.
 Your church has a serious problem.
 I&amp;rsquo;m sure that you&amp;rsquo;d love to respond by telling me the size of your congregation, the amount of giving, your service to the poor, or the number of new converts.</description>

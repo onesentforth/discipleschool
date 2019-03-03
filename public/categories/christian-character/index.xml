@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Christian Character on Disciple School</title>
-    <link>https://discipleschool.com/categories/christian-character/</link>
+    <link>http://localhost:1313/categories/christian-character/</link>
     <description>Recent content in Christian Character on Disciple School</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://discipleschool.com/categories/christian-character/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/categories/christian-character/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mind the Gap</title>
-      <link>https://discipleschool.com/post/mind-the-gap/</link>
+      <link>http://localhost:1313/post/mind-the-gap/</link>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://discipleschool.com/post/mind-the-gap/</guid>
+      <guid>http://localhost:1313/post/mind-the-gap/</guid>
       <description>&amp;ldquo;Mind the gap&amp;rdquo; is a warning that&amp;rsquo;s posted in the UK subway system. It is a notice for passengers to be mindful of the gap between the platform and the subway car so that they don&amp;rsquo;t trip or injure themselves in some way.
 I&amp;rsquo;d like to use the phrase to remind us of another gap we should be mindful of. While it could certainly result in bodily harm to forget about that gap in the UK subway, ignoring this gap could do even greater damage.</description>
     </item>

@@ -1,8 +1,9 @@
 +++
 title = "The Christianity of Chris Pratt"
-description = ""
+description = "What does it mean to be a Christian? Who gets to determine that?"
 author = "Jason West"
 date = "2019-02-21"
+draft = "true"
 lastmod = ""
 keywords = ["Chris Pratt", "Ellen Page", "Mike Pence"]
 categories = ["Failure of Christianity"]

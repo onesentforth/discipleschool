@@ -159,11 +159,9 @@ The same is true in the area of disciple-making. We first *become* disciples of 
 
 Matthew 28:18-20 contains the most recognizable version of Jesus' command to make disciples:
 
-{{% blockquote cite="Jesus Christ" citelink="" %}}
-  18 "All authority in heaven and on earth has been given to me.<br />
-  19 Go therefore and ***make disciples*** of all nations, baptizing them and<br />
-  20 teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age."
-{{% /blockquote %}}
+  >18 All authority in heaven and on earth has been given to me.<br />
+  >19 Go therefore and ***make disciples*** of all nations, baptizing them and<br />
+  >20 teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.
 
 
 So what exactly ***is*** a disciple? More precisely, what did Jesus mean when he commanded us to fill the earth with ***disciples***? Why did he choose that particular word? What was he trying to convey? That's what we need to figure out so that we can have a clear goal in mind.

@@ -32,9 +32,21 @@ I'm on <a target="_blank" rel="noopener" href="https://www.facebook.com/seeksave
 <a target="_blank" rel="noopener" href="https://medium.com/@seeksavesend">Medium</a>
 
 ---
+[comment]: # (Options: success, info, warning, error or hidden)
+{{< hackcss-alert type="warning" >}}
+<div style="text-align:center;">
+  <h2>Is this <strong style="background-color:#dda600; color:black;">&nbsp;<em>REALLY</em>&nbsp;</strong> what Jesus had in mind?</h2>
+</div>
+{{< /hackcss-alert >}}
 
-## Is this what Jesus had in mind?
+That's the foundational question we'll be exploring: Is "this" (modern Christianity, the church at large, the typical Christian...) what Jesus had in mind when he issued the command to make disciples?
 
-That's the foundational question we'll be exploring...
+What would he have expected of a disciple? What attributes and qualities did he have in mind?
 
-Is the church... is the typical Christian... functioning as Jesus expected?
+Are we producing those kinds of people today?
+
+It's becoming clear that we aren't. So then, why aren't we? What's preventing us from accomplishing the goal?
+
+Jesus promised to authorize and equip us for the mission. So, how is it that we're failing?
+
+What are we willing to change in order to succeed?

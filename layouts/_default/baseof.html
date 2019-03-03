@@ -43,10 +43,28 @@
       </noscript>
     {{ end }}
     <style>
+
       @font-face {
         font-family: 'FiraCode';
-        src: local('Fira Code'), local('FiraCode-Regular'), url('../FiraCode-Regular.woff') format('woff'), url('../FiraCode-Regular.ttf')  format('truetype');
+        src: url('{{.Site.BaseURL}}/FiraCode-Regular.woff') format('woff'), url('{{.Site.BaseURL}}/FiraCode-Regular.ttf')  format('truetype');
+        font-weight: 300;
+        font-style: normal;
       }
+
+      @font-face {
+        font-family: 'FiraCode-Medium';
+        src: url('{{.Site.BaseURL}}/FiraCode-Medium.woff') format('woff'), url('{{.Site.BaseURL}}/FiraCode-Medium.ttf')  format('truetype');
+        font-weight: 500;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'FiraCode-Bold';
+        src: url('{{.Site.BaseURL}}/FiraCode-Bold.woff') format('woff'), url('{{.Site.BaseURL}}/FiraCode-Bold.ttf')  format('truetype');
+        font-weight: 600;
+        font-style: normal;
+      }
+
     </style>
   </head>
   {{ $hackcss_disabled := .Site.Params.hackcss.disabled | default false }}
