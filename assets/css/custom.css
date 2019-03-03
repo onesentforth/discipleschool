@@ -1,31 +1,22 @@
 
 /*@font-face {
-  font-family: 'FiraCode';
+  font-family: 'FiraCode', Courier;
   src: local('Fira Code'), local('FiraCode-Regular'), url('https://discipleschool.com/FiraCode-Regular.eot'); /* IE9 Compat Modes */
 /*}
 @font-face {
-  font-family: 'FiraCode';
+  font-family: 'FiraCode', Courier;
   src: local('Fira Code'), local('FiraCode-Regular'), url('https://discipleschool.com/FiraCode-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
 /*}
 @font-face {
-  font-family: 'FiraCode';
+  font-family: 'FiraCode', Courier;
   src: local('Fira Code'), local('FiraCode-Regular'), url('https://discipleschool.com/FiraCode-Regular.woff') format('woff'), /* Modern Browsers */
 /*}
 @font-face {
-  font-family: 'FiraCode';
+  font-family: 'FiraCode', Courier;
   src: local('Fira Code'), local('FiraCode-Regular'), url('https://discipleschool.com/FiraCode-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
 /*}
 */
 
-@font-face {
-  font-family: 'FiraCode';
-  src: local('Fira Code'), local('FiraCode-Regular');
-  src: url('https://discipleschool.com/FiraCode-Regular.eot'); /* IE9 Compat Modes */
-  src: url('https://discipleschool.com/FiraCode-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('https://discipleschool.com/FiraCode-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('https://discipleschool.com/FiraCode-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('https://discipleschool.com/FiraCode-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-}
 /*
 ***==> I put the 'font-face' code in the 'baseof.html' file. KJW <==***
 */
@@ -101,7 +92,7 @@ nav a[href="/cowork/southeast-asia/bali/"] {
 /* ## End Hacks */
 
 .hack h1,.hack h2,.hack h3,.hack h4,.hack h5,.hack h6 {
-  font-family: 'FiraCode',klinic,Consolas,Andale Mono,Rockwell,Courier,sans-serif;
+  font-family: 'FiraCode', Courier;
   font-weight: 500;
   font-size: 1.25rem;
 }
@@ -149,7 +140,7 @@ mark, kbd {
 .hack header h1 {
   font-size: 1.6em;
   letter-spacing: -0.1rem;
-  font-family: 'FiraCode';
+  font-family: 'FiraCode', Courier;
   font-weight: 600;
   /* font-family: klinic,Consolas,Andale Mono,Rockwell,Courier,sans-serif;*/
 }
@@ -213,13 +204,13 @@ figure a:hover {
 }
 
 .hack blockquote{
-  font-family: 'FiraCode';
+  font-family: 'FiraCode', Courier;
   padding-left: 5ch;
   color: #B9A44C;
 }
 
 .hack blockquote em, .hack blockquote strong {
-  font-family: 'FiraCode';
+  font-family: 'FiraCode', Courier;
   font-size: 1rem;
   line-height: 1.4rem;
 }
@@ -250,7 +241,7 @@ figure a:hover {
 
 .hack h2 {
   /*font-family: 'Slabo 27px', serif;*/
-  font-family: 'FiraCode';
+  font-family: 'FiraCode', Courier;
   letter-spacing: -0.04em;
   font-weight: 600;
   margin-top: 30px;
@@ -269,7 +260,7 @@ figure a:hover {
 
 .hack h1{
   /*font-family: 'Slabo 27px', serif;*/
-  font-family: 'FiraCode';
+  font-family: 'FiraCode', Courier;
   font-size: 1.4em;
   font-weight: 600;
   padding-bottom: 20px;
@@ -284,7 +275,7 @@ figure a:hover {
 
 .hack h1[itemprop="headline name"] {
   /*font-family: 'Liberation Mono';*/
-  font-family: 'FiraCode',sans-serif;
+  font-family: 'FiraCode', Courier;
   font-weight: 600;
   margin-top: 0px;
   margin-bottom: 5px;
@@ -347,7 +338,7 @@ figure a:hover {
 }
 
 .hack, .hack em, .hack strong {
- font-family: 'FiraCode',Helvetica Neue,Helvetica,Arial,Geneva,sans-serif;
+ font-family: 'FiraCode', Courier;
  font-size: 1rem;
  line-height: 1.4rem;
 }
