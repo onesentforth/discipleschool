@@ -100,7 +100,7 @@ nav a[href="/cowork/southeast-asia/bali/"] {
 /* ## End Hacks */
 
 .hack h1,.hack h2,.hack h3,.hack h4,.hack h5,.hack h6 {
-  font-family: 'FiraCode-Medium';
+  font-family: 'FiraCode-Medium', Courier;
   font-weight: 500;
   font-size: 1.25rem;
 }
