@@ -67,6 +67,11 @@ article [itemprop="description"] {
  line-height: 1.4rem;
 }
 
+.hack p {
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
 .hack [itemprop="articleBody"]{
   font-size: 1rem;
   line-height: 1.4rem;
@@ -288,6 +293,7 @@ figure a:hover {
   margin-top: 0px;
   margin-bottom: 5px;
   font-size: 1.6rem;
+  padding-bottom: 0px;
 }
 
 .hack li {

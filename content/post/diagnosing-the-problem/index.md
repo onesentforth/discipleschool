@@ -12,7 +12,6 @@ tags = ["disciples", "church model", "challenges"]
   src = "img/image-name.jpg"
 +++
 
-
 I have already made an effort to convince you that [something is broken within the modern western church](/post/becoming-and-producing/), and I will continue to share more research and statistics from studies that are being conducted.
 
 I realize that there will be a natural tendency on your part to blindly resist any and all criticisms of the church at large, and you will especially resist any perceived attack on your own particular traditions and way of structuring and conducting church.
