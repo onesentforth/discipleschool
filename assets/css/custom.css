@@ -233,8 +233,8 @@ figure a:hover {
 }
 
 .hack blockquote[itemprop="headline"]{
-  padding-top: 20px;
-  padding-bottom: 22px;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
   padding-left: 5ch;
 }
 .hack blockquote, .hack code, .hack em, .hack strong {
