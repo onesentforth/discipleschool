@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on Disciple School</title>
+    <link>https://discipleschool.com/categories/books/</link>
+    <description>Recent content in Books on Disciple School</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://discipleschool.com/categories/books/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prisoners of Prototypes</title>
+      <link>https://discipleschool.com/post/prisoners-of-prototypes/</link>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://discipleschool.com/post/prisoners-of-prototypes/</guid>
+      <description>I read and enjoyed the book, Originals: How Non-Conformists Move the World, by Adam Grant and Sheryl Sandberg.
+The title of this post is taken from the section I want to discuss today: Prisoners of Prototypes. The point of the section is that the more familiar we become with a particular domain or area of life, we tend to become trapped by certain ways of thinking.
+We compare every new idea that we encounter against the templates of ideas that have succeeded in the past.</description>
+    </item>
+    
+  </channel>
+</rss>

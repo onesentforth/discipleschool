@@ -15,7 +15,6 @@ keywords = [
   "jason west"
   ]
 +++
-
 <!-- OLD <img src="bpg/jason-red-768x432.bpg" class="blur-up lazyautosizes lazyloaded" width="100%"> -->
 <!-- REMOVED 2/2/2019 <img alt class="blur-up lazyautosizes lazyloaded" data-sizes="auto" src="images/jason-red-tritone-16x9.jpg" width="100%"> -->
 <!-- responsive with automatic sizes calculation
