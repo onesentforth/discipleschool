@@ -14,7 +14,7 @@ tags = [
   "assumptions",
   "thinking",
   ]
-draft = ""
+draft = "false"
 summary = ""
 [[resources]]
   name = "header"
