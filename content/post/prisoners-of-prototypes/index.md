@@ -3,7 +3,7 @@ title = "Prisoners of Prototypes"
 description = "As we gain knowledge about a particular domain of life, we tend to become prisoners of our prototypes."
 author = "Jason West"
 date = "2019-03-12"
-lastmod = ""
+lastmod = "2019-03-13"
 keywords = [
   "assumptions",
   "thinking",
