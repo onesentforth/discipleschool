@@ -20,9 +20,6 @@ categories = ["Discipleship"]
 tags = ["discipleship", "church model", "crisis", ]
 draft = "false"
 summary = "***Your church has a serious problem.*** I'm sure that you'd love to respond by telling me the size of your congregation, the amount of giving, your service to the poor, or the number of new converts. But just for a moment, I hope you'll suppress the urge to become defensive, because I'm truly not attacking you, your pastor, or your church. In fact, I believe that you have a sincere desire to win the lost and help the less-fortunate. I'm sure you invest your time and resources in a variety of activities and programs taking place at your church. But I want you to ask yourself a question, and I don't want you to feel like it's your duty to honor the sacrifice of everyone in your church by instantly responding 'yes.'"
-images = [
-  "post/becoming-and-producing/img/jesus-disciples.gif"
-]
 [[resources]]
   name = "header"
   src = "img/jesus-disciples.gif"

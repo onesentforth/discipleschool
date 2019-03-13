@@ -32,7 +32,7 @@ I'm on <a target="_blank" rel="noopener" href="https://www.facebook.com/seeksave
 <a target="_blank" rel="noopener" href="https://medium.com/@seeksavesend">Medium</a>
 
 ---
-[comment]: # (Options: success, info, warning, error or hidden)
+[comment]: # (Options: success[green], info[blue], warning[orange], error[red] or hidden[white])
 {{< hackcss-alert type="warning" >}}
 <div style="text-align:center;">
   <h2>Is this <strong style="background-color:#dda600; color:black;">&nbsp;<em>REALLY</em>&nbsp;</strong> what Jesus had in mind?</h2>

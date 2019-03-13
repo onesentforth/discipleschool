@@ -154,6 +154,11 @@ article [itemprop="description"] {
  line-height: 1.4rem;
 }
 
+.hack p {
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
 .hack [itemprop="articleBody"]{
   font-size: 1rem;
   line-height: 1.4rem;
@@ -320,8 +325,8 @@ figure a:hover {
 }
 
 .hack blockquote[itemprop="headline"]{
-  padding-top: 20px;
-  padding-bottom: 22px;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
   padding-left: 5ch;
 }
 .hack blockquote, .hack code, .hack em, .hack strong {
@@ -375,6 +380,7 @@ figure a:hover {
   margin-top: 0px;
   margin-bottom: 5px;
   font-size: 1.6rem;
+  padding-bottom: 0px;
 }
 
 .hack li {
@@ -462,6 +468,19 @@ div.homepage-content img {
 small.muted {
   color: #666;
 }
+
+table thead th {
+    font-size: 1rem;
+    background-color: #000;
+}
+
+table tbody td:first-child {
+    font-weight: normal;
+    color: #333;
+}
+table tr:nth-child(odd) {
+  background-color: #111;
+}
 </style>
         
 
@@ -482,7 +501,7 @@ small.muted {
 
       @font-face {
         font-family: 'FiraCode';
-        src: url('https://discipleschool.com/FiraCode-Regular.woff') format('woff'), url('https://discipleschool.com/FiraCode-Regular.ttf')  format('truetype');
+        src: url('https://discipleschool.com/FiraCode-Regular.woff2') format('woff2'), url('https://discipleschool.com/FiraCode-Regular.woff') format('woff'), url('https://discipleschool.com/FiraCode-Regular.ttf')  format('truetype');
         font-weight: 300;
         font-style: normal
         font-display: swap;
@@ -490,7 +509,7 @@ small.muted {
 
       @font-face {
         font-family: 'FiraCode-Medium';
-        src: url('https://discipleschool.com/FiraCode-Medium.woff') format('woff'), url('https://discipleschool.com/FiraCode-Medium.ttf')  format('truetype');
+        src: url('https://discipleschool.com/FiraCode-Medium.woff2') format('woff2'), url('https://discipleschool.com/FiraCode-Medium.woff') format('woff'), url('https://discipleschool.com/FiraCode-Medium.ttf')  format('truetype');
         font-weight: 500;
         font-style: normal;
         font-display: swap;
@@ -498,7 +517,7 @@ small.muted {
 
       @font-face {
         font-family: 'FiraCode-Bold';
-        src: url('https://discipleschool.com/FiraCode-Bold.woff') format('woff'), url('https://discipleschool.com/FiraCode-Bold.ttf')  format('truetype');
+        src: url('https://discipleschool.com/FiraCode-Bold.woff2') format('woff2'), url('https://discipleschool.com/FiraCode-Bold.woff') format('woff'), url('https://discipleschool.com/FiraCode-Bold.ttf')  format('truetype');
         font-weight: 600;
         font-style: normal;
         font-display: swap;
