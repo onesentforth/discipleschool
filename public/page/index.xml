@@ -1,45 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Pages on Disciple School</title>
-    <link>https://discipleschool.com/page/</link>
+    <link>http://localhost:1313/page/</link>
     <description>Recent content in Pages on Disciple School</description>
     <image>
       <title>Pages on Disciple School</title>
-      <link>https://discipleschool.com/page/</link>
+      <link>http://localhost:1313/page/</link>
       <url>images/jason-red-tritone-16x9.jpg</url>
     </image>
     <ttl>1440</ttl>
-    <generator>Hugo 0.54.0</generator>
+    <generator>Hugo 0.62.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Jun 2019 17:41:35 UT</lastBuildDate>
-    <atom:link href="https://discipleschool.com/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jan 2020 03:19:49 UT</lastBuildDate>
+    <atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lesson Plan</title>
+      <link>http://localhost:1313/page/lesson-plan/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 UT</pubDate>
+      <dc:creator>Jason West</dc:creator>
+      <guid>http://localhost:1313/page/lesson-plan/</guid>
+      <description>The first draft is you, telling yourself the story.
+Terry Pratchett  I&#39;m not writing a book, but I like the concept of starting a project by telling myself the story. I will follow Pratchett&#39;s advice and simply walk myself through the argument that I&#39;ll present on Disciple School.
+I have a difficult time recognizing when a given piece of content is ready to be published. For some reason, I have a difficult time publishing small chunks of information about any given subject.</description>
+      <category domain="http://localhost:1313/categories/"></category>
+      <content:encoded><![CDATA[  The first draft is you, telling yourself the story.
+Terry Pratchett  I&#39;m not writing a book, but I like the concept of starting a project by telling myself the story. I will follow Pratchett&#39;s advice and simply walk myself through the argument that I&#39;ll present on Disciple School.
+I have a difficult time recognizing when a given piece of content is ready to be published. For some reason, I have a difficult time publishing small chunks of information about any given subject. I tend to want an exhaustive summary of that subject before presenting it publicly. As a result, I spend a great deal of time collecting information, and not nearly enough time creating content.
+I&#39;m trying to get myself past that by forcing myself into a publishing schedule, which will require me to publish things way before I think they&#39;re ready.
+I&#39;ll start posting articles on here in small chunks, and allow the final version to develop over time. I wrote a post about the concept called learning in public, I just never implemented it.
+I don&#39;t really have an editorial calendar in place, but I do have a roadmap of subjects that I will be addressing. Rather than completing them in some linear order, I&#39;ll start adding to them piece by piece and allow them to develop over time.
+Here&#39;s a list of posts that I&#39;m currently working on:
+ It&#39;s my opinion that Christianity is failing. But it&#39;s not just an opinion. I can prove it.
+Define &amp;lsquo;failure.&amp;rsquo;
+Variables contributing to our failure.
+ ]]></content:encoded>
+    </item>
     <item>
       <title>Recommended Content</title>
-      <link>https://discipleschool.com/page/bibliography/</link>
+      <link>http://localhost:1313/page/bibliography/</link>
       <pubDate>Sat, 21 Apr 2018 00:00:00 UT</pubDate>
       <dc:creator>Jason West</dc:creator>
-      <guid>https://discipleschool.com/page/bibliography/</guid>
-      <description>Here&amp;rsquo;s a collection of Books, Websites, Podcasts and Videos I wanted to make you aware of.
+      <guid>http://localhost:1313/page/bibliography/</guid>
+      <description>Here&#39;s a collection of Books, Websites, Podcasts and Videos I wanted to make you aware of.
 As I continue to add more items to these lists, I may take the time to categorize them by topic.
-Books -
-Websites -
-Podcasts -
-Videos Everything&amp;rsquo;s a Remix</description>
-      <content:encoded><![CDATA[ Here&amp;rsquo;s a collection of Books, Websites, Podcasts and Videos I wanted to make you aware of.
+Books    Websites    Podcasts    Videos Everything&#39;s a Remix</description>
+      <content:encoded><![CDATA[Here&#39;s a collection of Books, Websites, Podcasts and Videos I wanted to make you aware of.
 As I continue to add more items to these lists, I may take the time to categorize them by topic.
-Books -
-Websites -
-Podcasts -
-Videos Everything&amp;rsquo;s a Remix
+Books    Websites    Podcasts    Videos Everything&#39;s a Remix
 ]]></content:encoded>
     </item>
     <item>
       <title>Thanks for Subscribing</title>
-      <link>https://discipleschool.com/page/success/</link>
+      <link>http://localhost:1313/page/success/</link>
       <dc:creator>Jason West</dc:creator>
-      <guid>https://discipleschool.com/page/success/</guid>
+      <guid>http://localhost:1313/page/success/</guid>
       <description>Catch up on some of our most recent posts.</description>
       <content:encoded><![CDATA[Catch up on some of our most recent posts.
 ]]></content:encoded>

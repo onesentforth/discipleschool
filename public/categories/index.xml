@@ -1,81 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Categories on Disciple School</title>
-    <link>https://discipleschool.com/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Disciple School</description>
     <image>
       <title>Categories on Disciple School</title>
-      <link>https://discipleschool.com/categories/</link>
+      <link>http://localhost:1313/categories/</link>
       <url>images/jason-red-tritone-16x9.jpg</url>
     </image>
     <ttl>1440</ttl>
-    <generator>Hugo 0.54.0</generator>
+    <generator>Hugo 0.62.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Jun 2019 17:41:35 UT</lastBuildDate>
-    <atom:link href="https://discipleschool.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jan 2020 03:19:49 UT</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blog Management</title>
-      <link>https://discipleschool.com/categories/blog-management/</link>
+      <title>Church Model</title>
+      <link>http://localhost:1313/categories/church-model/</link>
       <dc:creator>Jason West</dc:creator>
-      <guid>https://discipleschool.com/categories/blog-management/</guid>
+      <guid>http://localhost:1313/categories/church-model/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Books</title>
-      <link>https://discipleschool.com/categories/books/</link>
+      <link>http://localhost:1313/categories/books/</link>
       <dc:creator>Jason West</dc:creator>
-      <guid>https://discipleschool.com/categories/books/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Christian Character</title>
-      <link>https://discipleschool.com/categories/christian-character/</link>
-      <dc:creator>Jason West</dc:creator>
-      <guid>https://discipleschool.com/categories/christian-character/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Church Model</title>
-      <link>https://discipleschool.com/categories/church-model/</link>
-      <dc:creator>Jason West</dc:creator>
-      <guid>https://discipleschool.com/categories/church-model/</guid>
+      <guid>http://localhost:1313/categories/books/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Discipleship</title>
-      <link>https://discipleschool.com/categories/discipleship/</link>
+      <link>http://localhost:1313/categories/discipleship/</link>
       <dc:creator>Jason West</dc:creator>
-      <guid>https://discipleschool.com/categories/discipleship/</guid>
+      <guid>http://localhost:1313/categories/discipleship/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>blog management</title>
+      <link>http://localhost:1313/categories/blog-management/</link>
+      <dc:creator>Jason West</dc:creator>
+      <guid>http://localhost:1313/categories/blog-management/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>evangelism</title>
+      <link>http://localhost:1313/categories/evangelism/</link>
+      <dc:creator>Jason West</dc:creator>
+      <guid>http://localhost:1313/categories/evangelism/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Christian Character</title>
+      <link>http://localhost:1313/categories/christian-character/</link>
+      <dc:creator>Jason West</dc:creator>
+      <guid>http://localhost:1313/categories/christian-character/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Eschatology</title>
-      <link>https://discipleschool.com/categories/eschatology/</link>
+      <link>http://localhost:1313/categories/eschatology/</link>
       <dc:creator>Jason West</dc:creator>
-      <guid>https://discipleschool.com/categories/eschatology/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Evangelism</title>
-      <link>https://discipleschool.com/categories/evangelism/</link>
-      <dc:creator>Jason West</dc:creator>
-      <guid>https://discipleschool.com/categories/evangelism/</guid>
+      <guid>http://localhost:1313/categories/eschatology/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Opinion</title>
-      <link>https://discipleschool.com/categories/opinion/</link>
+      <link>http://localhost:1313/categories/opinion/</link>
       <dc:creator>Jason West</dc:creator>
-      <guid>https://discipleschool.com/categories/opinion/</guid>
+      <guid>http://localhost:1313/categories/opinion/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
