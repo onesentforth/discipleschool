@@ -3,7 +3,7 @@ title = "SVG Favicon"
 description = "Decorate your site with a unique SVG favicon."
 categories = ["customizing"]
 tags = ["color", "style", "graphics", "branding"]
-features = ["code highlighter", "snippets", "related content"]
+features = ["code highlighter", "snippets", "related content", "grid", "cell"]
 [[copyright]]
   owner = "Josh Habdas"
   date = "2019"
@@ -12,14 +12,9 @@ features = ["code highlighter", "snippets", "related content"]
 
 After Dark ships with an 169B optimized[^1] SVG favicon embedded into every page:
 
-<details>
-<summary>Expand to view code</summary>
 {{< highlight html >}}
 {{< include "themes/after-dark/layouts/partials/head/favicon.html" >}}
 {{< /highlight >}}
-</details>
-
-{{% hackcss-alert type="info" %}}**Note**: HTML (Go) template comments are stripped out during site generation.{{% /hackcss-alert %}}
 
 The favicon is a black-colored oblique triangle in the shape of a tepee as shown[^2] on the [Online Help](../online-help) [Overview](/). The center of the triangle uses negative space to give the illusion of a second equilateral triangle in the shape of a pyramid, or open fire, contained within.
 
@@ -72,19 +67,13 @@ Adjust it from `favicon.html` in the site `layouts/partials/head` directory:
 If the file doesn't exist yet, copy it from the theme default:
 
 ```sh
-mkdir -p layouts/partials/head && \
-cp themes/after-dark/layouts/partials/head/favicon.html layouts/partials/head
-```
-
-Replace SVG with another graphic if desired:
-
-```html
-<link rel="icon" sizes="128x128" href="/favicon.png">
+$ mkdir -p layouts/partials/head
+$ cp themes/after-dark/layouts/partials/head/favicon.html layouts/partials/head
 ```
 
 If optimizing for platform experiences do so from within `favicon.html`:
 
-{{< highlight go-html-template >}}
+{{< highlight go-html-template "linenos=inline" >}}
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="{{ .Site.Title }}">
