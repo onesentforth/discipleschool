@@ -27,6 +27,7 @@ keywords = [
 
 Hi, my name is Jason West. *Disciple School* is my personal website where I'll be creating content and resources designed to help others become and produce disciples of Jesus Christ.
 
+<!--
 Here is a very basic outline for the argument I will be presenting:
 
 - We are failing. (Modern western church IS not making - and CANNOT make - disciples in its current state.)
@@ -65,7 +66,9 @@ This is a world at war.
 You have a crucial role to play.
 What would it take to convince you?
 
-Read some of my recent posts [here](post/).
+-->
+
+
 
 
 <!--
@@ -96,3 +99,5 @@ I'm on <a target="_blank" rel="noopener" href="https://www.facebook.com/seeksave
 {{< /hackcss-alert >}}
 This is the question that has prompted me to study the Bible for the last twenty years. It's why I created this website.
 -->
+
+Read some of my recent posts [here](post/).
