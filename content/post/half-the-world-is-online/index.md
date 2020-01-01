@@ -14,10 +14,6 @@ summary = "There are almost 4 billion people using the internet! What would the 
 +++
 
 
-This is what I added on 12-32-2019.
----
-
-
 I just read that [More than half of global population now online: UN](https://sg.news.yahoo.com/more-half-global-population-now-115946999.html)
 
 Highlights from the article:
