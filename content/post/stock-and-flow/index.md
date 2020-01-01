@@ -8,8 +8,12 @@ keywords = ["editorial calendar", "content strategy", "social media", "Malcolm G
 categories = ["Blog Management"]
 tags = ["social media", "content strategy"]
 [[resources]]
-  name = "header"
   src = "img/stock-and-flow-LG.jpg"
+  name = "header"
+  title = "."
+  [resources.params.meta]
+    description = "image from Show Your Work"
+    creator = "Austin Kleon"
 +++
 
 [Austin Kleon](https://austinkleon.com/) wrote a great book about creativity and audience-building that I've read multiple times. It's called *Show Your Work*, and I highly recommend it for anyone who's ever wondered aloud, "How do I get my stuff out there? How do I get noticed? How do I find an audience?"

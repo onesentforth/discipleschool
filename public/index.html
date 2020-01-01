@@ -18,7 +18,7 @@
 
 <meta property="og:image" content="https://discipleschool.com/images/jason-red-tritone-16x9.jpg" />
 
-<meta property="og:updated_time" content="2019-03-12T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2019-03-17T00:00:00&#43;00:00"/>
 
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://discipleschool.com/images/jason-red-tritone-16x9.jpg"/>
@@ -35,6 +35,8 @@
 
 
     
+  <meta name="telegram:channel" content="@discipleschool">
+
 
     
       
@@ -123,7 +125,9 @@ a[itemprop="url"]:hover {
 }
 a[href*="://"]::after,
 a[rel*="external"] {
-   content: " " url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20class='i-external'%20viewBox='0%200%2032%2032'%20width='14'%20height='14'%20fill='none'%20stroke='%23fff'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='9.38%'%3E%3Cpath%20d='M14%209%20L3%209%203%2029%2023%2029%2023%2018%20M18%204%20L28%204%2028%2014%20M28%204%20L14%2018'/%3E%3C/svg%3E");
+   /*content: " " url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20class='i-external'%20viewBox='0%200%2032%2032'%20width='14'%20height='14'%20fill='none'%20stroke='%23fff'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='9.38%'%3E%3Cpath%20d='M14%209%20L3%209%203%2029%2023%2029%2023%2018%20M18%204%20L28%204%2028%2014%20M28%204%20L14%2018'/%3E%3C/svg%3E");
+
+*/
 }
 a {
   color: #dda600;
@@ -341,6 +345,16 @@ figure a:hover {
   letter-spacing: -0.04em;
   margin-top: 30px;
   margin-bottom: 5px;
+  /*font-size: 1.2rem;*/
+  font-size: 1.4rem;
+}
+
+.hack h3 {
+  font-family: 'FiraCode', Courier;
+  letter-spacing: -0.04em;
+  margin-top: 30px;
+  margin-bottom: -0.75rem;
+  /*margin-bottom: 5px;*/
   font-size: 1.2rem;
 }
 
@@ -478,6 +492,38 @@ table tbody td:first-child {
 table tr:nth-child(odd) {
   background-color: #111;
 }
+
+.hack h3:before {
+    /*content: "### ";*/
+    content: "";
+}
+
+.hack header figure[itemtype*="ImageObject"] figcaption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /*text-align: right;
+    padding: 15px;
+    font-style: oblique;
+    font-size: smaller;*/
+    mix-blend-mode: normal !important;
+}
+
+.footnote-ref a {
+      border-bottom: none;
+}
+
+a.footnote-return {
+      border-bottom: none;
+}
+
+/*this positions the custom menu.social to the right of the main menu*/
+.hack > header {
+  display: grid;
+  grid-template-columns: 1fr minmax(min-content, auto);
+  column-gap: 20px;
+  grid-template-areas: "nav nav";
+}
 </style>
         
 
@@ -532,6 +578,7 @@ table tr:nth-child(odd) {
   
     
       
+      
   <nav itemscope itemtype="https://schema.org/SiteNavigationElement">
     <meta itemprop="name" content="Main Menu">
     
@@ -556,6 +603,14 @@ table tr:nth-child(odd) {
     
   
 
+  
+    
+      
+      
+
+    
+  
+
 
 </header>
     <main>
@@ -575,13 +630,15 @@ table tr:nth-child(odd) {
 
 <h1 id="becoming-and-producing-disciples-of-jesus-christ">Becoming and Producing Disciples of Jesus Christ</h1>
 
-<p>Hi, my name is Jason West. <em>Disciple School</em> is my personal website where I&rsquo;ll be creating <strong>content and resources</strong> designed to help others <strong>become and produce disciples of Jesus Christ</strong>.</p>
+<p>Hi, my name is Jason West. <em>Disciple School</em> is my personal website where I&rsquo;ll be creating content and resources designed to help others become and produce disciples of Jesus Christ.</p>
 
-<p>I&rsquo;m on <a target="_blank" rel="noopener" href="https://www.facebook.com/seeksavesend">Facebook</a>,
+<!--
+I'm on <a target="_blank" rel="noopener" href="https://www.facebook.com/seeksavesend">Facebook</a>,
 <a target="_blank" rel="noopener" href="https://twitter.com/seeksavesend">Twitter</a>,
 <a target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCbz86f96_2yeWPyAY6tQgkA">YouTube</a>,
 <a target="_blank" rel="noopener" href="https://www.instagram.com/seeksavesend">Instagram</a> and
-<a target="_blank" rel="noopener" href="https://medium.com/@seeksavesend">Medium</a></p>
+<a target="_blank" rel="noopener" href="https://medium.com/@seeksavesend">Medium</a>
+-->
 
 <hr />
 
@@ -591,24 +648,12 @@ table tr:nth-child(odd) {
 <div class="alert alert-warning">
   
 <div style="text-align:center;">
-  <h2>Is this <strong style="background-color:#dda600; color:black;">&nbsp;<em>REALLY</em>&nbsp;</strong> what Jesus had in mind?</h2>
+  <h2>Is this <strong style="background-color:#dda600; color:black;">&nbsp;<em>REALLY</em>&nbsp;</strong> what Jesus intended?</h2>
 </div>
 
 </div>
 
 
-
-<p>That&rsquo;s the foundational question we&rsquo;ll be exploring: Is &ldquo;this&rdquo; (modern Christianity, the church at large, the typical Christian&hellip;) what Jesus had in mind when he issued the command to make disciples?</p>
-
-<p>What would he have expected of a disciple? What attributes and qualities did he have in mind?</p>
-
-<p>Are we producing those kinds of people today?</p>
-
-<p>It&rsquo;s becoming clear that we aren&rsquo;t. So then, why aren&rsquo;t we? What&rsquo;s preventing us from accomplishing the goal?</p>
-
-<p>Jesus promised to authorize and equip us for the mission. So, how is it that we&rsquo;re failing?</p>
-
-<p>What are we willing to change in order to succeed?</p>
 
 </div>
 

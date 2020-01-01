@@ -1,186 +1,171 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
+    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Tags on Disciple School</title>
     <link>https://discipleschool.com/tags/</link>
     <description>Recent content in Tags on Disciple School</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <image>
+      <title>Tags on Disciple School</title>
+      <link>https://discipleschool.com/tags/</link>
+      <url>images/jason-red-tritone-16x9.jpg</url>
+    </image>
+    <ttl>1440</ttl>
+    <generator>Hugo 0.54.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Nov 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://discipleschool.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 17 Jun 2019 17:41:35 UT</lastBuildDate>
+    <atom:link href="https://discipleschool.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://discipleschool.com/tags/</link>
-      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/tags/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>Assumptions</title>
       <link>https://discipleschool.com/tags/assumptions/</link>
-      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/tags/assumptions/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>Challenges</title>
       <link>https://discipleschool.com/tags/challenges/</link>
-      <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/tags/challenges/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>Church Model</title>
       <link>https://discipleschool.com/tags/church-model/</link>
-      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/tags/church-model/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>Comunications</title>
       <link>https://discipleschool.com/tags/comunications/</link>
-      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/tags/comunications/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>Content Strategy</title>
       <link>https://discipleschool.com/tags/content-strategy/</link>
-      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/tags/content-strategy/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>Crisis</title>
       <link>https://discipleschool.com/tags/crisis/</link>
-      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/tags/crisis/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>Disciples</title>
       <link>https://discipleschool.com/tags/disciples/</link>
-      <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/tags/disciples/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>Discipleship</title>
       <link>https://discipleschool.com/tags/discipleship/</link>
-      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/tags/discipleship/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>End Time</title>
       <link>https://discipleschool.com/tags/end-time/</link>
-      <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/tags/end-time/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>Eschatology</title>
       <link>https://discipleschool.com/tags/eschatology/</link>
-      <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/tags/eschatology/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>Internet</title>
       <link>https://discipleschool.com/tags/internet/</link>
-      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/tags/internet/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>Irvin Baxter</title>
       <link>https://discipleschool.com/tags/irvin-baxter/</link>
-      <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/tags/irvin-baxter/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>Mobile</title>
       <link>https://discipleschool.com/tags/mobile/</link>
-      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/tags/mobile/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>Network</title>
       <link>https://discipleschool.com/tags/network/</link>
-      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/tags/network/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>Process</title>
       <link>https://discipleschool.com/tags/process/</link>
-      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/tags/process/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>Prophecy</title>
       <link>https://discipleschool.com/tags/prophecy/</link>
-      <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/tags/prophecy/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>Social Media</title>
       <link>https://discipleschool.com/tags/social-media/</link>
-      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/tags/social-media/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>Thinking</title>
       <link>https://discipleschool.com/tags/thinking/</link>
-      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/tags/thinking/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
   </channel>
 </rss>

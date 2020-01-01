@@ -9,8 +9,12 @@ categories = ["Christian Character"]
 tags = [""]
 draft = "false"
 [[resources]]
-  name = "header"
   src = "img/jean-louis-sibomana-1115452-unsplash.jpg"
+  name = "header"
+  title = "."
+  [resources.params.meta]
+    description = "Rapidly passing train"
+
 +++
 
 "Mind the gap" is a warning that's posted in the UK subway system. It is a notice for passengers to be mindful of the gap between the platform and the subway car so that they don't trip or injure themselves in some way.
@@ -47,7 +51,7 @@ When we remember that we haven't saved ourselves, but that we've been saved by t
 source? It's helpful to think of ourselves as beggars who have found food, going to tell the other beggars where to find this food. We have no reason to boast.
 
 
-According to statistics, there often isn't really much of a gap at all between the lifestyles or worldviews of Christians and non-believers. In order to maintain our sense of moral superiority and convince ourselves that we have been "saved" from sin, we exagerrate any gaps that may exist, or even fabricate gaps of our own making. (holiness standards, church apparel, traditions).
+According to statistics, there often isn't really much of a gap at all between the lifestyles or worldviews of Christians and non-believers. In order to maintain our sense of moral superiority and convince ourselves that we have been "saved" from sin, we exaggerate any gaps that may exist, or even fabricate gaps of our own making. (holiness standards, church apparel, traditions).
 
 as though we're better than others, we become so desperate to see a gap between us and them (where there often isn't one) scripture: measuring themselves among themselves...
 
@@ -55,6 +59,15 @@ Sometimes it's a manufactured gap. Statistical data suggests that there really i
 
 These are all gaps, real or conceived. But are they the gaps we should be focused on?
 
-Maybe we should spend more time considering the enormous gap that exists between our morality and the morality of Jesus, the character of Jesus, the compassion of Jesus, the self-sacrifice, devotion to the cause, love, etc...
+Maybe we should spend more time considering the enormous gap that exists between our own morality and the morality of Jesus; our personal character and the character of Jesus; our compassion and the compassion of Jesus; our level of self-sacrifice, our devotion to the cause, our love, etc... vs. Jesus.
 
-STORY: not sure where I heard the analogy... You may be able to jump a few inches higher than me... but since we've been asked to jump over the moon, the gap between us is terribly insignificant.
+I don't remember where I heard the analogy, but it stuck: If the goal is to jump over the moon, it's foolish to brag about being able to jump a few inches higher than me.
+
+[comment]: # (Options: success[green], info[blue], warning[orange], error[red] or hidden[white])
+{{< hackcss-alert type="success" >}}
+<div style="text-align:center;">
+  <h2 style="color:#000; background-color:#4caf50;">Moral of the Story</h2>
+  <p>The moral of the story is that when the gap between you and the goal is impossibly wide, the gap between you and others is becomes insignificant.<p>
+  <p>Therefore, you should never allow yourself to feel superior to anyone.</p>
+</div>
+{{< /hackcss-alert >}}

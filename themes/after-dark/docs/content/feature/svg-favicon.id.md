@@ -4,13 +4,22 @@ description = "Hiasi situs anda dengan favicon SVG yang unik."
 categories = ["customizing"]
 tags = ["color", "style", "graphics", "branding"]
 feature = ["code highlighter", "snippets", "related content"]
+[[copyright]]
+  owner = "Josh Habdas"
+  date = "2019"
+  license = "agpl-3.0-or-later"
 +++
 
-After Dark dikirimkan dengan 169B yang dioptimalkan [^1] SVG favicon tertanam di setiap halaman:
+After Dark dikirimkan dengan 169B yang dioptimalkan[^1] SVG favicon tertanam di setiap halaman:
 
+<details>
+<summary>Perluas untuk melihat kode</summary>
 {{< highlight html >}}
 {{< include "themes/after-dark/layouts/partials/head/favicon.html" >}}
 {{< /highlight >}}
+</details>
+
+{{% hackcss-alert type="info" %}}**Catatan**: HTML (Go) Komentar template yang dilucuti selama generasi situs.{{% /hackcss-alert %}}
 
 Favicon adalah segitiga miring berwarna hitam dalam bentuk tepee seperti yang ditunjukkan[^2] di [Bantuan Online](../online-help) [Overview](/). Pusat segitiga menggunakan ruang negatif untuk memberikan ilusi segitiga sama sisi kedua dalam bentuk piramida, atau api terbuka, yang terkandung di dalam.
 
@@ -67,6 +76,12 @@ $ mkdir -p layouts/partials/head
 $ cp themes/after-dark/layouts/partials/head/favicon.html layouts/partials/head
 ```
 
+Ganti SVG dengan grafik lain jika diinginkan:
+
+```html
+<link rel="icon" sizes="128x128" href="/favicon.png">
+```
+
 Jika mengoptimalkan pengalaman platform lakukan dari dalam `favicon.html`:
 
 {{< highlight go-html-template "linenos=inline" >}}
@@ -76,7 +91,7 @@ Jika mengoptimalkan pengalaman platform lakukan dari dalam `favicon.html`:
 <link rel="apple-touch-icon" href="data:image/png;base64,{{ readFile "static/icon.png" | base64Encode }}">
 {{< /highlight >}}
 
-Lihat {{< external href="https://github.com/h5bp/html5-boilerplate/blob/6.1.0/dist/doc/extend.md#web-apps" text="H5BP Wiki" />}} untuk persyaratan khusus platform dan {{< external href="https://gohugo.io/documentation/" text="Hugo Documentation" />}} untuk bantuan dengan templating fungsi dan variabel.
+Lihat {{< external href="https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/extend.md#web-apps" text="H5BP Extend" />}} untuk persyaratan khusus platform dan {{< external href="https://gohugo.io/documentation/" text="Hugo Documentation" />}} untuk bantuan dengan templating fungsi dan variabel.
 
 [^1]: Lihat [Mengoptimalkan SVGs dalam data URIs](https://codepen.io/tigt/post/optimizing-svgs-in-data-uris) untuk membantu mengoptimalkan SVGs anda sendiri.
 [^2]: Pelajari cara mendaftar [animasi SVG dengan SMIL](https://devdocs.io/svg/svg_animation_with_smil).

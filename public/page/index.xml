@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
+    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Pages on Disciple School</title>
     <link>https://discipleschool.com/page/</link>
     <description>Recent content in Pages on Disciple School</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <image>
+      <title>Pages on Disciple School</title>
+      <link>https://discipleschool.com/page/</link>
+      <url>images/jason-red-tritone-16x9.jpg</url>
+    </image>
+    <ttl>1440</ttl>
+    <generator>Hugo 0.54.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Apr 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://discipleschool.com/page/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 17 Jun 2019 17:41:35 UT</lastBuildDate>
+    <atom:link href="https://discipleschool.com/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Recommended Content</title>
       <link>https://discipleschool.com/page/bibliography/</link>
-      <pubDate>Sat, 21 Apr 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Sat, 21 Apr 2018 00:00:00 UT</pubDate>
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/page/bibliography/</guid>
       <description>Here&amp;rsquo;s a collection of Books, Websites, Podcasts and Videos I wanted to make you aware of.
 As I continue to add more items to these lists, I may take the time to categorize them by topic.
@@ -23,16 +27,22 @@ Books -
 Websites -
 Podcasts -
 Videos Everything&amp;rsquo;s a Remix</description>
+      <content:encoded><![CDATA[ Here&amp;rsquo;s a collection of Books, Websites, Podcasts and Videos I wanted to make you aware of.
+As I continue to add more items to these lists, I may take the time to categorize them by topic.
+Books -
+Websites -
+Podcasts -
+Videos Everything&amp;rsquo;s a Remix
+]]></content:encoded>
     </item>
-    
     <item>
       <title>Thanks for Subscribing</title>
       <link>https://discipleschool.com/page/success/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <dc:creator>Jason West</dc:creator>
       <guid>https://discipleschool.com/page/success/</guid>
       <description>Catch up on some of our most recent posts.</description>
+      <content:encoded><![CDATA[Catch up on some of our most recent posts.
+]]></content:encoded>
     </item>
-    
   </channel>
 </rss>

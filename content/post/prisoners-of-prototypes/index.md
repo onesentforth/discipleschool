@@ -1,6 +1,6 @@
 +++
 title = "Prisoners of Prototypes"
-description = "As we gain knowledge about a particular domain of life, we tend to become prisoners of our prototypes."
+description = "As we gain knowledge and experience within a particular area of life, we tend to become prisoners of our prototypes."
 author = "Jason West"
 date = "2019-03-12"
 lastmod = "2019-03-13"

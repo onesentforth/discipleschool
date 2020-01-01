@@ -35,6 +35,8 @@
 
 
     
+  <meta name="telegram:channel" content="@discipleschool">
+
 
     
     
@@ -109,7 +111,9 @@ a[itemprop="url"]:hover {
 }
 a[href*="://"]::after,
 a[rel*="external"] {
-   content: " " url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20class='i-external'%20viewBox='0%200%2032%2032'%20width='14'%20height='14'%20fill='none'%20stroke='%23fff'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='9.38%'%3E%3Cpath%20d='M14%209%20L3%209%203%2029%2023%2029%2023%2018%20M18%204%20L28%204%2028%2014%20M28%204%20L14%2018'/%3E%3C/svg%3E");
+   /*content: " " url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20class='i-external'%20viewBox='0%200%2032%2032'%20width='14'%20height='14'%20fill='none'%20stroke='%23fff'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='9.38%'%3E%3Cpath%20d='M14%209%20L3%209%203%2029%2023%2029%2023%2018%20M18%204%20L28%204%2028%2014%20M28%204%20L14%2018'/%3E%3C/svg%3E");
+
+*/
 }
 a {
   color: #dda600;
@@ -327,6 +331,16 @@ figure a:hover {
   letter-spacing: -0.04em;
   margin-top: 30px;
   margin-bottom: 5px;
+  /*font-size: 1.2rem;*/
+  font-size: 1.4rem;
+}
+
+.hack h3 {
+  font-family: 'FiraCode', Courier;
+  letter-spacing: -0.04em;
+  margin-top: 30px;
+  margin-bottom: -0.75rem;
+  /*margin-bottom: 5px;*/
   font-size: 1.2rem;
 }
 
@@ -464,6 +478,38 @@ table tbody td:first-child {
 table tr:nth-child(odd) {
   background-color: #111;
 }
+
+.hack h3:before {
+    /*content: "### ";*/
+    content: "";
+}
+
+.hack header figure[itemtype*="ImageObject"] figcaption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /*text-align: right;
+    padding: 15px;
+    font-style: oblique;
+    font-size: smaller;*/
+    mix-blend-mode: normal !important;
+}
+
+.footnote-ref a {
+      border-bottom: none;
+}
+
+a.footnote-return {
+      border-bottom: none;
+}
+
+/*this positions the custom menu.social to the right of the main menu*/
+.hack > header {
+  display: grid;
+  grid-template-columns: 1fr minmax(min-content, auto);
+  column-gap: 20px;
+  grid-template-areas: "nav nav";
+}
 </style>
         
 
@@ -518,6 +564,7 @@ table tr:nth-child(odd) {
   
     
       
+      
   <nav itemscope itemtype="https://schema.org/SiteNavigationElement">
     <meta itemprop="name" content="Main Menu">
     
@@ -542,6 +589,14 @@ table tr:nth-child(odd) {
     
   
 
+  
+    
+      
+      
+
+    
+  
+
 
 </header>
     <main>
@@ -553,7 +608,7 @@ table tr:nth-child(odd) {
 
 <meta itemprop="datePublished" content="2018-11-09T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2018-11-09T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="780">
+<meta itemprop="wordCount" content="834">
 
 
 
@@ -598,9 +653,11 @@ table tr:nth-child(odd) {
           
           
           
+            <meta itemprop="description" content="Rapidly passing train">
+          
           <img
             itemprop="thumbnailUrl"
-            alt="header"
+            alt="Rapidly passing train"
             class="lazyload blur-up"
             src="/post/mind-the-gap/img/jean-louis-sibomana-1115452-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_3488460_600x338_fill_q60_box_center.jpg"
             data-sizes="auto"
@@ -646,7 +703,7 @@ table tr:nth-child(odd) {
 
 <p>source? It&rsquo;s helpful to think of ourselves as beggars who have found food, going to tell the other beggars where to find this food. We have no reason to boast.</p>
 
-<p>According to statistics, there often isn&rsquo;t really much of a gap at all between the lifestyles or worldviews of Christians and non-believers. In order to maintain our sense of moral superiority and convince ourselves that we have been &ldquo;saved&rdquo; from sin, we exagerrate any gaps that may exist, or even fabricate gaps of our own making. (holiness standards, church apparel, traditions).</p>
+<p>According to statistics, there often isn&rsquo;t really much of a gap at all between the lifestyles or worldviews of Christians and non-believers. In order to maintain our sense of moral superiority and convince ourselves that we have been &ldquo;saved&rdquo; from sin, we exaggerate any gaps that may exist, or even fabricate gaps of our own making. (holiness standards, church apparel, traditions).</p>
 
 <p>as though we&rsquo;re better than others, we become so desperate to see a gap between us and them (where there often isn&rsquo;t one) scripture: measuring themselves among themselves&hellip;</p>
 
@@ -654,9 +711,24 @@ table tr:nth-child(odd) {
 
 <p>These are all gaps, real or conceived. But are they the gaps we should be focused on?</p>
 
-<p>Maybe we should spend more time considering the enormous gap that exists between our morality and the morality of Jesus, the character of Jesus, the compassion of Jesus, the self-sacrifice, devotion to the cause, love, etc&hellip;</p>
+<p>Maybe we should spend more time considering the enormous gap that exists between our own morality and the morality of Jesus; our personal character and the character of Jesus; our compassion and the compassion of Jesus; our level of self-sacrifice, our devotion to the cause, our love, etc&hellip; vs. Jesus.</p>
 
-<p>STORY: not sure where I heard the analogy&hellip; You may be able to jump a few inches higher than me&hellip; but since we&rsquo;ve been asked to jump over the moon, the gap between us is terribly insignificant.</p>
+<p>I don&rsquo;t remember where I heard the analogy, but it stuck: If the goal is to jump over the moon, it&rsquo;s foolish to brag about being able to jump a few inches higher than me.</p>
+
+
+
+
+<div class="alert alert-success">
+  
+<div style="text-align:center;">
+  <h2 style="color:#000; background-color:#4caf50;">Moral of the Story</h2>
+  <p>The moral of the story is that when the gap between you and the goal is impossibly wide, the gap between you and others is becomes insignificant.<p>
+  <p>Therefore, you should never allow yourself to feel superior to anyone.</p>
+</div>
+
+</div>
+
+
 
     </div>
     <footer>
@@ -677,7 +749,7 @@ table tr:nth-child(odd) {
   
     and tagged <a rel="tag" href="/tags//"></a>
   
-  using <span itemprop="wordCount">780</span> words.
+  using <span itemprop="wordCount">834</span> words.
 </p>
 
       

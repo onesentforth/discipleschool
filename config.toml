@@ -1,11 +1,11 @@
-#baseURL = "http://localhost:1313/"
-baseURL = "https://discipleschool.com/"
+baseURL = "http://localhost:1313/"
+#baseURL = "https://discipleschool.com/"
 languageCode = "en-us"
 title = "Disciple School"
 theme = "after-dark"
 #markup = "markdown"
 #description needs to be 50-300 words. Get my description from discipleschool.com
-googleAnalytics = "UA-68558525-1"
+googleAnalytics = "UA-68558525-4"
 #disqusShortname = ""
 keywords = [
   "bible study",
@@ -44,7 +44,7 @@ keywords = [
   twitter = "seeksavesend"
 
 [params.seo]
-# telegram_channel = "discipleschool" # omit the `@`
+  telegram_channel = "discipleschool" # omit the `@`
   disable_bpg = true # Disable BPG image support
 
 [params.seo.webmaster_verifications]
@@ -73,6 +73,41 @@ keywords = [
   weight = 3
   identifier = "search"
   url = "/search/"
+
+
+[[menu.social]]
+  name = "FB"
+  identifier = "facebook"
+  weight = 1
+  url = "https://www.facebook.com/seeksavesend"
+  pre = "<img src='ico_fb.svg' height='16' width='16'></img>"
+[[menu.social]]
+  name = "T"
+  identifier = "twitter"
+  weight = 2
+  url = "https://twitter.com/seeksavesend"
+  pre = "<img src='twitter_ico.svg' height='16' width='16'></img>"
+[[menu.social]]
+  name = "YT"
+  identifier = "youtube"
+  weight = 3
+  url = "https://www.youtube.com/channel/UCbz86f96_2yeWPyAY6tQgkA"
+  pre = "<img src='youtube.svg' height='16' width='16'></img>"
+[[menu.social]]
+  name = "Instagram"
+  identifier = "instagram"
+  weight = 4
+  url = "https://www.instagram.com/seeksavesend"
+[[menu.social]]
+  name = "Medium"
+  identifier = "medium"
+  weight = 5
+  url = "https://medium.com/@seeksavesend"
+[params.layout.menu.social]
+  hidden = true # set `false` or remove to show section menu
+  exclude = ["instagram", "medium"] # exclude homepage and blog postings
+
+
 #[[menu.main]]
 #  name = "Book Reviews"
 #  weight = 3
