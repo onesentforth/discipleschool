@@ -107,7 +107,8 @@ nav a[href="/cowork/southeast-asia/bali/"] {
 /* ## End Hacks */
 
 .hack h1,.hack h2,.hack h3,.hack h4,.hack h5,.hack h6 {
-  font-family: 'FiraCode-Medium', Courier;
+  /*font-family: 'FiraCode-Medium', Courier;*/
+  font-family: 'Fira Code', Courier;
   font-weight: 500;
   font-size: 1.25rem;
 }
@@ -149,14 +150,15 @@ mark, kbd {
 }
 
 .hack header h2, .hack header h3 {
-  font-family:'FiraCode', Courier;
+  font-family:'Fira Code', Courier;
   letter-spacing: .02em;
   font-weight: 300;
 }
 .hack header h1 {
   font-size: 1.6em;
   letter-spacing: -0.1rem;
-  font-family: 'FiraCode-Bold', Courier;
+  /*font-family: 'FiraCode-Bold', Courier;*/
+  font-family:'Fira Code', Courier;
 }
 .hack header h1::after {
   content: "";
@@ -223,13 +225,13 @@ figure a:hover {
 }
 
 .hack blockquote{
-  font-family: 'FiraCode', Courier;
+  font-family: 'Fira Code', Courier;
   padding-left: 5ch;
   color: #B9A44C;
 }
 
 .hack blockquote em, .hack blockquote strong {
-  font-family: 'FiraCode', Courier;
+  font-family: 'Fira Code', Courier;
   font-size: 1rem;
   line-height: 1.4rem;
 }
@@ -260,7 +262,8 @@ figure a:hover {
 
 .hack h2 {
   /*font-family: 'Slabo 27px', serif;*/
-  font-family: 'FiraCode-Bold', Courier;
+  /*font-family: 'FiraCode-Bold', Courier;*/
+  font-family:'Fira Code', Courier;
   letter-spacing: -0.04em;
   margin-top: 30px;
   margin-bottom: 5px;
@@ -269,7 +272,7 @@ figure a:hover {
 }
 
 .hack h3 {
-  font-family: 'FiraCode', Courier;
+  font-family: 'Fira Code', Courier;
   letter-spacing: -0.04em;
   margin-top: 30px;
   margin-bottom: -0.75rem;
@@ -285,14 +288,16 @@ figure a:hover {
 
 
 .hack h2[itemprop="name"]{
-  font-family: 'FiraCode-Bold', Courier;
+  /*font-family: 'FiraCode-Bold', Courier;*/
+  font-family:'Fira Code', Courier;
   margin-top: 0px;
   /*letter-spacing: 0.05em;*/
 }
 
 .hack h1{
   /*font-family: 'Slabo 27px', serif;*/
-  font-family: 'FiraCode-Bold', Courier;
+  /*font-family: 'FiraCode-Bold', Courier;*/
+  font-family:'Fira Code', Courier;
   font-size: 1.4em;
   padding-bottom: 20px;
 }
@@ -306,7 +311,8 @@ figure a:hover {
 
 .hack h1[itemprop="headline name"] {
   /*font-family: 'Liberation Mono';*/
-  font-family: 'FiraCode-Bold', Courier;
+  /*font-family: 'FiraCode-Bold', Courier;*/
+  font-family:'Fira Code', Courier;
   margin-top: 0px;
   margin-bottom: 5px;
   font-size: 1.6rem;
@@ -369,7 +375,7 @@ figure a:hover {
 }
 
 .hack, .hack em, .hack strong {
- font-family: 'FiraCode', Courier;
+ font-family: 'Fira Code', Courier;
  font-size: inherit;
  line-height: inherit;
  /*font-size: 1rem;*/
