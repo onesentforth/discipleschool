@@ -152,7 +152,7 @@ mark, kbd {
 .hack header h2, .hack header h3 {
   font-family:'Fira Code', Courier;
   letter-spacing: .02em;
-  font-weight: 300;
+  /*font-weight: 300; CHANGED 12-31-2019*/
 }
 .hack header h1 {
   font-size: 1.6em;
