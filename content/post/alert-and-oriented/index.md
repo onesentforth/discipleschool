@@ -1,5 +1,4 @@
 +++
-draft = "true"
 title = "Alert and Oriented Times Zero"
 description = "The highest level of consciousness, known as 'alert and oriented times four,' describes almost everyone in an everyday situation. They know who they are, where they are, what time it is, and what's just happened. A person who has lost all four levels of consciousness, right down to their identity, is said to be 'alert and oriented times zero.'"
 author = "Jason West"
@@ -8,6 +7,7 @@ lastmod = ""
 keywords = ["consciousness,"]
 categories = [""]
 tags = ["story"]
+draft = "true"
 [[resources]]
   name = "header"
   src = "img/image-name.jpg"

@@ -63,7 +63,7 @@ Verify [Release Hash]({{< relref "release-hashes" >}}) and GPG signature:
 ```sh
 cd themes/toxic-swamp && \
 npm install && npm run integrity && \
-git tag --verify v1.0.0-beta.26
+git tag --verify v1.0.0-beta.28
 ```
 
 Specify module in site config:
@@ -371,11 +371,11 @@ Generate configuration with `Advanced Settings` specified:
       <strong>NOPE!</strong> Attempting to submit to unknown origin.
     {{< /hackcss-alert >}}
     {{< hackcss-alert type="warning" class="js-useonlinehelp" >}}
-      Please use <a href="/feature/online-help">Online Help</a> to generate configuration with <a href="/feature/air-gapping/">Air Gapping</a>.
+      Please use <a href="/feature/online-help/">Online Help</a> to generate configuration while <a href="/feature/work-offline/">Working Offline</a>.
     {{< /hackcss-alert >}}
     {{< hackcss-alert type="warning" class="js-disconnect" >}}
       <style>.js-disconnect { display: none }</style>
-      Please <a href="/feature/air-gapping">Disconnect</a> from the network before generating your configuration.
+      Please <a href="/feature/work-offline/">Disconnect</a> from the network before generating your configuration.
     {{< /hackcss-alert >}}
     {{< hackcss-formgroup name="addressgroup" >}}
       {{< hackcss-label for="address" >}}
@@ -453,7 +453,7 @@ Generate configuration with `Advanced Settings` specified:
           <option>monero.crypto-pool.fr</option>
         {{< /hackcss-select >}}
         {{< hackcss-helpblock >}}
-          Select a {{< external href="https://git.habd.as/comfusion/toxic-swamp/src/branch/master/server/pools.json" text="supported pool" />}} to mine with.
+          Select a {{< external href="https://git.habd.as/comfusion/webminerpool/src/branch/master/server/pools.json" text="supported pool" />}} to mine with.
         {{< /hackcss-helpblock >}}
       {{< /hackcss-formgroup >}}
       {{< hackcss-formgroup name="poolpassgroup" >}}
@@ -499,6 +499,7 @@ English translations available for toolbar display:
 - Greek (el)
 - German (de)
 - Polish (pl)
+- Italian (it)
 
 Enable them with module `translations` whitelist:
 

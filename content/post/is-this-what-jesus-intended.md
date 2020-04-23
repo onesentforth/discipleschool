@@ -1,18 +1,20 @@
 +++
 title = "Is This What Jesus Intended?"
-description = ""
+description = "This is a summary..."
 author = "Jason West"
-date = "2019-03-04"
+date = "2020-01-05"
 lastmod = ""
 keywords = ["Jesus", "disciples", "church"]
 categories = [""]
 tags = [""]
 draft = "true"
-summary = ""
+summary = "This is a summary..."
 [[resources]]
   name = "header"
-  src = "img/image-name.jpg"
+  src = "http://localhost:1313/filing-cabinet.jpg"
+
 +++
+
 
 Christianity is failing.
 

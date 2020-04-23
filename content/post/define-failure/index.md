@@ -8,7 +8,6 @@ keywords = ["Failure",]
 categories = ["Church Model",]
 tags = ["",]
 draft = "false"
-summary = ""
 [[resources]]
   src = "img/"
   name = "header"

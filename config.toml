@@ -36,7 +36,7 @@ keywords = [
   author = "Jason West"
   description = "Disciple School will help you become and produce true disciples of Jesus Christ."
   images = [
-    "images/jason-red-tritone-16x9.jpg"
+    "" #set the default image if a post does not have a featured image specified
   ]
 
 [social]
@@ -55,8 +55,9 @@ keywords = [
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-  #section = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS", "JSON"]
   #COMMENTED out the above line to remove errors in compiler about NO TEMPLATE existing for JSON content
+  #Removed the comment on 01-06-20 with no error
 
 [[menu.main]]
   name = "Home"
@@ -75,37 +76,37 @@ keywords = [
   url = "/search/"
 
 
-[[menu.social]]
-  name = "FB"
-  identifier = "facebook"
-  weight = 1
-  url = "https://www.facebook.com/seeksavesend"
-  pre = "<img src='ico_fb.svg' height='16' width='16'></img>"
-[[menu.social]]
-  name = "T"
-  identifier = "twitter"
-  weight = 2
-  url = "https://twitter.com/seeksavesend"
-  pre = "<img src='twitter_ico.svg' height='16' width='16'></img>"
-[[menu.social]]
-  name = "YT"
-  identifier = "youtube"
-  weight = 3
-  url = "https://www.youtube.com/channel/UCbz86f96_2yeWPyAY6tQgkA"
-  pre = "<img src='youtube.svg' height='16' width='16'></img>"
-[[menu.social]]
-  name = "Instagram"
-  identifier = "instagram"
-  weight = 4
-  url = "https://www.instagram.com/seeksavesend"
-[[menu.social]]
-  name = "Medium"
-  identifier = "medium"
-  weight = 5
-  url = "https://medium.com/@seeksavesend"
-[params.layout.menu.social]
-  hidden = true # set `false` or remove to show section menu
-  exclude = ["instagram", "medium"] # exclude homepage and blog postings
+#[[menu.social]]
+#  name = "FB"
+#  identifier = "facebook"
+#  weight = 1
+#  url = "https://www.facebook.com/seeksavesend"
+#  pre = "<img src='ico_fb.svg' height='16' width='16'></img>"
+#[[menu.social]]
+#  name = "T"
+#  identifier = "twitter"
+#  weight = 2
+#  url = "https://twitter.com/seeksavesend"
+#  pre = "<img src='twitter_ico.svg' height='16' width='16'></img>"
+#[[menu.social]]
+#  name = "YT"
+#  identifier = "youtube"
+#  weight = 3
+#  url = "https://www.youtube.com/channel/UCbz86f96_2yeWPyAY6tQgkA"
+#  pre = "<img src='youtube.svg' height='16' width='16'></img>"
+#[[menu.social]]
+#  name = "Instagram"
+#  identifier = "instagram"
+#  weight = 4
+#  url = "https://www.instagram.com/seeksavesend"
+#[[menu.social]]
+#  name = "Medium"
+#  identifier = "medium"
+#  weight = 5
+#  url = "https://medium.com/@seeksavesend"
+#[params.layout.menu.social]
+#  hidden = true # set `false` or remove to show section menu
+#  exclude = ["instagram", "medium"] # exclude homepage and blog postings
 
 
 #[[menu.main]]

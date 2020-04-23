@@ -9,6 +9,7 @@ categories = ["blog management"]
 tags = ["process"]
 draft = "false"
 summary = "What if I started using this website as a publicly-accessible filing cabinet of thoughts and ideas that have stuck with me from the books and articles I've recently read? That might cause me to stop thinking of each post as something that needs to be well-structured, and to start thinking of each post as simply a new scrap of paper or index card with another idea or quote that I want to keep."
+
 [[resources]]
   name = "header"
   src = "img/filing-cabinet.jpg"

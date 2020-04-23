@@ -9,20 +9,37 @@
   </header>
   {{ if .Description }}
     <blockquote itemprop="headline">{{ .Description }}</blockquote>
+
   {{ end }}
   <div itemprop="description">
-    <!-- removed {{ .Summary }} -->
-    <!-- [added] -->
-    {{ if .Truncated }}
-      {{ if .Params.summary }}{{ .Params.summary | markdownify }}{{ else }}{{ .Summary }}{{ end }}
-    {{end}}
-    <!-- [/added] -->
-  </div>
-  {{ if .Truncated }}
+
+  {{ .Summary }}
     <nav class="readmore"><p>
       <a itemprop="url" href="{{ .RelPermalink }}" rel="bookmark">Read More&nbsp;&#x02192;</a>
     </p></nav>
-  {{ end }}
+
+
+
+    <!--[KJW 01-07-20] {{ if .Truncated }}
+      {{ if .Params.summary }}
+        {{ .Params.summary | markdownify }}
+        <nav class="readmore"><p>
+          <a itemprop="url" href="{{ .RelPermalink }}" rel="bookmark">Read More&nbsp;&#x02192;</a>
+        </p></nav>
+      {{ else }}
+        {{ .Summary }}
+        <nav class="readmore"><p>
+          <a itemprop="url" href="{{ .RelPermalink }}" rel="bookmark">Read More&nbsp;&#x02192;</a>
+        </p></nav>
+      {{ end }}
+    {{ end }}
+
+  </div>
+  <!-- {{ if .Truncated }}
+    <nav class="readmore"><p>
+      <a itemprop="url" href="{{ .RelPermalink }}" rel="bookmark">Read More&nbsp;&#x02192;</a>
+    </p></nav>
+  {{ end }} -->
   <meta itemprop="inLanguage" content="{{ .Site.LanguageCode }}">
   <meta itemprop="datePublished" content="{{ dateFormat "2006-01-02T15:04:05-07:00" (default .Date (.PublishDate)) }}">
   <meta itemprop="dateModified" content="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}">
