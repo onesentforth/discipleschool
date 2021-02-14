@@ -1,5 +1,5 @@
-#baseURL = "http://localhost:1313/"
-baseURL = "https://discipleschool.com/"
+baseURL = "http://localhost:1313/"
+#baseURL = "https://discipleschool.com/"
 languageCode = "en-us"
 title = "Disciple School"
 theme = "after-dark"
@@ -74,6 +74,9 @@ keywords = [
   weight = 3
   identifier = "search"
   url = "/search/"
+
+
+#ignoreErrors = ["error-remote-getjson"]
 
 
 #[[menu.social]]
