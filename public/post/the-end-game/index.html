@@ -94,15 +94,41 @@ fetchInject(["/js/lazysizes.min.js"]);
 */
 
 
+/*Colors from https://coolors.co/fc197b-dd70ff-ebff3f-4dff21-007cf9*/
+
+
+@font-face {
+font-family: 'Fira Code';
+src: url('../fonts/FiraCode-Bold.woff2') format('woff2'),
+     url('../fonts/FiraCode-Bold.woff') format('woff');
+font-weight: 900;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Fira Code Retina';
+src: url('../fonts/FiraCode-Retina.woff2') format('woff2'),
+     url('../fonts/FiraCode-Retina.woff') format('woff');
+font-weight: retina;
+font-style: normal;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
 nav a.active {
  /*background-color: #ff2e88;*/
- background-color: #dd0000;
+ /*background-color: #dd0000;*/
+ background-color: #4DFF21;
  color: #fff;
 }
 a[itemprop="url"] {
  /*color: #ff9800;*/
- color: #dda600;
+ /*color: #dda600;*/
+ color: #4DFF21;
 }
+
 a[itemprop="url"]:hover {
  color: #fff;
 }
@@ -113,7 +139,8 @@ a[rel*="external"] {
 */
 }
 a {
-  color: #dda600;
+  /*color: #dda600;*/
+  color: #EBFF3F;
 }
 figure a[href*="://"]::after,
 figure a[rel*="external"] {
@@ -192,10 +219,11 @@ a {
 }
 a[itemprop="url"], [itemprop="name"] a, summary {
   margin: inherit;
-  padding: 2px 3px;
+  /*padding: 2px 3px;*/
 }
 .hack a {
-  border-bottom: 1px #dda600 dashed;
+  /*border-bottom: 1px #dda600 dashed;*/
+  border-bottom: 1px #FC197B solid;
 }
 .hack a.active {
   color: black;
@@ -203,7 +231,9 @@ a[itemprop="url"], [itemprop="name"] a, summary {
 }
 .hack a:hover, .hack a:focus, summary:focus {
   /*background-color: #ff2e88;*/
-  background-color: #ff0000;
+  /*background-color: #ff0000;*/
+  color: #000;
+  background-color: #FC197B;
   outline: none;
   border-bottom: none;
 }
@@ -218,10 +248,14 @@ mark, kbd {
   margin-left: -3px;
 }
 
+.hack .readmore {
+  text-align: right;
+}
+
 .hack header h2, .hack header h3 {
   font-family:'Fira Code', Courier;
   letter-spacing: .02em;
-  font-weight: 300;
+  /*font-weight: 300; CHANGED 12-31-2019*/
 }
 .hack header h1 {
   font-size: 1.6em;
@@ -294,13 +328,14 @@ figure a:hover {
 }
 
 .hack blockquote{
-  font-family: 'Fira Code', Courier;
+  font-family: 'Fira Code Retina', Courier;
   padding-left: 5ch;
-  color: #B9A44C;
+  /*color: #B9A44C;*/
+  color: #DD70FF;
 }
 
 .hack blockquote em, .hack blockquote strong {
-  font-family: 'Fira Code', Courier;
+  font-family: 'Fira Code Retina', Courier;
   font-size: 1rem;
   line-height: 1.4rem;
 }
@@ -444,7 +479,7 @@ figure a:hover {
 }
 
 .hack, .hack em, .hack strong {
- font-family: 'Fira Code', Courier;
+ font-family: 'Fira Code Retina', Courier;
  font-size: inherit;
  line-height: inherit;
  /*font-size: 1rem;*/
@@ -524,6 +559,10 @@ h1#em-becoming-and-producing-disciples-of-jesus-christ-em {
 div.homepage-content img {
   margin-top: -25px;
 }
+
+.dark h2 a {
+  color: #EBFF3F;
+}
 </style>
         
 
@@ -541,30 +580,7 @@ div.homepage-content img {
     
     
     <style>
-
-      @font-face {
-        font-family: 'FiraCode';
-        src: url('http://localhost:1313/FiraCode-Regular.woff2') format('woff2'), url('http://localhost:1313/FiraCode-Regular.woff') format('woff'), url('http://localhost:1313/FiraCode-Regular.ttf')  format('truetype');
-        font-weight: 300;
-        font-style: normal
-        font-display: swap;
-      }
-
-      @font-face {
-        font-family: 'FiraCode-Medium';
-        src: url('http://localhost:1313/FiraCode-Medium.woff2') format('woff2'), url('http://localhost:1313/FiraCode-Medium.woff') format('woff'), url('http://localhost:1313/FiraCode-Medium.ttf')  format('truetype');
-        font-weight: 500;
-        font-style: normal;
-        font-display: swap;
-      }
-
-      @font-face {
-        font-family: 'FiraCode-Bold';
-        src: url('http://localhost:1313/FiraCode-Bold.woff2') format('woff2'), url('http://localhost:1313/FiraCode-Bold.woff') format('woff'), url('http://localhost:1313/FiraCode-Bold.ttf')  format('truetype');
-        font-weight: 600;
-        font-style: normal;
-        font-display: swap;
-      }
+              
 
     </style>
   </head>
@@ -577,7 +593,6 @@ div.homepage-content img {
 
   
     
-      
       
   <nav itemscope itemtype="https://schema.org/SiteNavigationElement">
     <meta itemprop="name" content="Main Menu">
@@ -604,14 +619,6 @@ div.homepage-content img {
     
   </nav>
 
-
-    
-  
-
-  
-    
-      
-      
 
     
   
