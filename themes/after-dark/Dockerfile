@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019  Josh Habdas <jhabdas@protonmail.com>
+# Copyright (C) 2019, 2020  Josh Habdas <jhabdas@protonmail.com>
 #
 # This file is part of After Dark.
 #
@@ -17,23 +17,23 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 
-# DOCKER-VERSION 19.03.5, build 633a0ea
+# DOCKER-VERSION 19.03.8-ce, build afacb8b7f0
 
 # Specify build image
-ARG GO_VERSION=1.13.4
-ARG BUILD_TARGET=alpine3.10
+ARG GO_VERSION=1.14.3
+ARG BUILD_TARGET=alpine3.11
 
 # Pull builder base image
 FROM golang:${GO_VERSION}-${BUILD_TARGET} AS hugobuilder
 
-# Set environment variables
-ENV HUGO_VERSION=0.61.0 \
+# Set hugo environment variables
+ENV HUGO_VERSION=0.71.0 \
     CGO_ENABLED=1 \
     GOOS=linux \
     GO111MODULE=on \
     BUILD_TAGS="extended"
 
-# Build from source using specified version
+# Build hugo from source using specified version
 RUN \
   apk add --update --no-cache git gcc g++ && \
   git clone https://github.com/gohugoio/hugo.git $GOPATH/src/github.com/gohugoio/hugo && \
@@ -41,8 +41,16 @@ RUN \
   git checkout v$HUGO_VERSION && \
   go install -ldflags '-s -w -extldflags "-static"' -tags ${BUILD_TAGS}
 
-# Move compiled binary into own container
-FROM scratch
-COPY --from=hugobuilder /go/bin/hugo /hugo
-ENTRYPOINT ["/hugo"]
-CMD ["--help"]
+# Install After Dark via script
+FROM node:alpine as sitebuilder
+COPY --from=hugobuilder /go/bin/hugo /usr/local/bin/hugo
+WORKDIR /tmp
+RUN wget -qO - https://go.habd.as/after-dark | sh
+
+# Move compiled sources into micro container
+FROM busybox
+EXPOSE 80
+COPY --from=hugobuilder /go/bin/hugo /usr/local/bin/hugo
+COPY --from=sitebuilder /tmp/flying-toasters/ /opt/after-dark/
+ENTRYPOINT ["/usr/local/bin/hugo"]
+CMD ["serve","--buildDrafts","--bind","0.0.0.0","--port","80","--source","/opt/after-dark","--destination","/var/www"]
